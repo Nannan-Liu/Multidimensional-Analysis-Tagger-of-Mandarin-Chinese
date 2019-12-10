@@ -6,6 +6,7 @@ Referencing the tagger
 
 To reference the tagger, please use the following:
 Liu, N. 2019. Multidimensional Analysis Tagger of Mandarin Chi- nese. Available at: https://github.com/nnl93/Multidimensional-Analysis -Tagger-of -Mandarin-Chinese.
+
 This program is based on the ICTCLAS, and it is advised to reference this Chinese tagger when MAT Chinese is used. Please refer to https://dl.acm.org/citation.cfm ?id=1119280.
 
 Requirements 
