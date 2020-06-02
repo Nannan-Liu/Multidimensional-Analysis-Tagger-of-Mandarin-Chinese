@@ -8,10 +8,10 @@ To reference the tagger, please use the following:
 
 Liu, N. 2019. Multidimensional Analysis Tagger of Mandarin Chinese. Available at: https://github.com/nnl93/Multidimensional-Analysis-Tagger-of-Mandarin-Chinese.
 
-This program is based on the ICTCLAS, and it is advised to reference this Chinese tagger when MulDi Chinese is used. Please refer to https://dl.acm.org/citation.cfm?id=1119280.
+This programme is based on the ICTCLAS, and it is advised to reference ICTCLAS when MulDi Chinese is used. Please refer to https://dl.acm.org/citation.cfm?id=1119280.
 
 Requirements 
 
-This program requires Python to run (https://www.python.org/). The Python packages needed are NLTK (Bird, Loper, & Klein, 2009), Python wrapper of ICTCLAS – PyNLPIR (https://pypi.org/project/PyNLPIR/), and Factor Analyzer (https://factor-analyzer.readthedocs.io/en/latest/factor_analyzer.html).
+This programme requires Python to run (https://www.python.org/). The Python packages needed are NLTK (Bird, Loper, & Klein, 2009), Python wrapper of ICTCLAS – PyNLPIR (https://pypi.org/project/PyNLPIR/), and Factor Analyzer (https://factor-analyzer.readthedocs.io/en/latest/factor_analyzer.html).
 
 See Manual.pdf for more details
