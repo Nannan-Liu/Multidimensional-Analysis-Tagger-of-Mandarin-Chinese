@@ -12,6 +12,10 @@ This programme is based on the ICTCLAS, and it is advised to reference ICTCLAS w
 
 Requirements 
 
-This programme requires Python to run (https://www.python.org/). The Python packages needed are NLTK (Bird, Loper, & Klein, 2009), Python wrapper of ICTCLAS – PyNLPIR (https://pypi.org/project/PyNLPIR/), and Factor Analyzer (https://factor-analyzer.readthedocs.io/en/latest/factor_analyzer.html).
+This programme requires Python to run (https://www.python.org/). The Python packages needed are NLTK (Bird, Loper, & Klein, 2009), and Python wrapper of ICTCLAS – PyNLPIR (https://pypi.org/project/PyNLPIR/).
+
+Use MulDi Chinese
+
+MulDi Chinese accepts as input only plain text files in the format '.txt'. The user can input a folder of .txt files or a single .txt files. 
 
 See Manual.pdf for more details
