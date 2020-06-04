@@ -383,14 +383,6 @@ df['noun'] = pd.Series(noun_result)
 df.to_csv(folder + 'linguistic_features.csv')
 
 
-# In[30]:
-
-
-df['noun'] = pd.Series(noun_result)
-#del df['NN']
-df.to_csv('/users/nannanliu/Jobs/Teaching demo/TT/linguistic_features.csv')
-
-
 # In[37]:
 
 
