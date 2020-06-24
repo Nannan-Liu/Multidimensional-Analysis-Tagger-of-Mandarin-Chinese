@@ -1,14 +1,12 @@
 
 # coding: utf-8
 
-# In[1]:
 
 
 #input your txt file folder
-folder = '/users/nannanliu/Python/SCIPPC/premier_only/premier_OC/length_controlled/raw/'
+folder = '//'
 
 
-# In[2]:
 
 
 #load data, read your txt file folder with NLTK
@@ -24,21 +22,14 @@ corpus.words()
 #example words
 
 
-# In[3]:
 
 
 #read the output dataframe
 import pandas as pd  
 df = pd.read_csv(folder + "linguistic_features.csv", header=0)
-
-
-# In[4]:
-
-
 df.head()
 
 
-# In[5]:
 
 
 #sort text files by their names, if necessary
@@ -54,7 +45,6 @@ for f in files:
         #sample_files.append(f)
 
 
-# In[6]:
 
 
 #create corpora
@@ -64,15 +54,11 @@ for file in files:
     corpora.append(sub_corpora)
 
 
-# In[7]:
-
 
 #use ICTCLAS to part-of-speech tag
 import pynlpir
 pynlpir.open()
 
-
-# In[8]:
 
 
 #tag corpora, here we set the pos_names to be `child' for more fine-grained deails
@@ -82,8 +68,6 @@ for sub_corpora in corpora:
     tagged_files.append(tagged_file)
 
 
-# In[12]:
-
 
 #the error message above indicates ICTCLAS has problems with some proper nouns and new nouns
 #they are not tagged, so need to be manually tagged
@@ -92,13 +76,8 @@ for file in tagged_files:
     none_list.append([s for s in file if None in s])
 
 
-# In[13]:
-
-
 print (none_list)
 
-
-# In[11]:
 
 
 #the number in (range) is your number of files 
@@ -176,24 +155,18 @@ for j in range(len(files)):
         if i == ('贴吧', None): 
             tagged_files[j][n] = ('贴吧', 'noun')
         if i == (' ', None): 
-            tagged_files[j][n] = (' ', 'empty')  
-
-
-# In[23]:
+            tagged_files[j][n] = (' ', 'empty') 
 
 
 #you can double check if they are replaced
 print (none_list)
 
 
-# In[14]:
 
 
 #close pynlpir to free allocated memory
 pynlpir.close()
 
-
-# In[21]:
 
 
 #feature 8 COND 条件连词、副词
@@ -206,9 +179,6 @@ def cond(text_type):
     return round(normalized (text_type) * 1000, 2) 
 
 
-# In[22]:
-
-
 cond_result=[]
 for file in tagged_files: 
     cond_result.append(cond(file))
@@ -216,8 +186,6 @@ for file in tagged_files:
 df['COND'] = pd.Series(cond_result)
 df.to_csv(folder + 'linguistic_features.csv')
 
-
-# In[23]:
 
 
 #feature 14 modifying adverbs
@@ -229,8 +197,6 @@ def modify_adv(text_type):
     return round(normalized (text_type) * 1000, 2) 
 
 
-# In[24]:
-
 
 modify_adv_result=[]
 for file in tagged_files: 
@@ -239,8 +205,6 @@ for file in tagged_files:
 df['modify_adv'] = pd.Series(modify_adv_result)
 df.to_csv(folder + 'linguistic_features.csv')
 
-
-# In[25]:
 
 
 #feature 11 demonstrative pronoun
@@ -252,9 +216,6 @@ def demp(text_type):
     return round(normalized (text_type) * 1000, 2) 
 
 
-# In[26]:
-
-
 demp_result=[]
 for file in tagged_files: 
     demp_result.append(demp(file))
@@ -262,8 +223,6 @@ for file in tagged_files:
 df['DEMP'] = pd.Series(demp_result)
 df.to_csv(folder + 'linguistic_features.csv')
 
-
-# In[27]:
 
 
 #feature 7 Be是
@@ -275,8 +234,6 @@ def be(text_type):
     return round(normalized (text_type) * 1000, 2) 
 
 
-# In[28]:
-
 
 be_result=[]
 for file in tagged_files: 
@@ -285,8 +242,6 @@ for file in tagged_files:
 df['BE'] = pd.Series(be_result)
 df.to_csv(folder + 'linguistic_features.csv')
 
-
-# In[29]:
 
 
 #feature 15 EX有
@@ -298,8 +253,6 @@ def ex(text_type):
     return round(normalized (text_type) * 1000, 2) 
 
 
-# In[30]:
-
 
 ex_result=[]
 for file in tagged_files: 
@@ -309,19 +262,15 @@ df['EX'] = pd.Series(ex_result)
 df.to_csv(folder + 'linguistic_features.csv')
 
 
-# In[31]:
-
 
 #feature 18 other personal pronouns apart from FPP, SPP, TPP
 def other_personal(text_type): 
     def raw(text_type): 
-        return str(text_type).count('personal pronoun')-str(text_type).count('我')    -str(text_type).count('你')-str(text_type).count('她')-str(text_type).count('他')    -str(text_type).count('它')
+        return str(text_type).count('personal pronoun')-str(text_type).count('我')-str(text_type).count('你')-str(text_type).count('她')-str(text_type).count('他')-str(text_type).count('它')
     def normalized(text_type): 
         return raw(text_type) / len(text_type)
     return round(normalized (text_type) * 1000, 2) 
 
-
-# In[32]:
 
 
 other_personal_result=[]
@@ -332,19 +281,15 @@ df['other_personal'] = pd.Series(other_personal_result)
 df.to_csv(folder + 'linguistic_features.csv')
 
 
-# In[33]:
 
-
-#feature 18 other personal pronouns apart from FPP, SPP, TPP
+#feature interrogative pronouns
 def interrogative(text_type): 
     def raw(text_type): 
-        return str(text_type).count('interrogative pronoun')-    str(text_type).count('predicative interrogative pronoun')
+        return str(text_type).count('interrogative pronoun')-str(text_type).count('predicative interrogative pronoun')
     def normalized(text_type): 
         return raw(text_type) / len(text_type)
     return round(normalized (text_type) * 1000, 2) 
 
-
-# In[34]:
 
 
 interrogative_result=[]
@@ -355,10 +300,8 @@ df['interrogative'] = pd.Series(interrogative_result)
 df.to_csv(folder + 'linguistic_features.csv')
 
 
-# In[35]:
 
-
-#feature 23 noun nouns, all other nouns
+#feature 23 nouns, all other nouns excluding nominalisation
 #noun - noun-adjective - noun-verb - pronoun-
 #personal pronoun - predicate demonstrative pronoun 
 #-demonstrative pronoun - locative demonstrative pronoun 
@@ -366,13 +309,11 @@ df.to_csv(folder + 'linguistic_features.csv')
 #- interrogative pronoun (什么) - predicate demonstrative pronoun
 def noun(text_type):
     def raw(text_type): 
-        return str(text_type).count('noun')-str(text_type).count('noun-adjective')    -str(text_type).count('noun-verb')-str(text_type).count('pronoun')-    str(text_type).count('noun of locality')+str(text_type).count('noun morpheme')    +str(text_type).count('proper noun')
+        return str(text_type).count('noun')-str(text_type).count('noun-adjective')-str(text_type).count('noun-verb')-str(text_type).count('pronoun')-str(text_type).count('noun of locality')+str(text_type).count('noun morpheme')+str(text_type).count('proper noun')
     def normalized(text_type): 
         return raw(text_type) / len(text_type)
     return round(normalized (text_type) * 1000, 2)        
 
-
-# In[36]:
 
 
 noun_result=[]
@@ -383,10 +324,8 @@ df['noun'] = pd.Series(noun_result)
 df.to_csv(folder + 'linguistic_features.csv')
 
 
-# In[37]:
 
-
-#please note that nominalization features include also verb plus genitive marker de 的
+#please note that nominalization features include also verb plus genitive marker de 的, generated by a separate script
 #feature 24 nominalization NOMZ 
 #noun-adjective, noun-verb
 def nomz(text_type):
@@ -397,8 +336,6 @@ def nomz(text_type):
     return round(normalized (text_type) * 1000, 2)        
 
 
-# In[38]:
-
 
 nomz_result=[]
 for file in tagged_files: 
@@ -407,8 +344,6 @@ for file in tagged_files:
 df['NOMZ'] = pd.Series(nomz_result)
 df.to_csv(folder + 'linguistic_features.csv')
 
-
-# In[39]:
 
 
 #feature 26 phrasal coordinations PHC 
@@ -422,8 +357,6 @@ def phc(text_type):
     return round(normalized (text_type) * 1000, 2) 
 
 
-# In[40]:
-
 
 phc_result=[]
 for file in tagged_files: 
@@ -432,8 +365,6 @@ for file in tagged_files:
 df['PHC'] = pd.Series(phc_result)
 df.to_csv(folder + 'linguistic_features.csv')
 
-
-# In[41]:
 
 
 #feature 28 BPIN disyllabic prepositions
@@ -448,7 +379,6 @@ def bpin(text_type):
     return round(normalized (text_type) * 1000, 2)    
 
 
-# In[42]:
 
 
 bpin_result=[]
@@ -459,31 +389,23 @@ df['BPIN'] = pd.Series(bpin_result)
 df.to_csv(folder + 'linguistic_features.csv')
 
 
-# In[46]:
-
 
 #feature 31 private verbs 
 #subset 1
 def priv1(text_type):
     def raw(text_type): 
-        return text_type.count(('三思', 'verb'))+text_type.count(('三省', 'verb'))+               text_type.count(('主张', 'verb'))+text_type.count(('了解', 'verb'))+               text_type.count(('亲信', 'verb'))+text_type.count(('以为', 'verb'))+               text_type.count(('企图', 'verb'))+text_type.count(('会意', 'verb'))+                text_type.count(('伤心', 'verb'))+text_type.count(('估', 'verb'))+                text_type.count(('估摸', 'verb'))+text_type.count(('估算', 'verb'))+                text_type.count(('估计', 'verb'))+text_type.count(('估量', 'verb'))+                text_type.count(('低估', 'verb'))+text_type.count(('体会', 'verb'))+                text_type.count(('体味', 'verb'))+text_type.count(('信', 'verb'))+                text_type.count(('信任', 'verb'))+text_type.count(('信赖', 'verb'))+                text_type.count(('修省', 'verb'))+text_type.count(('假定', 'verb'))+                text_type.count(('假想', 'verb'))+text_type.count(('允许', 'verb'))+                text_type.count(('关心', 'verb'))+text_type.count(('关怀', 'verb'))+                text_type.count(('内省', 'verb'))+text_type.count(('决定', 'verb'))+                text_type.count(('决心', 'verb'))+text_type.count(('决意', 'verb'))+                text_type.count(('决断', 'verb'))+text_type.count(('决计', 'verb'))+                text_type.count(('准备', 'verb'))+text_type.count(('准许', 'verb'))+                text_type.count(('凝思', 'verb'))+text_type.count(('凝想', 'verb'))+                text_type.count(('凭信', 'verb'))+text_type.count(('分晓', 'verb'))+                text_type.count(('切记', 'verb'))+text_type.count(('划算', 'verb'))+                text_type.count(('判断', 'verb'))+text_type.count(('原谅', 'verb'))+                text_type.count(('参悟', 'verb'))+text_type.count(('反对', 'verb'))+                text_type.count(('反思', 'verb'))
+        return text_type.count(('三思', 'verb'))+text_type.count(('三省', 'verb'))+text_type.count(('主张', 'verb'))+text_type.count(('了解', 'verb'))+text_type.count(('亲信', 'verb'))+text_type.count(('以为', 'verb'))+text_type.count(('企图', 'verb'))+text_type.count(('会意', 'verb'))+text_type.count(('伤心', 'verb'))+text_type.count(('估', 'verb'))+text_type.count(('估摸', 'verb'))+text_type.count(('估算', 'verb'))+text_type.count(('估计', 'verb'))+text_type.count(('估量', 'verb'))+text_type.count(('低估', 'verb'))+text_type.count(('体会', 'verb'))+text_type.count(('体味', 'verb'))+text_type.count(('信', 'verb'))+text_type.count(('信任', 'verb'))+text_type.count(('信赖', 'verb'))+                text_type.count(('修省', 'verb'))+text_type.count(('假定', 'verb'))+                text_type.count(('假想', 'verb'))+text_type.count(('允许', 'verb'))+                text_type.count(('关心', 'verb'))+text_type.count(('关怀', 'verb'))+                text_type.count(('内省', 'verb'))+text_type.count(('决定', 'verb'))+                text_type.count(('决心', 'verb'))+text_type.count(('决意', 'verb'))+                text_type.count(('决断', 'verb'))+text_type.count(('决计', 'verb'))+                text_type.count(('准备', 'verb'))+text_type.count(('准许', 'verb'))+                text_type.count(('凝思', 'verb'))+text_type.count(('凝想', 'verb'))+                text_type.count(('凭信', 'verb'))+text_type.count(('分晓', 'verb'))+                text_type.count(('切记', 'verb'))+text_type.count(('划算', 'verb'))+                text_type.count(('判断', 'verb'))+text_type.count(('原谅', 'verb'))+                text_type.count(('参悟', 'verb'))+text_type.count(('反对', 'verb'))+                text_type.count(('反思', 'verb'))
     def normalized(text_type): 
         return raw(text_type) / len(text_type)
     return round(normalized (text_type) * 1000, 2)        
 
 
-# In[50]:
-
-
 p_1 = []
 for file in tagged_files: 
-    p_1.append(priv1(file))
+    p_1.append(priv1(file)
 
 
-# In[52]:
-
-
-#2
+#subset 2
 def priv2(text_type):
     def raw(text_type): 
         return text_type.count(('反省', 'verb'))+text_type.count(('发现', 'verb'))+text_type.count(('发觉', 'verb'))+text_type.count(('吃准', 'verb'))+text_type.count(('合计', 'verb'))+text_type.count(('合谋', 'verb'))+text_type.count(('同情', 'verb'))+text_type.count(('同意', 'verb'))+text_type.count(('否认', 'verb'))+text_type.count(('听信', 'verb'))+text_type.count(('听到', 'verb'))+text_type.count(('听见', 'verb'))+text_type.count(('哭', 'verb'))+text_type.count(('喜欢', 'verb'))+text_type.count(('喜爱', 'verb'))+text_type.count(('回味', 'verb'))+text_type.count(('回忆', 'verb'))+text_type.count(('回念', 'verb'))+text_type.count(('回想', 'verb'))+text_type.count(('回溯', 'verb'))+text_type.count(('回顾', 'verb'))+text_type.count(('图谋', 'verb'))+text_type.count(('图', 'verb'))+text_type.count(('坚信', 'verb'))+text_type.count(('多疑', 'verb'))+text_type.count(('失望', 'verb'))+text_type.count(('失身', 'verb'))+text_type.count(('妄图', 'verb'))+text_type.count(('妄断', 'verb'))+text_type.count(('宠信', 'verb'))+text_type.count(('害怕', 'verb'))+text_type.count(('察觉', 'verb'))+text_type.count(('寻思', 'verb'))+text_type.count(('尊敬', 'verb'))+text_type.count(('尊重', 'verb'))+text_type.count(('小心', 'verb'))+text_type.count(('希望', 'verb'))+text_type.count(('平静', 'verb'))+text_type.count(('幻想', 'verb'))+text_type.count(('当做', 'verb'))+text_type.count(('彻悟', 'verb'))+text_type.count(('得知', 'verb'))+text_type.count(('忆', 'verb'))+text_type.count(('忖度', 'verb'))+text_type.count(('忖量', 'verb'))+text_type.count(('忘', 'verb'))+text_type.count(('忘却', 'verb'))+text_type.count(('忘怀', 'verb'))
@@ -492,18 +414,12 @@ def priv2(text_type):
     return round(normalized (text_type) * 1000, 2) 
 
 
-# In[53]:
-
-
 p_2 = []
 for file in tagged_files: 
     p_2.append(priv2(file))
 
 
-# In[54]:
-
-
-#3
+#subset 3
 def priv3(text_type):
     def raw(text_type): 
         return text_type.count(('忘掉', 'verb'))+text_type.count(('忘记', 'verb'))+text_type.count(('快乐', 'verb'))+text_type.count(('念', 'verb'))+text_type.count(('忽略', 'verb'))+text_type.count(('忽视', 'verb'))+text_type.count(('怀念', 'verb'))+text_type.count(('怀想', 'verb'))+text_type.count(('怀疑', 'verb'))+text_type.count(('怕', 'verb'))+text_type.count(('思忖', 'verb'))+text_type.count(('思想', 'verb'))+text_type.count(('思索', 'verb'))+text_type.count(('思维', 'verb'))+text_type.count(('思考', 'verb'))+text_type.count(('思虑', 'verb'))+text_type.count(('思量', 'verb'))+text_type.count(('恨', 'verb'))+text_type.count(('悟', 'verb'))+text_type.count(('悬想', 'verb'))+text_type.count(('情知', 'verb'))+text_type.count(('惊恐', 'verb'))+text_type.count(('想', 'verb'))+text_type.count(('想像', 'verb'))+text_type.count(('想来', 'verb'))+text_type.count(('想见', 'verb'))+text_type.count(('想象', 'verb'))+text_type.count(('愉快', 'verb'))+text_type.count(('意会', 'verb'))+text_type.count(('意想', 'verb'))+text_type.count(('意料', 'verb'))+text_type.count(('意识', 'verb'))+text_type.count(('感到', 'verb'))+text_type.count(('感动', 'verb'))+text_type.count(('感受', 'verb'))+text_type.count(('感悟', 'verb'))+text_type.count(('感想', 'verb'))+text_type.count(('感激', 'verb'))+text_type.count(('感觉', 'verb'))+text_type.count(('感觉', 'verb'))+text_type.count(('感谢', 'verb'))+text_type.count(('愤怒', 'verb'))
@@ -512,18 +428,13 @@ def priv3(text_type):
     return round(normalized (text_type) * 1000, 2) 
 
 
-# In[55]:
-
-
 p_3 = []
 for file in tagged_files: 
     p_3.append(priv3(file))
 
 
-# In[56]:
 
-
-#4
+#subset 4
 def priv4(text_type):
     def raw(text_type): 
         return text_type.count(('愿意', 'verb'))+text_type.count(('懂', 'verb'))+text_type.count(('懂得', 'verb'))+text_type.count(('打算', 'verb'))+text_type.count(('承想', 'verb'))+text_type.count(('承认', 'verb'))+text_type.count(('担心', 'verb'))+text_type.count(('拥护', 'verb'))+text_type.count(('捉摸', 'verb'))+text_type.count(('掂掇', 'verb'))+text_type.count(('掂量', 'verb'))+text_type.count(('掌握', 'verb'))+text_type.count(('推度', 'verb'))+text_type.count(('推想', 'verb'))+text_type.count(('推敲', 'verb'))+text_type.count(('推断', 'verb'))+text_type.count(('推测', 'verb'))+text_type.count(('推理', 'verb'))+text_type.count(('推算', 'verb'))+text_type.count(('推见', 'verb'))+text_type.count(('措意', 'verb'))+text_type.count(('揆度', 'verb'))+text_type.count(('揣度', 'verb'))+text_type.count(('揣想', 'verb'))+text_type.count(('揣摩', 'verb'))+text_type.count(('揣摸', 'verb'))+text_type.count(('揣测', 'verb'))+text_type.count(('支持', 'verb'))+text_type.count(('放心', 'verb'))+text_type.count(('料想', 'verb'))+text_type.count(('料', 'verb'))+text_type.count(('斟酌', 'verb'))+text_type.count(('断定', 'verb'))+text_type.count(('明了', 'verb'))+text_type.count(('明察', 'verb'))+text_type.count(('明晓', 'verb'))+text_type.count(('明白', 'verb'))+text_type.count(('明知', 'verb'))+text_type.count(('明确', 'verb'))+text_type.count(('晓得', 'verb'))+text_type.count(('权衡', 'verb'))+text_type.count(('梦想', 'verb'))+text_type.count(('欢迎', 'verb'))+text_type.count(('欣赏', 'verb'))+text_type.count(('武断', 'verb'))+text_type.count(('死记', 'verb'))+text_type.count(('沉思', 'verb'))+text_type.count(('注意', 'verb'))+text_type.count(('洞察', 'verb'))+text_type.count(('洞彻', 'verb'))+text_type.count(('洞悉', 'verb'))+text_type.count(('洞晓', 'verb'))+text_type.count(('洞达', 'verb'))+text_type.count(('测度', 'verb'))+text_type.count(('浮想', 'verb'))+text_type.count(('淡忘', 'verb'))+text_type.count(('深信', 'verb'))+text_type.count(('深思', 'verb'))+text_type.count(('深省', 'verb'))+text_type.count(('深醒', 'verb'))+text_type.count(('清楚', 'verb'))+text_type.count(('清楚', 'verb'))+text_type.count(('满意', 'verb'))+text_type.count(('满足', 'verb'))+text_type.count(('激动', 'verb'))+text_type.count(('热爱', 'verb'))+text_type.count(('熟悉', 'verb'))+text_type.count(('熟知', 'verb'))+text_type.count(('熟虑', 'verb'))+text_type.count(('爱', 'verb'))+text_type.count(('爱好', 'verb'))+text_type.count(('牢记', 'verb'))+text_type.count(('犯疑', 'verb'))+text_type.count(('狂想', 'verb'))+text_type.count(('狐疑', 'verb'))+text_type.count(('猛醒', 'verb'))+text_type.count(('猜', 'verb'))+text_type.count(('猜度', 'verb'))+text_type.count(('猜忌', 'verb'))+text_type.count(('猜想', 'verb'))+text_type.count(('猜测', 'verb'))
@@ -532,18 +443,14 @@ def priv4(text_type):
     return round(normalized (text_type) * 1000, 2) 
 
 
-# In[57]:
-
 
 p_4 = []
 for file in tagged_files: 
     p_4.append(priv4(file))
 
 
-# In[58]:
 
-
-#5 
+#subset 5 
 def priv5(text_type):
     def raw(text_type): 
         return text_type.count(('猜疑', 'verb'))+text_type.count(('玄想', 'verb'))+text_type.count(('理会', 'verb'))+text_type.count(('理解', 'verb'))+text_type.count(('琢磨', 'verb'))+text_type.count(('生气', 'verb'))+text_type.count(('生疑', 'verb'))+text_type.count(('畅想', 'verb'))+text_type.count(('留心', 'verb'))+text_type.count(('留神', 'verb'))+text_type.count(('疏忽', 'verb'))+text_type.count(('疑', 'verb'))+text_type.count(('疑心', 'verb'))+text_type.count(('疑猜', 'verb'))+text_type.count(('疑虑', 'verb'))+text_type.count(('疼', 'verb'))+text_type.count(('盘算', 'verb'))+text_type.count(('相信', 'verb'))+text_type.count(('盼望', 'verb'))+text_type.count(('省察', 'verb'))+text_type.count(('省悟', 'verb'))+text_type.count(('看', 'verb'))+text_type.count(('看到', 'verb'))+text_type.count(('看见', 'verb'))+text_type.count(('看透', 'verb'))+text_type.count(('着想', 'verb'))+text_type.count(('知', 'verb'))+text_type.count(('知悉', 'verb'))+text_type.count(('知晓', 'verb'))+text_type.count(('知道', 'verb'))+text_type.count(('确信', 'verb'))+text_type.count(('确定', 'verb'))+text_type.count(('确认', 'verb'))+text_type.count(('空想', 'verb'))+text_type.count(('立意', 'verb'))+text_type.count(('笃信', 'verb'))+text_type.count(('笑', 'verb'))+text_type.count(('答应', 'verb'))+text_type.count(('策划', 'verb'))+text_type.count(('筹划', 'verb'))+text_type.count(('筹算', 'verb'))+text_type.count(('筹谋', 'verb'))+text_type.count(('算', 'verb'))+text_type.count(('算计', 'verb'))+text_type.count(('粗估', 'verb'))+text_type.count(('约摸', 'verb'))+text_type.count(('置疑', 'verb'))+text_type.count(('考虑', 'verb'))+text_type.count(('考量', 'verb'))+text_type.count(('联想', 'verb'))+text_type.count(('腹诽', 'verb'))+text_type.count(('臆度', 'verb'))+text_type.count(('臆想', 'verb'))+text_type.count(('臆断', 'verb'))+text_type.count(('臆测', 'verb'))+text_type.count(('自信', 'verb'))+text_type.count(('自省', 'verb'))+text_type.count(('蒙', 'verb'))+text_type.count(('蓄念', 'verb'))+text_type.count(('蓄谋', 'verb'))+text_type.count(('衡量', 'verb'))+text_type.count(('裁度', 'verb'))+text_type.count(('要求', 'verb'))+text_type.count(('观察', 'verb'))+text_type.count(('觉察', 'verb'))+text_type.count(('觉得', 'verb'))+text_type.count(('觉悟', 'verb'))+text_type.count(('觉醒', 'verb'))+text_type.count(('警惕', 'verb'))+text_type.count(('警觉', 'verb'))+text_type.count(('计划', 'verb'))+text_type.count(('计算', 'verb'))+text_type.count(('计较', 'verb'))+text_type.count(('认为', 'verb'))+text_type.count(('认可', 'verb'))+text_type.count(('认同', 'verb'))+text_type.count(('认定', 'verb'))+text_type.count(('认得', 'verb'))+text_type.count(('认知', 'verb'))+text_type.count(('认识', 'verb'))
@@ -552,15 +459,11 @@ def priv5(text_type):
     return round(normalized (text_type) * 1000, 2) 
 
 
-# In[59]:
-
-
 p_5 = []
 for file in tagged_files: 
     p_5.append(priv5(file))
 
 
-# In[60]:
 
 
 #6
@@ -571,16 +474,9 @@ def priv6(text_type):
         return raw(text_type) / len(text_type)
     return round(normalized (text_type) * 1000, 2) 
 
-
-# In[61]:
-
-
 p_6 = []
 for file in tagged_files: 
     p_6.append(priv6(file))
-
-
-# In[62]:
 
 
 random1=[sum(i) for i in zip(p_1, p_2)]
@@ -593,8 +489,6 @@ df['PRIV'] = pd.Series(final)
 df.to_csv(folder + 'linguistic_features.csv')
 
 
-# In[63]:
-
 
 #feature 32 public verb PUBV
 #表示、称、道、说、讲、质疑、认为、坦言、指出、告诉、呼吁、解释、问、建议
@@ -606,9 +500,6 @@ def pubv(text_type):
     return round(normalized (text_type) * 1000, 2)
 
 
-# In[64]:
-
-
 pubv_result=[]
 for file in tagged_files: 
     pubv_result.append(pubv(file))
@@ -616,8 +507,6 @@ for file in tagged_files:
 df['PUBV'] = pd.Series(pubv_result)
 df.to_csv(folder + 'linguistic_features.csv')
 
-
-# In[65]:
 
 
 #feature 33 RB adverbs 副词
@@ -629,8 +518,6 @@ def rb(text_type):
     return round(normalized (text_type) * 1000, 2)
 
 
-# In[66]:
-
 
 rb_result=[]
 for file in tagged_files: 
@@ -640,10 +527,7 @@ df['RB'] = pd.Series(rb_result)
 df.to_csv(folder + 'linguistic_features.csv')
 
 
-# In[67]:
-
-
-#feature 35 negation 不、别、没
+#feature 35 monosyllabic negation 不、别、没
 #('别', 'adverb')、('不', 'adverb')
 #('没', 'verb')、('没', 'adverb')
 def mono_negation(text_type):
@@ -654,8 +538,6 @@ def mono_negation(text_type):
     return round(normalized (text_type) * 1000, 2)
 
 
-# In[68]:
-
 
 mono_negation_result=[]
 for file in tagged_files: 
@@ -664,8 +546,6 @@ for file in tagged_files:
 df['mono_negation'] = pd.Series(mono_negation_result)
 df.to_csv(folder + 'linguistic_features.csv')
 
-
-# In[69]:
 
 
 #feature 36 disyllabic negation 没有
@@ -678,8 +558,6 @@ def di_negation(text_type):
     return round(normalized (text_type) * 1000, 2)
 
 
-# In[70]:
-
 
 di_negation_result=[]
 for file in tagged_files: 
@@ -688,8 +566,6 @@ for file in tagged_files:
 df['di_negation'] = pd.Series(di_negation_result)
 df.to_csv(folder + 'linguistic_features.csv')
 
-
-# In[71]:
 
 
 #feature 40 WH 无定代词
@@ -707,8 +583,6 @@ def wh(text_type):
     return round(normalized (text_type) * 1000, 2) 
 
 
-# In[72]:
-
 
 wh_result=[]
 for file in tagged_files: 
@@ -717,8 +591,6 @@ for file in tagged_files:
 df['WH'] = pd.Series(wh_result)
 df.to_csv(folder + 'linguistic_features.csv')
 
-
-# In[79]:
 
 
 #feature 41 monosyllabic verbs
@@ -734,16 +606,10 @@ for file in tagged_files:
     dicts.append(d)
 
 
-# In[80]:
-
-
 import re
 def mono_verbs(text): 
     verbs= {k:v for k,v in text.items() if re.match('.*verb', v)}
     return round ((len([word for word in list(verbs.keys()) if len(word) == 1]) / len(text))*1000, 2)
-
-
-# In[81]:
 
 
 mono_verbs_result=[]
@@ -752,9 +618,6 @@ for d in dicts:
     
 df['mono_verbs'] = pd.Series(mono_verbs_result)
 df.to_csv(folder + 'linguistic_features.csv')
-
-
-# In[83]:
 
 
 #feature 41 classical function words 文言文功能词
@@ -768,8 +631,6 @@ def classical_func(text_type):
     return round(normalized (text_type) * 1000, 2)
 
 
-# In[84]:
-
 
 classical_func_result=[]
 for file in tagged_files: 
@@ -779,22 +640,16 @@ df['classical_func'] = pd.Series(classical_func_result)
 df.to_csv(folder + 'linguistic_features.csv')
 
 
-# In[85]:
-
 
 #feature 50 lexical density 
-#(noun+verb+adjective+numeral) / total
+#(noun+verb+adjective+adverb) / total
 def lexical_density(text): 
     verbs= {k:v for k,v in text.items() if re.match('.*verb', v)}
     nouns= {k:v for k,v in text.items() if re.match('.*noun', v)}
     adjectives= {k:v for k,v in text.items() if re.match('.*adjective', v)}
-    numerals= {k:v for k,v in text.items() if re.match('.*numeral', v)}
     adverbs={k:v for k,v in text.items() if re.match('.*adverb', v)}
-    pronouns={k:v for k,v in text.items() if re.match('.*pronoun', v)}
-    return round(((len(verbs)+len(nouns)+len(adjectives)+len(numerals)-len(adverbs)-len(pronouns)) / len(text))*1000, 2)
+    return round(((len(verbs)+len(nouns)+len(adjectives)+len(adverbs) / len(text))*1000, 2)
 
-
-# In[86]:
 
 
 #note that tagged lists are converted to dictionaries here as well 
@@ -806,7 +661,6 @@ df['lexical_density'] = pd.Series(lexical_density_result)
 df.to_csv(folder + 'linguistic_features.csv')
 
 
-# In[87]:
 
 
 #feature 61 auxiliary adjectives
@@ -818,8 +672,6 @@ def aux_adj(text_type):
     return round(normalized (text_type) * 1000, 2)
 
 
-# In[88]:
-
 
 aux_adj_result=[]
 for file in tagged_files: 
@@ -828,8 +680,6 @@ for file in tagged_files:
 df['aux_adj'] = pd.Series(aux_adj_result)
 df.to_csv(folder + 'linguistic_features.csv')
 
-
-# In[89]:
 
 
 #feature 48 classifier 量词
@@ -841,8 +691,6 @@ def classifier(text_type):
     return round(normalized (text_type) * 1000, 2)
 
 
-# In[90]:
-
 
 classifier_result=[]
 for file in tagged_files: 
@@ -851,8 +699,6 @@ for file in tagged_files:
 df['classifier'] = pd.Series(classifier_result)
 df.to_csv(folder + 'linguistic_features.csv')
 
-
-# In[91]:
 
 
 #feature 64 modal particles and interjections 
@@ -864,8 +710,6 @@ def particle(text_type):
     return round(normalized (text_type) * 1000, 2)
 
 
-# In[92]:
-
 
 particle_result=[]
 for file in tagged_files: 
@@ -874,8 +718,6 @@ for file in tagged_files:
 df['particle'] = pd.Series(particle_result)
 df.to_csv(folder + 'linguistic_features.csv')
 
-
-# In[93]:
 
 
 #feature 49 modifying markers 的、地、得
@@ -887,8 +729,6 @@ def modify_marker_di(text_type):
     return round(normalized (text_type) * 1000, 2)    
 
 
-# In[94]:
-
 
 modify_marker_di_result=[]
 for file in tagged_files: 
@@ -898,7 +738,6 @@ df['modify_marker_di'] = pd.Series(modify_marker_di_result)
 df.to_csv(folder + 'linguistic_features.csv')
 
 
-# In[17]:
 
 
 #feature 51 modifying marker '得', 'particle 得'
@@ -910,8 +749,6 @@ def modify_marker_de(text_type):
     return round(normalized (text_type) * 1000, 2)    
 
 
-# In[18]:
-
 
 modify_marker_de_result=[]
 for file in tagged_files: 
@@ -920,8 +757,6 @@ for file in tagged_files:
 df['modify_marker_de'] = pd.Series(modify_marker_de_result)
 df.to_csv(folder + 'linguistic_features.csv')
 
-
-# In[95]:
 
 
 #feature 51 PEAS perfect aspect 
@@ -934,8 +769,6 @@ def peas(text_type):
     return round(normalized (text_type) * 1000, 2)    
 
 
-# In[96]:
-
 
 peas_result=[]
 for file in tagged_files: 
@@ -944,8 +777,6 @@ for file in tagged_files:
 df['PEAS'] = pd.Series(peas_result)
 df.to_csv(folder + 'linguistic_features.csv')
 
-
-# In[97]:
 
 
 #feature 52 imperfect aspect 
@@ -960,8 +791,6 @@ def imperfect(text_type):
     return round(normalized (text_type) * 1000, 2) 
 
 
-# In[98]:
-
 
 imperfect_result=[]
 for file in tagged_files: 
@@ -970,8 +799,6 @@ for file in tagged_files:
 df['imperfect'] = pd.Series(imperfect_result)
 df.to_csv(folder + 'linguistic_features.csv')
 
-
-# In[99]:
 
 
 #feature 54 descriptive words 
@@ -984,7 +811,6 @@ def descriptive(text_type):
     return round(normalized (text_type) * 1000, 2) 
 
 
-# In[100]:
 
 
 descriptive_result=[]
@@ -995,10 +821,8 @@ df['descriptive'] = pd.Series(descriptive_result)
 df.to_csv(folder + 'linguistic_features.csv')
 
 
-# In[102]:
 
-
-#feature 55 similie
+#feature 55 simile
 def simile(text_type):
     def raw(text_type):
         return text_type.count(('仿佛', 'adverb'))+text_type.count(('宛若', 'verb'))    +text_type.count(('如', 'verb'))+str(text_type).count(('particle 一样/一般/似的/般'))    +text_type.count(('像', 'verb'))+text_type.count(('像', 'preposition'))
@@ -1007,8 +831,6 @@ def simile(text_type):
     return round(normalized (text_type) * 1000, 2)
 
 
-# In[103]:
-
 
 simile_result=[]
 for file in tagged_files: 
@@ -1016,9 +838,6 @@ for file in tagged_files:
     
 df['simile'] = pd.Series(simile_result)
 df.to_csv(folder + 'linguistic_features.csv')
-
-
-# In[104]:
 
 
 #feature 86 question mark
@@ -1030,9 +849,6 @@ def question(text_type):
     return round(normalized (text_type) * 1000, 2)
 
 
-# In[105]:
-
-
 question_result=[]
 for file in tagged_files: 
     question_result.append(question(file))
@@ -1040,8 +856,6 @@ for file in tagged_files:
 df['question'] = pd.Series(question_result)
 df.to_csv(folder + 'linguistic_features.csv')
 
-
-# In[106]:
 
 
 #feature 87 exclamation mark
@@ -1053,8 +867,6 @@ def exclamation(text_type):
     return round(normalized (text_type) * 1000, 2)
 
 
-# In[107]:
-
 
 exclamation_result=[]
 for file in tagged_files: 
@@ -1064,20 +876,16 @@ df['exclamation'] = pd.Series(exclamation_result)
 df.to_csv(folder + 'linguistic_features.csv')
 
 
-# In[108]:
-
 
 #feature 46 noun + noun combination
 #need to plus one for the final result because 
-#"if atag pattern matches at overlapping locations, the leftmost match takes precedence"
+#"if a tag pattern matches at overlapping locations, the leftmost match takes precedence"
 #Bird et al.
 import nltk
 import re 
 grammar_noun=r"NN: {<noun.*><noun.*>}"
 cp_noun=nltk.RegexpParser(grammar_noun) 
 
-
-# In[109]:
 
 
 def nn(text): 
@@ -1090,18 +898,12 @@ def nn(text):
     return round ((len(nn_list)/len(text))*1000, 2)
 
 
-# In[110]:
-
-
 nn_result=[]
 for file in tagged_files: 
     nn_result.append(nn(file))
     
 df['consecutive_nouns'] = pd.Series(nn_result)
 df.to_csv(folder + 'linguistic_features.csv')
-
-
-# In[15]:
 
 
 #feature 93 person names, personal name - transcribed personal names
@@ -1112,8 +914,6 @@ def person(text_type):
         return raw(text_type) / len(text_type)
     return round(normalized (text_type) * 1000, 2)
 
-
-# In[16]:
 
 
 person_result=[]
