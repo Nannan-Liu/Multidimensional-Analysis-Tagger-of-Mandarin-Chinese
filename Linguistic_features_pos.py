@@ -1,13 +1,8 @@
 
 # coding: utf-8
 
-
-
 #input your txt file folder
 folder = '//'
-
-
-
 
 #load data, read your txt file folder with NLTK
 import os
@@ -28,9 +23,6 @@ corpus.words()
 import pandas as pd  
 df = pd.read_csv(folder + "linguistic_features.csv", header=0)
 df.head()
-
-
-
 
 #sort text files by their names, if necessary
 import fileinput
@@ -557,15 +549,12 @@ def di_negation(text_type):
         return raw(text_type) / len(text_type)
     return round(normalized (text_type) * 1000, 2)
 
-
-
 di_negation_result=[]
 for file in tagged_files: 
     di_negation_result.append(di_negation(file))
     
 df['di_negation'] = pd.Series(di_negation_result)
 df.to_csv(folder + 'linguistic_features.csv')
-
 
 
 #feature 40 WH 无定代词
@@ -581,8 +570,6 @@ def wh(text_type):
     def normalized(text_type):                                                                                     
         return raw(text_type) / len(text_type)
     return round(normalized (text_type) * 1000, 2) 
-
-
 
 wh_result=[]
 for file in tagged_files: 
@@ -643,12 +630,14 @@ df.to_csv(folder + 'linguistic_features.csv')
 
 #feature 50 lexical density 
 #(noun+verb+adjective+adverb) / total
+#note that count.verbs contains count.adverbs
 def lexical_density(text): 
     verbs= {k:v for k,v in text.items() if re.match('.*verb', v)}
     nouns= {k:v for k,v in text.items() if re.match('.*noun', v)}
     adjectives= {k:v for k,v in text.items() if re.match('.*adjective', v)}
-    adverbs={k:v for k,v in text.items() if re.match('.*adverb', v)}
-    return round(((len(verbs)+len(nouns)+len(adjectives)+len(adverbs) / len(text))*1000, 2)
+    #adverbs={k:v for k,v in text.items() if re.match('.*adverb', v)}
+    pronouns={k:v for k,v in text.items() if re.match('.*pronoun', v)}
+    return round(((len(verbs)+len(nouns)+len(adjectives)-len(pronouns)) / len(text))*1000, 2)
 
 
 
