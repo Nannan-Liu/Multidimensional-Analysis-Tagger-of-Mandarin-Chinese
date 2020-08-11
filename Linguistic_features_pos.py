@@ -587,21 +587,18 @@ df.to_csv(folder + 'linguistic_features.csv')
 #4. return len(corresponding keys) == 2 or 1 / len (filtered dict)
 
 ##dict would remove duplicates, not ideal
-dicts=[]
-for file in tagged_files: 
-    d=dict(file)
-    dicts.append(d)
 
 
 import re
 def mono_verbs(text): 
-    verbs= {k:v for k,v in text.items() if re.match('.*verb', v)}
+    no_adverbs={k:v for k,v in dict(text).items() if re.match('^((?!adverb).)*$', v)}
+    verbs= {k:v for k,v in no_adverbs.items() if re.match('.*verb', v)}
     return round ((len([word for word in list(verbs.keys()) if len(word) == 1]) / len(text))*1000, 2)
 
 
 mono_verbs_result=[]
-for d in dicts: 
-    mono_verbs_result.append(mono_verbs(d))
+for file in tagged_files: 
+    mono_verbs_result.append(mono_verbs(file))
     
 df['mono_verbs'] = pd.Series(mono_verbs_result)
 df.to_csv(folder + 'linguistic_features.csv')
