@@ -631,20 +631,27 @@ df.to_csv(folder + 'linguistic_features.csv')
 #feature 50 lexical density 
 #(noun+verb+adjective+adverb) / total
 #note that count.verbs contains count.adverbs
-def lexical_density(text): 
-    verbs= {k:v for k,v in text.items() if re.match('.*verb', v)}
-    nouns= {k:v for k,v in text.items() if re.match('.*noun', v)}
-    adjectives= {k:v for k,v in text.items() if re.match('.*adjective', v)}
-    #adverbs={k:v for k,v in text.items() if re.match('.*adverb', v)}
-    pronouns={k:v for k,v in text.items() if re.match('.*pronoun', v)}
-    return round(((len(verbs)+len(nouns)+len(adjectives)-len(pronouns)) / len(text))*1000, 2)
+               
+#first convert pos_tags into a list 
+tags=[]
+for i in range(len(tagged_files)):
+    tags.append([x[1] for x in tagged_files[i]])
+              
+r_ad_verb = re.compile(".*verb")
+r_noun = re.compile(".*noun")
+r_pronoun = re.compile(".*pronoun")
+r_adjective = re.compile(".*adjective")
+
+def lexical_density(tag): 
+    verbs_adverbs= len(list(filter(r_ad_verb.match, tag)))
+    nouns= len(list(filter(r_noun.match, tag))) - len(list(filter(r_pronoun.match, tag)))
+    adjectives= len(list(filter(r_adjective.match, tag)))
+    return round(((verbs_adverbs+nouns+adjectives) / len(tag))*1000, 2)
 
 
-
-#note that tagged lists are converted to dictionaries here as well 
 lexical_density_result=[]
-for d in dicts: 
-    lexical_density_result.append(lexical_density(d))
+for tag in tags: 
+    lexical_density_result.append(lexical_density(tag))
     
 df['lexical_density'] = pd.Series(lexical_density_result)
 df.to_csv(folder + 'linguistic_features.csv')
