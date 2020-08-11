@@ -6,9 +6,6 @@
 folder = '//'
 
 
-# In[115]:
-
-
 #read linguistic features stats
 import pandas as pd
 import csv
