@@ -653,7 +653,16 @@ for tag in tags:
 df['lexical_density'] = pd.Series(lexical_density_result)
 df.to_csv(folder + 'linguistic_features.csv')
 
+#performative verbs 
+def performative_verb(tag):
+    return round((tag.count('performative verb') / len(tag))*1000, 2)
 
+performative_verb_result=[]
+for tag in tags: 
+    performative_verb_result.append(performative_verb(tag))
+    
+df['performative_verb'] = pd.Series(performative_verb_result)
+df.to_csv(folder+'linguistic_features.csv')
 
 
 #feature 61 auxiliary adjectives
