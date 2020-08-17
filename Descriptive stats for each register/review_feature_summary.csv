@@ -1,0 +1,54 @@
+review,Mean,Min,Max,Range,SD
+abstract nouns,54.73,16.08,135.61,119.53,31.05
+average clause length,10.05,6.89,26.27,19.38,3.6
+average clause length SD,6.99,4.21,16.97,12.76,2.84
+amplifiers,11.44,2.94,20.36,17.42,3.97
+monosyllabic negation,6.36,0.4,15.53,15.13,4.04
+average sentence length,35.22,22.83,51.89,29.06,7.41
+auxiliary adjectives,4.61,0.79,8.96,8.17,1.69
+average word length,1.54,1.41,1.74,0.33,0.07
+BE,14.11,6.39,31.42,25.03,4.92
+disyllabic prepositions,2.31,0,5.49,5.49,1.23
+classical function words,7.48,1.94,13.59,11.65,3.43
+classifiers,24.28,9.3,42.67,33.37,7.21
+conditional conjuncts,1.17,0,3.29,3.29,0.96
+demonstrative pronouns,15.33,4.96,22.39,17.43,4.51
+descriptive words,1.29,0,3.83,3.83,0.94
+disyllabic words,28.89,15.47,54.41,38.94,11.59
+downtoners,1.07,0,3,3,0.78
+existential,4.47,1.52,10.02,8.5,1.99
+exclamation,0.57,0,5.04,5.04,1.03
+first-person pronouns,5.43,0.42,20.53,20.11,4.74
+hedges,3.03,0.43,6.07,5.64,1.43
+honourifics,1.67,0,6.88,6.88,1.79
+HSK 1,196.23,140.28,289.04,148.76,33.39
+HSK 3,110.21,74.47,142.03,67.56,16.12
+HSK 6,209.4,149.9,333.05,183.15,50.21
+imperfect markers,14.09,8.53,28.28,19.75,4.6
+indefinite pronouns,1.48,0,5.06,5.06,1.46
+interrogative,2.27,0,7.82,7.82,1.72
+lexical density,566.52,507.16,686.97,179.81,39.71
+modifying adverbs,18.36,10.38,35.69,25.31,5.79
+complement marker de,0.73,0,3.1,3.1,0.87
+adverbial marker di,1.84,0,4.85,4.85,1.27
+monosyllabic verbs,30.35,14.91,42.81,27.9,8.31
+consecutive nouns,57.99,30.08,105,74.92,21.37
+nominalisation,43.43,17.36,102.64,85.28,17.85
+nouns excl. nominalisation,235.45,167.21,312.11,144.9,33.1
+other_personal,1.31,0,4.44,4.44,1.39
+particle,2.48,0,11.64,11.64,2.52
+PEAS,10.68,5.88,16.18,10.3,3.35
+performative_verb,0.97,0,6.39,6.39,1.19
+person,15.5,0.85,67.1,66.25,13.75
+phrasal coordination,15.3,5.7,30.3,24.6,6.05
+private verbs,10.06,2.1,18.64,16.54,3.76
+public verbs,4.2,0,10.8,10.8,2.56
+question,1.03,0,4.63,4.63,1.33
+adverbs,54.31,27.7,89.02,61.32,15.52
+simile,1.96,0,5.47,5.47,1.32
+seem/appear,0.25,0,1.22,1.22,0.38
+second-person pronouns,1.28,0,5.66,5.66,1.64
+disyllabic negation,1.69,0,3.65,3.65,0.96
+third-person pronouns,7.56,0.39,25.46,25.07,6.51
+unique words,255.47,171.36,318.47,147.11,35.72
+WH-words,0.87,0,2.61,2.61,0.84
