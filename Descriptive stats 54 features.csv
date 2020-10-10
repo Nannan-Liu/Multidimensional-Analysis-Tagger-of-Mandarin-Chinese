@@ -1,0 +1,55 @@
+,Median,Min,Max,Range,IQR
+average clause length,7.87,3.13,31.89,28.76,2.8100000000000005
+amplifiers,11.15,0.0,29.11,29.11,5.91
+monosyllabic negation,8.02,0.0,30.94,30.94,8.64
+average sentence length,28.9,8.56,127.21,118.64999999999999,12.41
+average sentence length'SD,19.11,6.53,406.46,399.93,9.72
+auxiliary adjectives,4.12,0.0,41.19,41.19,3.59
+average word length,1.49,1.26,1.84,0.5800000000000001,0.2100000000000002
+BE,13.04,0.0,31.42,31.42,7.23
+disyllabic prepositions,1.99,0.0,18.07,18.07,2.54
+classical function words,5.01,0.0,45.9,45.9,6.01
+classical syntac,5.2,0.0,52.76,52.76,5.84
+classifiers,26.38,2.83,53.01,50.18,14.59
+conditional conjuncts,1.63,0.0,11.32,11.32,2.11
+demonstrative pronouns,16.8,0.41,45.0,44.59,8.94
+descriptive words,1.18,0.0,11.83,11.83,2.07
+disyllabic verbs,64.91,18.56,108.95,90.39,20.199999999999996
+disyllabic words,21.56,0.0,110.79,110.79,29.0
+downtoners,0.85,0.0,7.88,7.88,1.27
+emotion words,9.1,0.43,58.18,57.75,7.32
+existential,4.74,0.0,13.08,13.08,3.54
+exclamation,0.39,0.0,20.12,20.12,1.7
+first-person pronouns,4.26,0.0,84.94,84.94,11.21
+hedges,2.78,0.0,15.0,15.0,2.9799999999999995
+HSK 1,207.32,39.89,361.05,321.16,102.65
+HSK 3,123.18,24.09,253.16,229.07,51.99000000000001
+imperfect markers,13.69,0.83,36.47,35.64,8.629999999999999
+indefinite pronouns,1.72,0.0,16.4,16.4,3.01
+interrogative,2.99,0.0,26.82,26.82,4.880000000000001
+intransitive verbs,17.66,3.51,64.37,60.86000000000001,8.709999999999999
+lexical density,553.26,350.2,895.39,545.19,108.34000000000003
+modifying adverbs,20.15,0.0,51.9,51.9,12.16
+complement marker de,0.91,0.0,8.13,8.13,1.9
+adverbial marker di,1.76,0.0,17.25,17.25,3.08
+monosyllabic verbs,34.47,6.24,75.51,69.27000000000001,23.43
+nominalisation,31.99,1.97,198.73,196.76,35.61
+nouns excl. nominalisation,212.36,89.27,398.59,309.32,92.01999999999998
+onomatopoeia,0.0,0.0,9.28,9.28,0.55
+other personal pronouns,1.76,-10.7,25.12,35.82,3.4299999999999997
+modal particles,3.32,0.0,90.67,90.67,10.07
+perfect aspect markers,11.19,0.0,40.61,40.61,10.07
+Chinese person names,8.35,0.0,100.4,100.4,17.21
+phrasal coordination,11.11,0.0,44.87,44.87,11.340000000000002
+private verbs,12.13,1.2,32.74,31.540000000000003,9.01
+public verbs,4.44,0.0,27.62,27.62,5.53
+question,1.22,0.0,27.23,27.23,4.09
+adverbs,64.35,4.4,115.16,110.75999999999999,31.29
+simile,1.62,0.0,13.87,13.87,2.2
+seem/appear,0.0,0.0,3.89,3.89,0.42
+second-person pronouns,0.86,0.0,51.58,51.58,5.97
+disyllabic negation,1.23,0.0,10.19,10.19,2.1399999999999997
+third-person pronouns,7.49,0.0,61.3,61.3,14.64
+unique words ratio,222.82,63.73,345.92,282.19,71.02000000000001
+WH-words,0.86,0.0,7.83,7.83,2.1
+honorifics,1.97,0.0,34.97,34.97,4.67
