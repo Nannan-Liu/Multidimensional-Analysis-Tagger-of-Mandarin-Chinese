@@ -485,6 +485,22 @@ df['interrogative'] = pd.Series(interrogative_result)
 df.to_csv(folder + 'linguistic_features.csv')
 
 
+#feature 33 intransitive verbs 
+def vi(text_type):
+    def raw(text_type):
+        return str(text_type).count('intransitive verb')
+    def normalized(text_type): 
+        return raw(text_type) / len(text_type)
+    return round(normalized (text_type) * 1000, 2)
+
+vi_result=[]
+for file in tagged_files: 
+    vi_result.append(vi(file))
+
+df['intransitive']=pd.Series(vi_result)
+df.to_csv(folder+'linguistic_features.csv', header=True, index=True)
+
+
 #feature 34 lexical density 
 #(noun+verb+adjective+adverb) / total
 #note that count.verbs contains count.adverbs
