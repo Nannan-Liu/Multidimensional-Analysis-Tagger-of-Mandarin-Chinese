@@ -387,6 +387,22 @@ df['BPIN'] = pd.Series(bpin_result)
 df.to_csv(folder + 'linguistic_features.csv')
 
 
+#feature 20 disyllabic verbs
+
+import re
+
+def di_verbs(text): 
+    no_adverbs={k:v for k,v in dict(text).items() if re.match('^((?!adverb).)*$', v)}
+    verbs= {k:v for k,v in no_adverbs.items() if re.match('.*verb', v)}
+    return round((len([word for word in list(verbs.keys()) if len(word) == 2]) / len(text))*1000, 2)
+
+
+di_verb_result=[]
+for file in tagged_files: 
+    di_verb_result.append(di_verbs(file))
+    
+df['di_verbs'] = pd.Series(di_verb_result, index)
+df.to_csv(folder+'linguistic_features.csv', header=True, index=True)
 
 
 #feature 23 exclamation mark
