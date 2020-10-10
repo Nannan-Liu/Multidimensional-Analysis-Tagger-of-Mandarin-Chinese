@@ -107,7 +107,27 @@ lists=[]
 for corpus in sub_corpora: 
     l=list(corpus)
     lists.append(l)
+    
 
+#feature 5 mean clause length
+def acl(text_type): 
+    sentences = [[]]
+    ends = set('，：；。？!……——')
+    for word in text_type:
+        if word in ends: sentences.append([])
+        else: sentences[-1].append(word)
+    if sentences[0]:
+        if not sentences[-1]: sentences.pop()
+        return round (sum(len(s) for s in sentences)/len(sentences), 2)
+
+
+acl_result=[]
+for corpus in sub_corpora: 
+    acl_result.append(acl(corpus))
+
+df['ACL'] = pd.Series(acl_result)
+
+df.to_csv(folder + 'linguistic_features.csv')
 
 
 #feature 6 average word length
@@ -170,190 +190,6 @@ df['ASL_std'] = pd.Series(asl_std_result)
 df.to_csv(folder + 'linguistic_features.csv')
 
 
-#feature 5 mean clause length
-def acl(text_type): 
-    sentences = [[]]
-    ends = set('，：；。？!……——')
-    for word in text_type:
-        if word in ends: sentences.append([])
-        else: sentences[-1].append(word)
-    if sentences[0]:
-        if not sentences[-1]: sentences.pop()
-        return round (sum(len(s) for s in sentences)/len(sentences), 2)
-
-
-acl_result=[]
-for corpus in sub_corpora: 
-    acl_result.append(acl(corpus))
-
-df['ACL'] = pd.Series(acl_result)
-
-df.to_csv(folder + 'linguistic_features.csv')
-
-
-
-#feature 21 downtoners DWNT
-#一点、有点、有点儿、稍、稍微、一些、有些
-downtoners=['一点', '一点儿', '有点', '有点儿', '稍', '稍微', '一些', '有些']
-def dwnt(text_type):
-    def raw(text_type): 
-        return len([x for x in text_type if x in downtoners])
-    def normalized(text_type): 
-        return raw(text_type) / len(text_type)
-    return round(normalized (text_type) * 1000, 2) 
-
-
-
-dwnt_result=[]
-for corpus in sub_corpora: 
-    dwnt_result.append(dwnt(corpus))
-    
-df['DWNT'] = pd.Series(dwnt_result)
-df.to_csv(folder + 'linguistic_features.csv')
-
-
-
-#feature 25 FPP1 first person pronoun
-#我、我的、我自己、我们、我们自己、我们的
-#only 我 and 我们 are needed
-def fpp1(text_type):
-    def raw(text_type): 
-        return text_type.count('我')+text_type.count('我们')
-    def normalized(text_type): 
-        return raw(text_type) / len(text_type)
-    return round(normalized (text_type) * 1000, 2) 
-
-
-
-fpp1_result=[]
-for corpus in sub_corpora: 
-    fpp1_result.append(fpp1(corpus))
-    
-df['FPP'] = pd.Series(fpp1_result)
-df.to_csv(folder + 'linguistic_features.csv')
-
-
-
-#feature 47 SPP2 second person pronoun
-#你、你们、您、您们
-def spp2(text_type):
-    def raw(text_type): 
-        return text_type.count('你')+text_type.count('你们')+text_type.count('您')+text_type.count('您们')
-    def normalized(text_type): 
-        return raw(text_type) / len(text_type)
-    return round(normalized (text_type) * 1000, 2) 
-
-
-
-spp2_result=[]
-for corpus in sub_corpora: 
-    spp2_result.append(spp2(corpus))
-    
-df['SPP'] = pd.Series(spp2_result)
-df.to_csv(folder + 'linguistic_features.csv')
-
-
-
-#feature 26 hedges HDG
-#可能、可以、也许、较少、一些、多个、多为、基本、主要、类似、不少
-hedges=['可能', '可以', '也许', '较少', '一些', '多个', '多为', '基本', '主要', '类似', '不少']
-def hdg(text_type):
-    def raw(text_type): 
-        return len([x for x in text_type if x in hedges])
-    def normalized(text_type): 
-        return raw(text_type) / len(text_type)
-    return round(normalized (text_type) * 1000, 2) 
-
-
-
-hdg_result=[]
-for corpus in sub_corpora: 
-    hdg_result.append(hdg(corpus))
-    
-df['HDG'] = pd.Series(hdg_result)
-df.to_csv(folder + 'linguistic_features.csv')
-
-
-
-
-#feature 31 INPR indefinite pronouns 无定代词
-#任何、谁、大家、某、有人、有个、什么
-indefinites=['任何', '谁', '大家', '某', '有人', '有个', '什么']
-def inpr(text_type):
-    def raw(text_type): 
-        return len([x for x in text_type if x in indefinites])
-    def normalized(text_type): 
-        return raw(text_type) / len(text_type)
-    return round(normalized (text_type) * 1000, 2) 
-
-
-inpr_result=[]
-for corpus in sub_corpora: 
-    inpr_result.append(inpr(corpus))
-    
-df['INPR'] = pd.Series(inpr_result)
-df.to_csv(folder + 'linguistic_features.csv')
-
-
-
-
-#feature 48 SMP seem, appear
-#好像、似乎、好象、貌似
-def smp(text_type):
-    def raw(text_type): 
-        return text_type.count('好象')+text_type.count('好像')+text_type.count('似乎')+text_type.count('貌似')
-    def normalized(text_type): 
-        return raw(text_type) / len(text_type)
-    return round(normalized (text_type) * 1000, 2) 
-
-
-smp_result=[]
-for corpus in sub_corpora: 
-    smp_result.append(smp(corpus))
-    
-df['SMP'] = pd.Series(smp_result)
-df.to_csv(folder + 'linguistic_features.csv')
-
-
-
-#feature 51 third person pronouns
-tpp3s=['她', '他', '它', '她们', '他们', '它们']
-def tpp3(text_type):
-    def raw(text_type): 
-        return len([x for x in text_type if x in tpp3s])
-    def normalized(text_type): 
-        return raw(text_type) / len(text_type)
-    return round(normalized (text_type) * 1000, 2) 
-
-
-
-tpp3_result=[]
-for corpus in sub_corpora: 
-    tpp3_result.append(tpp3(corpus))
-    
-df['TPP'] = pd.Series(tpp3_result)
-df.to_csv(folder + 'linguistic_features.csv')
-
-
-#feature 22 emotion words 
-def emotion(text): 
-    def raw(text): 
-        return text.count('烦恼')+text.count('不幸')+text.count('痛苦')+text.count('苦')+text.count('快乐')+text.count('忍')+text.count('喜')+text.count('乐')+text.count('称心')+text.count('痛快')+text.count('得意')+text.count('欣慰')+text.count('高兴')+text.count('愉悦')+text.count('欣喜')+text.count('欢欣')+text.count('可意')+text.count('乐')+text.count('可心')+text.count('欢畅')+text.count('开心')+text.count('康乐')+text.count('欢快')+text.count('快慰')+text.count('欢')+text.count('舒畅')+text.count('快乐')+text.count('快活')+text.count('欢乐')+text.count('畅快')+text.count('舒心')+text.count('舒坦')+text.count('欢娱')+text.count('如意')+text.count('喜悦')+text.count('顺心')+text.count('欢悦')+text.count('舒服')+text.count('爽心')+text.count('晓畅')+text.count('松快')+text.count('幸福')+text.count('惊喜')+text.count('欢愉')+text.count('称意')+text.count('得志')+text.count('情愿')+text.count('愿意')+text.count('欢喜')+text.count('振奋')+text.count('乐意')+text.count('留神')+text.count('乐于')+text.count('爱')+text.count('关怀')+text.count('偏爱')+text.count('珍爱')+text.count('珍惜')+text.count('神往')+text.count('痴迷')+text.count('喜爱')+text.count('器重')+text.count('娇宠')+text.count('溺爱')+text.count('珍视')+text.count('喜欢')+text.count('动心')+text.count('挂牵')+text.count('赞赏')+text.count('爱好')+text.count('满意')+text.count('羡慕')+text.count('赏识')+text.count('热爱')+text.count('钟爱')+text.count('眷恋')+text.count('关注')+text.count('赞同')+text.count('喜欢')+text.count('想')+text.count('挂心')+text.count('挂念')+text.count('惦念')+text.count('挂虑')+text.count('怀念')+text.count('关切')+text.count('关心')+text.count('惦念')+text.count('牵挂')+text.count('怜悯')+text.count('同情')+text.count('吝惜')+text.count('可惜')+text.count('怜惜')+text.count('感谢')+text.count('感激')+text.count('在乎')+text.count('操心')+text.count('愁')+text.count('闷')+text.count('苦')+text.count('哀怨')+text.count('悲恸')+text.count('悲痛')+text.count('哀伤')+text.count('惨痛')+text.count('沉重')+text.count('感伤')+text.count('悲壮')+text.count('酸辛')+text.count('伤心')+text.count('辛酸')+text.count('悲哀')+text.count('哀痛')+text.count('沉痛')+text.count('痛心')+text.count('悲凉')+text.count('悲凄')+text.count('伤感')+text.count('悲切')+text.count('哀戚')+text.count('悲伤')+text.count('心酸')+text.count('悲怆')+text.count('无奈')+text.count('苍凉')+text.count('不好过')+text.count('抑郁')+text.count('慌')+text.count('吓人')+text.count('畏怯')+text.count('紧张')+text.count('惶恐')+text.count('慌张')+text.count('惊骇')+text.count('恐慌')+text.count('慌乱')+text.count('心虚')+text.count('惊慌')+text.count('惶惑')+text.count('惊惶')+text.count('惊惧')+text.count('惊恐')+text.count('恐惧')+text.count('心慌')+text.count('害怕')+text.count('怕')+text.count('畏惧')+text.count('发慌')+text.count('发憷')+text.count('敬')+text.count('推崇')+text.count('尊敬')+text.count('拥护')+text.count('倚重')+text.count('崇尚')+text.count('尊崇')+text.count('敬仰')+text.count('敬佩')+text.count('尊重')+text.count('敬慕')+text.count('佩服')+text.count('景仰')+text.count('敬重')+text.count('景慕')+text.count('崇敬')+text.count('瞧得起')+text.count('崇奉')+text.count('钦佩')+text.count('崇拜')+text.count('孝敬')+text.count('激动')+text.count('来劲')+text.count('炽烈')+text.count('炽热')+text.count('冲动')+text.count('狂热')+text.count('激昂')+text.count('激动')+text.count('高亢')+text.count('亢奋')+text.count('带劲')+text.count('高涨')+text.count('高昂')+text.count('投入')+text.count('兴奋')+text.count('疯狂')+text.count('狂乱')+text.count('感动')+text.count('羞')+text.count('疚')+text.count('羞涩')+text.count('羞怯')+text.count('羞惭')+text.count('负疚')+text.count('窘')+text.count('窘促')+text.count('不过意')+text.count('惭愧')+text.count('不好意思')+text.count('害羞')+text.count('害臊')+text.count('困窘')+text.count('抱歉')+text.count('抱愧')+text.count('对不起')+text.count('羞愧')+text.count('对不住')+text.count('烦')+text.count('烦躁')+text.count('烦燥')+text.count('烦')+text.count('熬心')+text.count('糟心')+text.count('烦乱')+text.count('烦心')+text.count('烦人')+text.count('烦恼')+text.count('烦杂')+text.count('腻烦')+text.count('厌倦')+text.count('厌烦')+text.count('讨厌')+text.count('头疼')+text.count('急')+text.count('浮躁')+text.count('焦虑')+text.count('焦渴')+text.count('焦急')+text.count('焦躁')+text.count('焦炙')+text.count('心浮')+text.count('心焦')+text.count('揪心')+text.count('心急')+text.count('心切')+text.count('着急')+text.count('不安')+text.count('傲')+text.count('自傲')+text.count('骄横')+text.count('骄慢')+text.count('骄矜')+text.count('骄傲')+text.count('自负')+text.count('自信')+text.count('自豪')+text.count('自满')+text.count('自大')+text.count('狂')+text.count('炫耀')+text.count('吃惊')+text.count('诧异')+text.count('吃惊')+text.count('惊疑')+text.count('愕然')+text.count('惊讶')+text.count('惊奇')+text.count('骇怪')+text.count('骇异')+text.count('惊诧')+text.count('惊愕')+text.count('震惊')+text.count('奇怪')+text.count('怒')+text.count('愤怒')+text.count('忿恨')+text.count('激愤')+text.count('生气')+text.count('愤懑')+text.count('愤慨')+text.count('忿怒')+text.count('悲愤')+text.count('窝火')+text.count('暴怒')+text.count('不平')+text.count('火')+text.count('失望')+text.count('失望')+text.count('绝望')+text.count('灰心')+text.count('丧气')+text.count('低落')+text.count('心寒')+text.count('沮丧')+text.count('消沉')+text.count('颓丧')+text.count('颓唐')+text.count('低沉')+text.count('不满')+text.count('安心')+text.count('安宁')+text.count('闲雅')+text.count('逍遥')+text.count('闲适')+text.count('怡和')+text.count('沉静')+text.count('放松')+text.count('安心')+text.count('宽心')+text.count('自在')+text.count('放心')+text.count('恨')+text.count('恶')+text.count('看不惯')+text.count('痛恨')+text.count('厌恶')+text.count('恼恨')+text.count('反对')+text.count('捣乱')+text.count('怨恨')+text.count('憎恶')+text.count('歧视')+text.count('敌视')+text.count('愤恨')+text.count('嫉')+text.count('妒嫉')+text.count('妒忌')+text.count('嫉妒')+text.count('嫉恨')+text.count('眼红')+text.count('忌恨')+text.count('忌妒')+text.count('蔑视')+text.count('蔑视')+text.count('瞧不起')+text.count('怠慢')+text.count('轻蔑')+text.count('鄙夷')+text.count('鄙薄')+text.count('鄙视')+text.count('悔')+text.count('背悔')+text.count('后悔')+text.count('懊恼')+text.count('懊悔')+text.count('悔恨')+text.count('懊丧')+text.count('委屈')+text.count('委屈')+text.count('冤')+text.count('冤枉')+text.count('无辜')+text.count('谅')+text.count('体谅')+text.count('理解')+text.count('了解')+text.count('体贴')+text.count('信任')+text.count('信赖')+text.count('相信')+text.count('信服')+text.count('疑')+text.count('过敏')+text.count('怀疑')+text.count('疑心')+text.count('疑惑')+text.count('其他')+text.count('缠绵')+text.count('自卑')+text.count('自爱')+text.count('反感')+text.count('感慨')+text.count('动摇')+text.count('消魂')+text.count('痒痒')+text.count('为难')+text.count('解恨')+text.count('迟疑')+text.count('多情')+text.count('充实')+text.count('寂寞')+text.count('遗憾')+text.count('神情')+text.count('慧黠')+text.count('狡黠')+text.count('安详')+text.count('仓皇')+text.count('阴冷')+text.count('阴沉')+text.count('犹豫')+text.count('好')+text.count('坏')+text.count('棒')+text.count('一般')+text.count('差')+text.count('得当')+text.count('标准')
-    def normalized(text): 
-        return raw(text) / len(text)
-    return round(normalized (text) * 1000, 2)     
-
-
-
-emotion_result=[]
-for corpus in sub_corpora: 
-    emotion_result.append(emotion(corpus))
-    
-df['emotion'] = pd.Series(emotion_result)
-df.to_csv(folder + 'linguistic_features.csv')
-
-
-
 #feature 12 classical syntax
 def classical(text_type):
     def raw(text_type): 
@@ -387,6 +223,107 @@ for corpus in sub_corpora:
     disyllabic_result.append(disyllabic(corpus))
     
 df['disyllabic_words'] = pd.Series(disyllabic_result)
+df.to_csv(folder + 'linguistic_features.csv')
+
+
+
+
+#feature 21 downtoners DWNT
+#一点、有点、有点儿、稍、稍微、一些、有些
+downtoners=['一点', '一点儿', '有点', '有点儿', '稍', '稍微', '一些', '有些']
+def dwnt(text_type):
+    def raw(text_type): 
+        return len([x for x in text_type if x in downtoners])
+    def normalized(text_type): 
+        return raw(text_type) / len(text_type)
+    return round(normalized (text_type) * 1000, 2) 
+
+
+
+dwnt_result=[]
+for corpus in sub_corpora: 
+    dwnt_result.append(dwnt(corpus))
+    
+df['DWNT'] = pd.Series(dwnt_result)
+df.to_csv(folder + 'linguistic_features.csv')
+
+
+#feature 22 emotion words 
+def emotion(text): 
+    def raw(text): 
+        return text.count('烦恼')+text.count('不幸')+text.count('痛苦')+text.count('苦')+text.count('快乐')+text.count('忍')+text.count('喜')+text.count('乐')+text.count('称心')+text.count('痛快')+text.count('得意')+text.count('欣慰')+text.count('高兴')+text.count('愉悦')+text.count('欣喜')+text.count('欢欣')+text.count('可意')+text.count('乐')+text.count('可心')+text.count('欢畅')+text.count('开心')+text.count('康乐')+text.count('欢快')+text.count('快慰')+text.count('欢')+text.count('舒畅')+text.count('快乐')+text.count('快活')+text.count('欢乐')+text.count('畅快')+text.count('舒心')+text.count('舒坦')+text.count('欢娱')+text.count('如意')+text.count('喜悦')+text.count('顺心')+text.count('欢悦')+text.count('舒服')+text.count('爽心')+text.count('晓畅')+text.count('松快')+text.count('幸福')+text.count('惊喜')+text.count('欢愉')+text.count('称意')+text.count('得志')+text.count('情愿')+text.count('愿意')+text.count('欢喜')+text.count('振奋')+text.count('乐意')+text.count('留神')+text.count('乐于')+text.count('爱')+text.count('关怀')+text.count('偏爱')+text.count('珍爱')+text.count('珍惜')+text.count('神往')+text.count('痴迷')+text.count('喜爱')+text.count('器重')+text.count('娇宠')+text.count('溺爱')+text.count('珍视')+text.count('喜欢')+text.count('动心')+text.count('挂牵')+text.count('赞赏')+text.count('爱好')+text.count('满意')+text.count('羡慕')+text.count('赏识')+text.count('热爱')+text.count('钟爱')+text.count('眷恋')+text.count('关注')+text.count('赞同')+text.count('喜欢')+text.count('想')+text.count('挂心')+text.count('挂念')+text.count('惦念')+text.count('挂虑')+text.count('怀念')+text.count('关切')+text.count('关心')+text.count('惦念')+text.count('牵挂')+text.count('怜悯')+text.count('同情')+text.count('吝惜')+text.count('可惜')+text.count('怜惜')+text.count('感谢')+text.count('感激')+text.count('在乎')+text.count('操心')+text.count('愁')+text.count('闷')+text.count('苦')+text.count('哀怨')+text.count('悲恸')+text.count('悲痛')+text.count('哀伤')+text.count('惨痛')+text.count('沉重')+text.count('感伤')+text.count('悲壮')+text.count('酸辛')+text.count('伤心')+text.count('辛酸')+text.count('悲哀')+text.count('哀痛')+text.count('沉痛')+text.count('痛心')+text.count('悲凉')+text.count('悲凄')+text.count('伤感')+text.count('悲切')+text.count('哀戚')+text.count('悲伤')+text.count('心酸')+text.count('悲怆')+text.count('无奈')+text.count('苍凉')+text.count('不好过')+text.count('抑郁')+text.count('慌')+text.count('吓人')+text.count('畏怯')+text.count('紧张')+text.count('惶恐')+text.count('慌张')+text.count('惊骇')+text.count('恐慌')+text.count('慌乱')+text.count('心虚')+text.count('惊慌')+text.count('惶惑')+text.count('惊惶')+text.count('惊惧')+text.count('惊恐')+text.count('恐惧')+text.count('心慌')+text.count('害怕')+text.count('怕')+text.count('畏惧')+text.count('发慌')+text.count('发憷')+text.count('敬')+text.count('推崇')+text.count('尊敬')+text.count('拥护')+text.count('倚重')+text.count('崇尚')+text.count('尊崇')+text.count('敬仰')+text.count('敬佩')+text.count('尊重')+text.count('敬慕')+text.count('佩服')+text.count('景仰')+text.count('敬重')+text.count('景慕')+text.count('崇敬')+text.count('瞧得起')+text.count('崇奉')+text.count('钦佩')+text.count('崇拜')+text.count('孝敬')+text.count('激动')+text.count('来劲')+text.count('炽烈')+text.count('炽热')+text.count('冲动')+text.count('狂热')+text.count('激昂')+text.count('激动')+text.count('高亢')+text.count('亢奋')+text.count('带劲')+text.count('高涨')+text.count('高昂')+text.count('投入')+text.count('兴奋')+text.count('疯狂')+text.count('狂乱')+text.count('感动')+text.count('羞')+text.count('疚')+text.count('羞涩')+text.count('羞怯')+text.count('羞惭')+text.count('负疚')+text.count('窘')+text.count('窘促')+text.count('不过意')+text.count('惭愧')+text.count('不好意思')+text.count('害羞')+text.count('害臊')+text.count('困窘')+text.count('抱歉')+text.count('抱愧')+text.count('对不起')+text.count('羞愧')+text.count('对不住')+text.count('烦')+text.count('烦躁')+text.count('烦燥')+text.count('烦')+text.count('熬心')+text.count('糟心')+text.count('烦乱')+text.count('烦心')+text.count('烦人')+text.count('烦恼')+text.count('烦杂')+text.count('腻烦')+text.count('厌倦')+text.count('厌烦')+text.count('讨厌')+text.count('头疼')+text.count('急')+text.count('浮躁')+text.count('焦虑')+text.count('焦渴')+text.count('焦急')+text.count('焦躁')+text.count('焦炙')+text.count('心浮')+text.count('心焦')+text.count('揪心')+text.count('心急')+text.count('心切')+text.count('着急')+text.count('不安')+text.count('傲')+text.count('自傲')+text.count('骄横')+text.count('骄慢')+text.count('骄矜')+text.count('骄傲')+text.count('自负')+text.count('自信')+text.count('自豪')+text.count('自满')+text.count('自大')+text.count('狂')+text.count('炫耀')+text.count('吃惊')+text.count('诧异')+text.count('吃惊')+text.count('惊疑')+text.count('愕然')+text.count('惊讶')+text.count('惊奇')+text.count('骇怪')+text.count('骇异')+text.count('惊诧')+text.count('惊愕')+text.count('震惊')+text.count('奇怪')+text.count('怒')+text.count('愤怒')+text.count('忿恨')+text.count('激愤')+text.count('生气')+text.count('愤懑')+text.count('愤慨')+text.count('忿怒')+text.count('悲愤')+text.count('窝火')+text.count('暴怒')+text.count('不平')+text.count('火')+text.count('失望')+text.count('失望')+text.count('绝望')+text.count('灰心')+text.count('丧气')+text.count('低落')+text.count('心寒')+text.count('沮丧')+text.count('消沉')+text.count('颓丧')+text.count('颓唐')+text.count('低沉')+text.count('不满')+text.count('安心')+text.count('安宁')+text.count('闲雅')+text.count('逍遥')+text.count('闲适')+text.count('怡和')+text.count('沉静')+text.count('放松')+text.count('安心')+text.count('宽心')+text.count('自在')+text.count('放心')+text.count('恨')+text.count('恶')+text.count('看不惯')+text.count('痛恨')+text.count('厌恶')+text.count('恼恨')+text.count('反对')+text.count('捣乱')+text.count('怨恨')+text.count('憎恶')+text.count('歧视')+text.count('敌视')+text.count('愤恨')+text.count('嫉')+text.count('妒嫉')+text.count('妒忌')+text.count('嫉妒')+text.count('嫉恨')+text.count('眼红')+text.count('忌恨')+text.count('忌妒')+text.count('蔑视')+text.count('蔑视')+text.count('瞧不起')+text.count('怠慢')+text.count('轻蔑')+text.count('鄙夷')+text.count('鄙薄')+text.count('鄙视')+text.count('悔')+text.count('背悔')+text.count('后悔')+text.count('懊恼')+text.count('懊悔')+text.count('悔恨')+text.count('懊丧')+text.count('委屈')+text.count('委屈')+text.count('冤')+text.count('冤枉')+text.count('无辜')+text.count('谅')+text.count('体谅')+text.count('理解')+text.count('了解')+text.count('体贴')+text.count('信任')+text.count('信赖')+text.count('相信')+text.count('信服')+text.count('疑')+text.count('过敏')+text.count('怀疑')+text.count('疑心')+text.count('疑惑')+text.count('其他')+text.count('缠绵')+text.count('自卑')+text.count('自爱')+text.count('反感')+text.count('感慨')+text.count('动摇')+text.count('消魂')+text.count('痒痒')+text.count('为难')+text.count('解恨')+text.count('迟疑')+text.count('多情')+text.count('充实')+text.count('寂寞')+text.count('遗憾')+text.count('神情')+text.count('慧黠')+text.count('狡黠')+text.count('安详')+text.count('仓皇')+text.count('阴冷')+text.count('阴沉')+text.count('犹豫')+text.count('好')+text.count('坏')+text.count('棒')+text.count('一般')+text.count('差')+text.count('得当')+text.count('标准')
+    def normalized(text): 
+        return raw(text) / len(text)
+    return round(normalized (text) * 1000, 2)     
+
+
+
+emotion_result=[]
+for corpus in sub_corpora: 
+    emotion_result.append(emotion(corpus))
+    
+df['emotion'] = pd.Series(emotion_result)
+df.to_csv(folder + 'linguistic_features.csv')
+
+
+
+#feature 25 FPP1 first person pronoun
+#我、我的、我自己、我们、我们自己、我们的
+#only 我 and 我们 are needed
+def fpp1(text_type):
+    def raw(text_type): 
+        return text_type.count('我')+text_type.count('我们')
+    def normalized(text_type): 
+        return raw(text_type) / len(text_type)
+    return round(normalized (text_type) * 1000, 2) 
+
+
+
+fpp1_result=[]
+for corpus in sub_corpora: 
+    fpp1_result.append(fpp1(corpus))
+    
+df['FPP'] = pd.Series(fpp1_result)
+df.to_csv(folder + 'linguistic_features.csv')
+
+
+#feature 26 hedges HDG
+#可能、可以、也许、较少、一些、多个、多为、基本、主要、类似、不少
+hedges=['可能', '可以', '也许', '较少', '一些', '多个', '多为', '基本', '主要', '类似', '不少']
+def hdg(text_type):
+    def raw(text_type): 
+        return len([x for x in text_type if x in hedges])
+    def normalized(text_type): 
+        return raw(text_type) / len(text_type)
+    return round(normalized (text_type) * 1000, 2) 
+
+
+
+hdg_result=[]
+for corpus in sub_corpora: 
+    hdg_result.append(hdg(corpus))
+    
+df['HDG'] = pd.Series(hdg_result)
+df.to_csv(folder + 'linguistic_features.csv')
+
+# feature 27 honorifics
+honorifics=['千金', '相公', '姑姥爷', '伯伯', '伯父', '伯母', '大伯', '大哥', '大姐', '大妈', '大爷', '大嫂', '嫂夫人', '大婶儿', '大叔', '大姨', '哥', '姐', '大娘', '妈妈', '奶 奶', '爷爷', '姨', '老伯', '老兄', '老爹', '老大爷', '老爷爷', '老太太', '老奶奶', '老大娘', '老板', '老公', '老婆婆', '老前辈', '老人家', '老师', '老师傅', '老寿星', '老太爷', '老翁', '老爷子', '老丈', '老总', '大驾', '夫人', '高徒', '高足', '官人', '贵客', '贵人', '嘉宾', '列位', '男士', '女士', '女主 人', '前辈', '台驾', '太太', '先生', '贤契', '贤人', '贤士', '先哲', '小姐', '学长', '爷', '诸位', '足下', '师傅', '师母', '师娘', '人士', '长老', '禅师', '船老大', '大师', '大师傅', '大王', '恩师', '法师', '法王', '佛爷', '夫子', '父母官', '国父', '麾下', '教授', '武师', '千 岁', '孺人', '圣母', '圣人', '师父', '王尊', '至尊', '座', '少奶奶', '少爷', '金枝玉叶', '工程师', '高级工程师', '经济师', '讲师', '教授', '副教授', '教师', '老师', '国家主席', '国家总理', '部长', '厅长', '市长', '局长', '科长', '校长', '烈士', '先烈', '先哲', '荣誉军人', '陛下', '殿下', '阁下', '阿公', '阿婆', '大人', '公', '公公', '娘子', '婆婆', '丈人', '师长', '义士', '勇士', '志士', '壮士', '学生', '兄弟', '小弟', '弟', '妹', '儿子', '女儿']
+
+
+def honor(text_type):
+    def raw(text_type): 
+        return len([x for x in text_type if x in honorifics])
+    def normalized(text_type): 
+        return raw(text_type) / len(text_type)
+    return round(normalized (text_type) * 1000, 2) 
+
+
+
+honor_result=[]
+for corpus in sub_corpora: 
+    honor_result.append(honor(corpus))
+    
+df['honorifics'] = pd.Series(honor_result)
 df.to_csv(folder + 'linguistic_features.csv')
 
 
@@ -435,28 +372,84 @@ df.to_csv(folder + 'linguistic_features.csv')
 
 
 
-# feature 27 honorifics
 
-
-honorifics=['千金', '相公', '姑姥爷', '伯伯', '伯父', '伯母', '大伯', '大哥', '大姐', '大妈', '大爷', '大嫂', '嫂夫人', '大婶儿', '大叔', '大姨', '哥', '姐', '大娘', '妈妈', '奶 奶', '爷爷', '姨', '老伯', '老兄', '老爹', '老大爷', '老爷爷', '老太太', '老奶奶', '老大娘', '老板', '老公', '老婆婆', '老前辈', '老人家', '老师', '老师傅', '老寿星', '老太爷', '老翁', '老爷子', '老丈', '老总', '大驾', '夫人', '高徒', '高足', '官人', '贵客', '贵人', '嘉宾', '列位', '男士', '女士', '女主 人', '前辈', '台驾', '太太', '先生', '贤契', '贤人', '贤士', '先哲', '小姐', '学长', '爷', '诸位', '足下', '师傅', '师母', '师娘', '人士', '长老', '禅师', '船老大', '大师', '大师傅', '大王', '恩师', '法师', '法王', '佛爷', '夫子', '父母官', '国父', '麾下', '教授', '武师', '千 岁', '孺人', '圣母', '圣人', '师父', '王尊', '至尊', '座', '少奶奶', '少爷', '金枝玉叶', '工程师', '高级工程师', '经济师', '讲师', '教授', '副教授', '教师', '老师', '国家主席', '国家总理', '部长', '厅长', '市长', '局长', '科长', '校长', '烈士', '先烈', '先哲', '荣誉军人', '陛下', '殿下', '阁下', '阿公', '阿婆', '大人', '公', '公公', '娘子', '婆婆', '丈人', '师长', '义士', '勇士', '志士', '壮士', '学生', '兄弟', '小弟', '弟', '妹', '儿子', '女儿']
-
-
-
-def honor(text_type):
+#feature 31 INPR indefinite pronouns 无定代词
+#任何、谁、大家、某、有人、有个、什么
+indefinites=['任何', '谁', '大家', '某', '有人', '有个', '什么']
+def inpr(text_type):
     def raw(text_type): 
-        return len([x for x in text_type if x in honorifics])
+        return len([x for x in text_type if x in indefinites])
+    def normalized(text_type): 
+        return raw(text_type) / len(text_type)
+    return round(normalized (text_type) * 1000, 2) 
+
+
+inpr_result=[]
+for corpus in sub_corpora: 
+    inpr_result.append(inpr(corpus))
+    
+df['INPR'] = pd.Series(inpr_result)
+df.to_csv(folder + 'linguistic_features.csv')
+
+
+
+
+#feature 47 SPP2 second person pronoun
+#你、你们、您、您们
+def spp2(text_type):
+    def raw(text_type): 
+        return text_type.count('你')+text_type.count('你们')+text_type.count('您')+text_type.count('您们')
     def normalized(text_type): 
         return raw(text_type) / len(text_type)
     return round(normalized (text_type) * 1000, 2) 
 
 
 
-honor_result=[]
+spp2_result=[]
 for corpus in sub_corpora: 
-    honor_result.append(honor(corpus))
+    spp2_result.append(spp2(corpus))
     
-df['honorifics'] = pd.Series(honor_result)
+df['SPP'] = pd.Series(spp2_result)
 df.to_csv(folder + 'linguistic_features.csv')
+
+
+#feature 48 SMP seem, appear
+#好像、似乎、好象、貌似
+def smp(text_type):
+    def raw(text_type): 
+        return text_type.count('好象')+text_type.count('好像')+text_type.count('似乎')+text_type.count('貌似')
+    def normalized(text_type): 
+        return raw(text_type) / len(text_type)
+    return round(normalized (text_type) * 1000, 2) 
+
+
+smp_result=[]
+for corpus in sub_corpora: 
+    smp_result.append(smp(corpus))
+    
+df['SMP'] = pd.Series(smp_result)
+df.to_csv(folder + 'linguistic_features.csv')
+
+
+
+#feature 51 third person pronouns
+tpp3s=['她', '他', '它', '她们', '他们', '它们']
+def tpp3(text_type):
+    def raw(text_type): 
+        return len([x for x in text_type if x in tpp3s])
+    def normalized(text_type): 
+        return raw(text_type) / len(text_type)
+    return round(normalized (text_type) * 1000, 2) 
+
+
+
+tpp3_result=[]
+for corpus in sub_corpora: 
+    tpp3_result.append(tpp3(corpus))
+    
+df['TPP'] = pd.Series(tpp3_result)
+df.to_csv(folder + 'linguistic_features.csv')
+
 
 
 #feature 54 unique words ratio 
