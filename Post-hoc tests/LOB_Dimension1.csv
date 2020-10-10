@@ -1,0 +1,24 @@
+Register,Code,Mean,Minimum value,Maximum value,Range,Standard deviation
+report,report,-15.1,-24.1,-3.1,21,4.5
+editorial,editorial,-10,-18,1.6,19.5,3.8
+review,review,-13.9,-20.5,-8.6,11.8,3.9
+religion,religion,-7,-17.2,16.5,33.7,8.3
+skill,skill,-10.1,-18.8,-2,16.9,5
+popular_lore,popular lore,-9.3,-24.7,9.9,34.5,11.3
+biography,biography,-12.4,-21.4,7.5,28.9,7.5
+official,official,-18.1,-26.3,-9.1,17.2,4.8
+academic,academic,-14.9,-26.5,7.1,33.6,6
+general_fiction,general fiction,-0.8,-19.6,22.3,41.9,9.2
+mystery_fiction,mystery fiction,-0.2,-15.4,12.6,28,8.5
+sci_fi,sci fi,-6.1,-12.1,-1.7,10.4,4.6
+adventure_fiction,adventure fiction,0,-11.9,11.1,23.1,6.3
+romantic_fiction,romantic fiction,4.3,-6.5,15.3,21.9,5.6
+humour,humour,-7.8,-13.7,7.6,21.3,6.7
+personal_letter,personal letter,19.5,13.8,27,13.2,5.4
+professional_letter,pro. letter,-3.9,-17.1,24.8,41.9,13.7
+face_to_face_convo,f2f convo.,35.3,17.7,54.1,36.4,9.1
+telephone_convo,tele. convo.,37.2,7.2,52.9,45.8,9.9
+interview,interview,17.1,3.5,36,32.5,10.7
+broadcast,broadcast,-4.3,-19.6,16.9,36.6,10.7
+spontaneous_speech,spont. speech,18.2,-2.6,33.1,35.7,12.3
+prepared_speech,prep. speech,2.2,-7.3,14.8,22.1,6.7
