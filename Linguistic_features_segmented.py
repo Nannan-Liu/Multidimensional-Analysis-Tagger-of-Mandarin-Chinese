@@ -14,8 +14,6 @@ with open(folder + 'linguistic_features.csv', 'wb') as csvfile:
                             quotechar='|', quoting=csv.QUOTE_MINIMAL)
 
 
-# In[9]:
-
 
 #pandas does not allow empty csv to write, so write linguistic features in header
 with open(folder + 'linguistic_features.csv', 'w', newline='') as outcsv:
