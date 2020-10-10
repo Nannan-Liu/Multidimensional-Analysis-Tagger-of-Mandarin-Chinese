@@ -161,11 +161,11 @@ pynlpir.close()
 
 
 
-#feature 8 COND 条件连词、副词
+#feature 14 conditional conjuncts COND 条件连词、副词
 #如果……（那么）、只有……（才）、假如、除非、要是、要不是、只要、假使、假如、倘若、倘或、倘、设使、设若、如若、若
 def cond(text_type):
     def raw(text_type): 
-        return str(text_type).count('如果')+str(text_type).count('只有')    +str(text_type).count('假如')+str(text_type).count('除非')    +str(text_type).count('要是')+str(text_type).count('要不是')    +str(text_type).count('只要')+str(text_type).count('假如')    +str(text_type).count('倘若')+str(text_type).count('倘或')    +str(text_type).count('设使')+str(text_type).count('设若')    +str(text_type).count('如若')+str(text_type).count('若')    +text_type.count(('的话', 'particle 的话'))+    str(text_type).count("('的', 'particle 的/底'), ('时候', 'noun')")
+        return str(text_type).count('如果')+str(text_type).count('只有')+str(text_type).count('假如')+str(text_type).count('除非')+str(text_type).count('要是')+str(text_type).count('要不是')+str(text_type).count('只要')+str(text_type).count('假如')+str(text_type).count('倘若')+str(text_type).count('倘或')+str(text_type).count('设使')+str(text_type).count('设若')+str(text_type).count('如若')+str(text_type).count('若')+text_type.count(('的话', 'particle 的话'))+str(text_type).count("('的', 'particle 的/底'), ('时候', 'noun')")
     def normalized(text_type): 
         return raw(text_type) / len(text_type)
     return round(normalized (text_type) * 1000, 2) 
@@ -180,10 +180,10 @@ df.to_csv(folder + 'linguistic_features.csv')
 
 
 
-#feature 14 modifying adverbs
+#feature 36 modifying adverbs
 def modify_adv(text_type): 
     def raw(text_type): 
-        return text_type.count(('也', 'adverb'))+    text_type.count(('都', 'adverb'))+text_type.count(('又', 'adverb'))    +text_type.count(('才', 'adverb'))+text_type.count(('就', 'adverb'))    +text_type.count(('就是', 'adverb'))+text_type.count(('倒是', 'adverb'))    +text_type.count(('越来越', 'adverb'))+text_type.count(('一边', 'adverb'))    +text_type.count(('再', 'adverb'))+text_type.count(('甚至', 'adverb'))    +text_type.count(('连', 'particle 连'))+text_type.count(('却', 'adverb'))    +text_type.count(('原本', 'adverb'))+text_type.count(('只', 'adverb'))    +text_type.count(('毕竟', 'adverb'))+text_type.count(('仍然', 'adverb'))    +text_type.count(('反正', 'adverb'))+text_type.count(('等', 'particle 等/等等/云云'))    +text_type.count(('刚', 'adverb'))+text_type.count(('常常', 'adverb'))    +text_type.count(('已经', 'adverb'))+text_type.count(('就要', 'adverb'))
+        return text_type.count(('也', 'adverb'))+text_type.count(('都', 'adverb'))+text_type.count(('又', 'adverb'))+text_type.count(('才', 'adverb'))+text_type.count(('就', 'adverb'))+text_type.count(('就是', 'adverb'))+text_type.count(('倒是', 'adverb'))+text_type.count(('越来越', 'adverb'))+text_type.count(('一边', 'adverb'))+text_type.count(('再', 'adverb'))+text_type.count(('甚至', 'adverb'))+text_type.count(('连', 'particle 连'))+text_type.count(('却', 'adverb'))+text_type.count(('原本', 'adverb'))+text_type.count(('只', 'adverb'))+text_type.count(('毕竟', 'adverb'))+text_type.count(('仍然', 'adverb'))+text_type.count(('反正', 'adverb'))+text_type.count(('等', 'particle 等/等等/云云'))+text_type.count(('刚', 'adverb'))+text_type.count(('常常', 'adverb'))+text_type.count(('已经', 'adverb'))+text_type.count(('就要', 'adverb'))
     def normalized(text_type): 
         return raw(text_type) / len(text_type)
     return round(normalized (text_type) * 1000, 2) 
@@ -199,7 +199,7 @@ df.to_csv(folder + 'linguistic_features.csv')
 
 
 
-#feature 11 demonstrative pronoun
+#feature 15 demonstrative pronoun
 def demp(text_type): 
     def raw(text_type): 
         return str(text_type).count('demonstrative pronoun')
@@ -217,7 +217,7 @@ df.to_csv(folder + 'linguistic_features.csv')
 
 
 
-#feature 7 Be是
+#feature 49 Be 是
 def be(text_type):
     def raw(text_type): 
         return text_type.count(('是', 'verb 是'))
@@ -236,7 +236,7 @@ df.to_csv(folder + 'linguistic_features.csv')
 
 
 
-#feature 15 EX有
+#feature 24 EX有
 def ex(text_type): 
     def raw(text_type): 
         return str(text_type).count('verb 有')
@@ -255,7 +255,7 @@ df.to_csv(folder + 'linguistic_features.csv')
 
 
 
-#feature 18 other personal pronouns apart from FPP, SPP, TPP
+#feature 41 other personal pronouns apart from FPP, SPP, TPP
 def other_personal(text_type): 
     def raw(text_type): 
         return str(text_type).count('personal pronoun')-str(text_type).count('我')-str(text_type).count('你')-str(text_type).count('她')-str(text_type).count('他')-str(text_type).count('它')
@@ -274,7 +274,7 @@ df.to_csv(folder + 'linguistic_features.csv')
 
 
 
-#feature interrogative pronouns
+#feature 32 interrogative pronouns
 def interrogative(text_type): 
     def raw(text_type): 
         return str(text_type).count('interrogative pronoun')-str(text_type).count('predicative interrogative pronoun')
@@ -293,7 +293,7 @@ df.to_csv(folder + 'linguistic_features.csv')
 
 
 
-#feature 23 nouns, all other nouns excluding nominalisation
+#feature 52 nouns, all other nouns excluding nominalisation
 #noun - noun-adjective - noun-verb - pronoun-
 #personal pronoun - predicate demonstrative pronoun 
 #-demonstrative pronoun - locative demonstrative pronoun 
@@ -317,8 +317,8 @@ df.to_csv(folder + 'linguistic_features.csv')
 
 
 
-#please note that nominalization features include also verb plus genitive marker de 的, generated by a separate script
-#feature 24 nominalization NOMZ 
+#note that nominalization features include also verb plus genitive marker de 的, generated by a separate script
+#feature 39 nominalization NOMZ 
 #noun-adjective, noun-verb
 def nomz(text_type):
     def raw(text_type): 
@@ -338,7 +338,7 @@ df.to_csv(folder + 'linguistic_features.csv')
 
 
 
-#feature 26 phrasal coordinations PHC 
+#feature 44 phrasal coordinations PHC 
 # same tags before and after 和、以及、与、并、及、暨
 #ICTCLAS coordinating conjunction
 def phc(text_type):
@@ -359,7 +359,7 @@ df.to_csv(folder + 'linguistic_features.csv')
 
 
 
-#feature 28 BPIN disyllabic prepositions
+#feature 19 BPIN disyllabic prepositions
 #按照、本着、按着、朝着、趁着、出于、待到、对于、根据、关于、基于、鉴于
 #借着、经过、靠着、冒着、面对、面临、凭借、顺着、随着、通过、为了
 #围绕、向着、沿着、依据、针对
@@ -382,7 +382,7 @@ df.to_csv(folder + 'linguistic_features.csv')
 
 
 
-#feature 31 private verbs 
+#feature 43 private verbs 
 #subset 1
 def priv1(text_type):
     def raw(text_type): 
@@ -457,7 +457,6 @@ for file in tagged_files:
 
 
 
-
 #6
 def priv6(text_type):
     def raw(text_type): 
@@ -482,7 +481,7 @@ df.to_csv(folder + 'linguistic_features.csv')
 
 
 
-#feature 32 public verb PUBV
+#feature 43 public verb PUBV
 #表示、称、道、说、讲、质疑、认为、坦言、指出、告诉、呼吁、解释、问、建议
 def pubv(text_type):
     def raw(text_type): 
@@ -501,7 +500,7 @@ df.to_csv(folder + 'linguistic_features.csv')
 
 
 
-#feature 33 RB adverbs 副词
+#feature 2 RB adverbs 副词
 def rb(text_type):
     def raw(text_type): 
         return str(text_type).count('adverb')
@@ -519,7 +518,7 @@ df['RB'] = pd.Series(rb_result)
 df.to_csv(folder + 'linguistic_features.csv')
 
 
-#feature 35 monosyllabic negation 不、别、没
+#feature 37 monosyllabic negation 不、别、没
 #('别', 'adverb')、('不', 'adverb')
 #('没', 'verb')、('没', 'adverb')
 def mono_negation(text_type):
@@ -540,7 +539,7 @@ df.to_csv(folder + 'linguistic_features.csv')
 
 
 
-#feature 36 disyllabic negation 没有
+#feature 17 disyllabic negation 没有
 #('没有', 'adverb')、('没有', 'verb')
 def di_negation(text_type):
     def raw(text_type): 
@@ -557,7 +556,7 @@ df['di_negation'] = pd.Series(di_negation_result)
 df.to_csv(folder + 'linguistic_features.csv')
 
 
-#feature 40 WH 无定代词
+#feature 53 WH 无定代词
 #('怎么', 'predicate interrogative pronoun')、('怎么样', 'predicate interrogative pronoun')
 #('怎样', 'predicate interrogative pronoun')
 #('为什么', 'predicate interrogative pronoun')
@@ -580,7 +579,7 @@ df.to_csv(folder + 'linguistic_features.csv')
 
 
 
-#feature 41 monosyllabic verbs
+#feature 38 monosyllabic verbs
 #1. convert corpora to dict # no None in values 
 #2. select verbs from dict values 
 #3. convert corresponding keys to list 
@@ -604,7 +603,7 @@ df['mono_verbs'] = pd.Series(mono_verbs_result)
 df.to_csv(folder + 'linguistic_features.csv')
 
 
-#feature 41 classical function words 文言文功能词
+#feature 11 classical function words 文言文功能词
 #('所', 'particle 所')、('将', 'adverb')、('将', 'preposition')
 #('之', 'particle 之')、('于', 'preposition')、('以', 'preposition')
 def classical_func(text_type):
@@ -625,7 +624,7 @@ df.to_csv(folder + 'linguistic_features.csv')
 
 
 
-#feature 50 lexical density 
+#feature 34 lexical density 
 #(noun+verb+adjective+adverb) / total
 #note that count.verbs contains count.adverbs
                
@@ -653,19 +652,8 @@ for tag in tags:
 df['lexical_density'] = pd.Series(lexical_density_result)
 df.to_csv(folder + 'linguistic_features.csv')
 
-#performative verbs 
-def performative_verb(tag):
-    return round((tag.count('performative verb') / len(tag))*1000, 2)
 
-performative_verb_result=[]
-for tag in tags: 
-    performative_verb_result.append(performative_verb(tag))
-    
-df['performative_verb'] = pd.Series(performative_verb_result)
-df.to_csv(folder+'linguistic_features.csv')
-
-
-#feature 61 auxiliary adjectives
+#feature 4 auxiliary adjectives
 def aux_adj(text_type):
     def raw(text_type):
         return str(text_type).count('auxiliary adjective')
@@ -684,7 +672,7 @@ df.to_csv(folder + 'linguistic_features.csv')
 
 
 
-#feature 48 classifier 量词
+#feature 10 classifier 量词
 def classifier(text_type):
     def raw(text_type): 
         return str(text_type).count('classifier')
@@ -703,14 +691,13 @@ df.to_csv(folder + 'linguistic_features.csv')
 
 
 
-#feature 64 modal particles and interjections 
+#feature 35 modal particles and interjections 
 def particle(text_type):
     def raw(text_type): 
         return str(text_type).count('modal particle')+str(text_type).count('interjection')
     def normalized(text_type): 
         return raw(text_type) / len(text_type)
     return round(normalized (text_type) * 1000, 2)
-
 
 
 particle_result=[]
@@ -722,7 +709,7 @@ df.to_csv(folder + 'linguistic_features.csv')
 
 
 
-#feature 49 modifying markers 的、地、得
+#feature 1 adverbial marker 地
 def modify_marker_di(text_type):
     def raw(text_type):
         return text_type.count(('地', 'particle 地'))
@@ -742,7 +729,7 @@ df.to_csv(folder + 'linguistic_features.csv')
 
 
 
-#feature 51 modifying marker '得', 'particle 得'
+#feature 13 complement marker '得', 'particle 得'
 def modify_marker_de(text_type):
     def raw(text_type):
         return text_type.count(('得', 'particle 得'))
@@ -761,7 +748,7 @@ df.to_csv(folder + 'linguistic_features.csv')
 
 
 
-#feature 51 PEAS perfect aspect 
+#feature 42 PEAS perfect aspect 
 #('了', 'particle 了/喽')、('过', 'particle 过')
 def peas(text_type):
     def raw(text_type):
@@ -781,13 +768,13 @@ df.to_csv(folder + 'linguistic_features.csv')
 
 
 
-#feature 52 imperfect aspect 
+#feature 30 imperfect aspect 
 #('着', 'particle 着')
 #('在', 'preposition')、('正在', 'adverb')
 #('起来', 'directional verb')、('下去', 'directional verb')
 def imperfect(text_type):
     def raw(text_type):
-        return text_type.count(('着', 'particle 着'))+text_type.count(('在', 'preposition'))    +text_type.count(('正在', 'adverb'))+text_type.count(('起来', 'directional verb'))+text_type.count(('下去', 'directional verb'))
+        return text_type.count(('着', 'particle 着'))+text_type.count(('在', 'preposition'))+text_type.count(('正在', 'adverb'))+text_type.count(('起来', 'directional verb'))+text_type.count(('下去', 'directional verb'))
     def normalized(text_type):                                                                                
         return raw(text_type) / len(text_type)
     return round(normalized (text_type) * 1000, 2) 
@@ -803,7 +790,7 @@ df.to_csv(folder + 'linguistic_features.csv')
 
 
 
-#feature 54 descriptive words 
+#feature 16 descriptive words 
 #ICTCLAS status word
 def descriptive(text_type):
     def raw(text_type):
@@ -824,10 +811,10 @@ df.to_csv(folder + 'linguistic_features.csv')
 
 
 
-#feature 55 simile
+#feature 50 simile
 def simile(text_type):
     def raw(text_type):
-        return text_type.count(('仿佛', 'adverb'))+text_type.count(('宛若', 'verb'))    +text_type.count(('如', 'verb'))+str(text_type).count(('particle 一样/一般/似的/般'))    +text_type.count(('像', 'verb'))+text_type.count(('像', 'preposition'))
+        return text_type.count(('仿佛', 'adverb'))+text_type.count(('宛若', 'verb'))+text_type.count(('如', 'verb'))+str(text_type).count(('particle 一样/一般/似的/般'))+text_type.count(('像', 'verb'))+text_type.count(('像', 'preposition'))
     def normalized(text_type): 
         return raw(text_type) / len(text_type)
     return round(normalized (text_type) * 1000, 2)
@@ -842,7 +829,7 @@ df['simile'] = pd.Series(simile_result)
 df.to_csv(folder + 'linguistic_features.csv')
 
 
-#feature 86 question mark
+#feature 46 question mark
 def question(text_type):
     def raw(text_type):
         return text_type.count(('？', 'question mark'))
@@ -860,7 +847,7 @@ df.to_csv(folder + 'linguistic_features.csv')
 
 
 
-#feature 87 exclamation mark
+#feature 23 exclamation mark
 def exclamation(text_type):
     def raw(text_type):
         return str(text_type).count('exclamation mark')
@@ -878,37 +865,7 @@ df['exclamation'] = pd.Series(exclamation_result)
 df.to_csv(folder + 'linguistic_features.csv')
 
 
-
-#feature 46 noun + noun combination
-#need to plus one for the final result because 
-#"if a tag pattern matches at overlapping locations, the leftmost match takes precedence"
-#Bird et al.
-import nltk
-import re 
-grammar_noun=r"NN: {<noun.*><noun.*>}"
-cp_noun=nltk.RegexpParser(grammar_noun) 
-
-
-
-def nn(text): 
-    def parse(text): 
-        return cp_noun.parse(text)
-    nn_list=[]
-    for subtree in parse(text).subtrees():
-        if subtree.label() == 'NN': 
-            nn_list.append(subtree.leaves())
-    return round ((len(nn_list)/len(text))*1000, 2)
-
-
-nn_result=[]
-for file in tagged_files: 
-    nn_result.append(nn(file))
-    
-df['consecutive_nouns'] = pd.Series(nn_result)
-df.to_csv(folder + 'linguistic_features.csv')
-
-
-#feature 93 person names, personal name - transcribed personal names
+#feature 9 Chinese person names, personal name - transcribed personal names
 def person(text_type):
     def raw(text_type):
         return str(text_type).count('personal name')+str(text_type).count('Chinese')- str(text_type).count('transcribed personal name')
