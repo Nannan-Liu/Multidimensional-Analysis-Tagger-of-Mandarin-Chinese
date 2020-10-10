@@ -1,0 +1,55 @@
+,Median,Min,Max,Range,IQR
+average clause length,7.08,5.84,9.51,3.67,1.03
+amplifiers,12.66,5.66,21.14,15.48,4.08
+monosyllabic negation,11.46,4.99,17.16,12.17,5.54
+average sentence length,22.84,17.69,36.03,18.34,6.73
+average sentence length'SD,16.24,10.72,42.38,31.660000000000004,4.55
+auxiliary adjectives,3.74,0.0,7.74,7.74,2.69
+average word length,1.44,1.3,1.56,0.26,0.09
+BE,14.53,5.63,23.41,17.78,4.78
+disyllabic prepositions,1.42,0.4,3.53,3.13,1.03
+classical function words,3.21,0.4,7.56,7.159999999999999,3.14
+classical syntac,4.16,0.78,9.54,8.76,1.4
+classifiers,32.59,18.06,51.61,33.55,6.72
+conditional conjuncts,2.3,0.4,4.18,3.78,1.68
+demonstrative pronouns,23.08,11.63,42.2,30.57,7.04
+descriptive words,3.04,0.0,10.89,10.89,2.08
+disyllabic verbs,68.56,50.37,88.84,38.470000000000006,10.28
+disyllabic words,15.13,5.94,35.99,30.05,6.53
+downtoners,1.46,0.0,4.37,4.37,1.0
+emotion words,9.62,1.58,17.47,15.889999999999999,6.19
+existential,4.93,1.88,9.02,7.14,1.86
+exclamation,1.57,0.0,9.81,9.81,2.12
+first-person pronouns,17.65,1.21,39.58,38.37,17.89
+hedges,2.45,0.42,6.66,6.24,2.89
+HSK 1,260.18,164.44,307.88,143.44,30.5
+HSK 3,147.94,117.5,189.43,71.93,27.08
+imperfect markers,19.86,12.97,33.01,20.04,6.37
+indefinite pronouns,3.68,0.81,8.29,7.479999999999999,2.94
+interrogative,4.39,0.81,12.26,11.45,3.9
+intransitive verbs,18.59,12.76,29.26,16.5,3.79
+lexical density,531.4,475.67,573.87,98.19999999999999,21.05
+modifying adverbs,23.96,10.77,36.0,25.23,8.3
+complement marker de,1.54,0.0,4.47,4.47,1.4
+adverbial marker di,4.25,0.8,17.25,16.45,3.15
+monosyllabic verbs,40.98,27.03,62.53,35.5,9.74
+nominalisation,26.92,10.32,41.63,31.310000000000002,8.99
+nouns excl. nominalisation,168.86,130.77,241.08,110.31,26.03
+onomatopoeia,0.4,0.0,3.57,3.57,1.25
+other personal pronouns,2.38,-0.4,9.21,9.610000000000001,2.35
+modal particles,9.49,1.99,23.29,21.3,2.84
+perfect aspect markers,17.12,4.38,28.08,23.7,5.43
+Chinese person names,6.66,0.42,37.9,37.48,6.82
+phrasal coordination,7.42,3.27,21.47,18.2,3.11
+private verbs,16.22,8.49,24.11,15.62,4.02
+public verbs,6.36,0.77,15.28,14.51,4.36
+question,1.84,0.0,17.57,17.57,4.61
+adverbs,73.46,44.94,95.73,50.790000000000006,16.3
+simile,4.7,1.23,10.52,9.29,2.28
+seem/appear,0.44,0.0,2.71,2.71,0.79
+second-person pronouns,5.28,0.4,12.89,12.49,4.2
+disyllabic negation,2.83,0.42,10.19,9.77,2.72
+third-person pronouns,14.46,6.11,50.94,44.83,7.19
+unique words ratio,242.02,214.36,336.97,122.61000000000001,19.62
+WH-words,1.25,0.0,5.72,5.72,2.0
+honorifics,1.92,0.0,21.23,21.23,2.81
