@@ -1,14 +1,11 @@
 
 # coding: utf-8
 
-# In[2]:
 
 
 #input your txt file folder
 folder = '//'
 
-
-# In[3]:
 
 
 import os
@@ -21,8 +18,6 @@ corpus = CategorizedPlaintextCorpusReader(
     encoding='utf-8')
 corpus.words()
 
-
-# In[17]:
 
 
 #sort text files by their names, if necessary
@@ -38,14 +33,9 @@ for f in files:
         #sample_files.append(f)
 
 
-# In[5]:
-
 
 import pynlpir
 pynlpir.open()
-
-
-# In[7]:
 
 
 corpora=[]
@@ -53,8 +43,6 @@ for file in files:
     sub_corpora=corpus.raw(file)
     corpora.append(sub_corpora)
 
-
-# In[8]:
 
 
 #notice that here pos_names is set to `parent' because we need to add one sub_feature
@@ -64,21 +52,15 @@ for sub_corpora in corpora:
     tagged_files.append(tagged_file)
 
 
-# In[9]:
-
 
 none_list=[]
 for file in tagged_files: 
     none_list.append([s for s in file if None in s])
 
 
-# In[10]:
-
 
 print (none_list)
 
-
-# In[11]:
 
 
 #just in case there are new words that ICTCLAS does not recognise
@@ -158,8 +140,8 @@ for j in range(len(files)):
             tagged_files[j][n] = (' ', 'empty')  
 
 
-# In[11]:
-
+#close pynlpir to free allocated memory
+pynlpir.close()
 
 #add verb plus genitive de as nominalisation feature
 import re
@@ -169,14 +151,10 @@ def verb_de(text):
     return round ((flat_list.count(('的', 'particle'))/len(text))*1000, 2)
 
 
-# In[12]:
-
 
 import pandas as pd  
 df = pd.read_csv(folder + "linguistic_features.csv", header=0)
 
-
-# In[13]:
 
 
 verb_de_result=[]
@@ -187,22 +165,11 @@ df['verb_de'] = pd.Series(verb_de_result)
 df.to_csv(folder + 'linguistic_features.csv')
 
 
-# In[14]:
-
 
 df['NOMZ'] = df['NOMZ'] + df['verb_de']
 del df['verb_de']
 
 
-# In[15]:
-
 
 df.to_csv(folder + 'linguistic_features.csv')
-
-
-# In[16]:
-
-
-#close pynlpir to free allocated memory
-pynlpir.close()
 
