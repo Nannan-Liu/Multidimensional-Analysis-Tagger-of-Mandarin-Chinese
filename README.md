@@ -6,7 +6,7 @@
 <h2 id="requirements">Requirements</h2>
 <p>This programme requires Python to run (<a href="https://www.python.org/">https://www.python.org/</a>). Python packages needed are NLTK (Bird, Loper, &amp; Klein, 2009), and Python wrapper of ICTCLAS – PyNLPIR (<a href="https://pypi.org/project/PyNLPIR/">https://pypi.org/project/PyNLPIR/</a>).</p>
 <h2 id="use-muldi-chinese">Use MulDi Chinese</h2>
-<p>MulDi Chinese accepts as input only plain text files in the format ‘.txt’. The user can input a folder of .txt files or a single .txt file. MulDi Chinese uses ICTCLAS to segment and tag the files, and outputs a csv file containing standardised frequencies per 1000 of 54 linguistic features, and the files’ performance on 5 dimensions of register variation in Chinese.</p>
+<p>MulDi Chinese reads input plain text files in the format ‘.txt’. The user can use a folder of .txt files or a single .txt file. MulDi Chinese utilises ICTCLAS to segment and tag the files, and outputs a csv file containing standardised frequencies per 1000 of 54 linguistic features, and the files’ performance on 5 dimensions of register variation in Chinese.</p>
 <h2 id="see-manual.pdf-for-more-details">See MulDi Chinese manual.pdf for more details</h2>
 <p>The manual contains a detailed description of the 54 features.</p>
 
