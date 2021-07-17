@@ -2,7 +2,7 @@
 <h1 id="multidimensional-analysis-tagger-of-mandarin-chinese">Multidimensional-Analysis-Tagger-of-Mandarin-Chinese</h1>
 <p>muldichinese is a multidimensional analysis tagger of Mandarin Chinese. 
 
- - Installation: pip install muldichinese 
+ - Installation: `pip install muldichinese` 
  - Citation: Liu, N. 2019. Multidimensional Analysis Tagger of Mandarin Chinese. Available at: <a href="https://github.com/Nannan-Liu/Multidimensional-Analysis-Tagger-of-Mandarin-Chinese">https://github.com/Nannan-Liu/Multidimensional-Analysis-Tagger-of-Mandarin-Chinese
  - Functions: for a text (or texts), muldichinese generates the standardised frequencies of 54 features and dimension scores along five dimensions
  - Coming soon: muldichinese will be able to plot how oral, written, narrative, classical ... your input text is against 15 Mandarin reference registers
