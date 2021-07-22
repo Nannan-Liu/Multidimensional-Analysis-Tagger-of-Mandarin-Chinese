@@ -8,6 +8,7 @@ Check the names of your input texts, pos tag the texts, and get the distribution
 
     from muldichinese import MulDiChinese
     mdc=MulDiChinese('/write/path/to/your/file(s)/')
+    mdc.first_five_files()
     mdc.pos()
     POS tagging completed.
     mdc.features()
