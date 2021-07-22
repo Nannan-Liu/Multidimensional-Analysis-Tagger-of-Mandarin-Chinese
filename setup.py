@@ -7,13 +7,10 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
      name='muldichinese',  
-     version='0.2.3',
+     version='0.3',
      package_dir={"": "src"},
-     #py_modules=['dimension_scores', 'standardised_freqs'],
-     #packages=setuptools.find_packages(where="muldichinese"),
      packages=['muldichinese'],
      python_requires=">=3.6",
-     #scripts=['standardised_freqs','dimension_scores'],
      author='Nannan Liu',
      author_email='liunannan.bfsumun@gmail.com',
      url='https://github.com/Nannan-Liu/Multidimensional-Analysis-Tagger-of-Mandarin-Chinese',
@@ -21,6 +18,7 @@ setuptools.setup(
      long_description=long_description,
      long_description_content_type="text/markdown",
      license='GNU',
+     install_requires=['nltk', 'PyNLPIR', 'scikit-learn', 'numpy', 'pandas'],
      classifiers=[
         'Programming Language :: Python',
         'License :: OSI Approved :: GNU General Public License v3 (GPLv3)',
