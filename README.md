@@ -1,9 +1,9 @@
 <h1 id="multidimensional-analysis-tagger-of-mandarin-chinese">Multidimensional-Analysis-Tagger-of-Mandarin-Chinese</h1>
 <p>MulDi Chinese (IPA: [ˌmʌl'daɪ] [ˌtʃaɪˈniːz]) is a multidimensional analysis tagger of Mandarin Chinese. 
 
- - Installation: `pip install muldichinese` 
+Installation: `pip install muldichinese` 
 
-<h2 id="About">About</h2>
+<h2 id="Functions">About</h2>
 Check the names of your input texts, pos tag the texts, and get the distribution of linguistic features and dimensions of register variation in them
 
     from muldichinese import MulDiChinese
