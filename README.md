@@ -11,7 +11,7 @@ Check the names of your input texts, pos tag the texts, and get the distribution
     mdc.pos()
     POS tagging completed.
     mdc.features()
-    Standarised frequencies of all 53 features written.
+    Standardised frequencies of all 53 features written.
     mdc.dimensions()
     Dimension scores written.
 
