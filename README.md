@@ -4,7 +4,7 @@
 Installation: `pip install muldichinese` 
 
 <h2 id="Functions">Functions</h2>
-Check the names of your input texts, pos tag the texts, and get the distribution of linguistic features and dimensions of register variation in them
+Check the names of your input texts, pos tag the texts, and get the distribution of linguistic features and dimensions of register variation
 
     from muldichinese import MulDiChinese
     mdc=MulDiChinese('/write/path/to/your/file(s)/')
