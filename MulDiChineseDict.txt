@@ -1,0 +1,3377 @@
+19楼	other proper noun
+1m1m健康网	other proper noun
+21cn	other proper noun
+21世纪体育报	other proper noun
+21世纪报	other proper noun
+21世纪环球报道	other proper noun
+21世纪经济报道	other proper noun
+21世纪网	other proper noun
+365地产家居网	other proper noun
+37C医学网	other proper noun
+39健康网	other proper noun
+51CTO	other proper noun
+51健康网	other proper noun
+51汽车网	other proper noun
+52硬件网	other proper noun
+55BBS	other proper noun
+80后之窗	other proper noun
+Aananarivo	transcribed toponym
+[Abu Dhabi]	transcribed toponym
+Abuja	transcribed toponym
+Accra	transcribed toponym
+Adamstown	transcribed toponym
+[Addis Ababa]	transcribed toponym
+Akmola	transcribed toponym
+Albania	transcribed toponym
+Algeria	transcribed toponym
+Algiers	transcribed toponym
+Amman	transcribed toponym
+Amsterdam	transcribed toponym
+[Andorra La Vella]	transcribed toponym
+Andorra	transcribed toponym
+Angola	transcribed toponym
+Anguilla	transcribed toponym
+Ankara	transcribed toponym
+[Antigua and Barbuda]	transcribed toponym
+Apia	transcribed toponym
+Argentina	transcribed toponym
+Armenia	transcribed toponym
+Ashgabat	transcribed toponym
+Asmara	transcribed toponym
+Astana	transcribed toponym
+Asuncion	transcribed toponym
+Athens	transcribed toponym
+Austria	transcribed toponym
+Bagdad	transcribed toponym
+Bahrain	transcribed toponym
+Bamako	transcribed toponym
+Bangui	transcribed toponym
+Banjul	transcribed toponym
+Barbados	transcribed toponym
+Basse-Terre	transcribed toponym
+Basseterre	transcribed toponym
+Beijing	transcribed toponym
+Beirut	transcribed toponym
+Belgium	transcribed toponym
+Belgrade	transcribed toponym
+Belize	transcribed toponym
+Belmopan	transcribed toponym
+Benin	transcribed toponym
+Berlin	transcribed toponym
+Bermuda	transcribed toponym
+Bern	transcribed toponym
+Bissau	transcribed toponym
+Bogota	transcribed toponym
+Bolivia	transcribed toponym
+Botswana	transcribed toponym
+Brasilia	transcribed toponym
+Brazil	transcribed toponym
+Brazzaville	transcribed toponym
+Bridgetown	transcribed toponym
+[British Virgin Islands]	transcribed toponym
+Brussels	transcribed toponym
+Bucharest	transcribed toponym
+Budapest	transcribed toponym
+[Buenos Aires]	transcribed toponym
+Bujumbura	transcribed toponym
+Bulgaria	transcribed toponym
+Burma	transcribed toponym
+Burundi	transcribed toponym
+C114	other proper noun
+CNET科技资讯网	other proper noun
+CSDN	other proper noun
+Cairo	transcribed toponym
+Cambodia	transcribed toponym
+Cameroon	transcribed toponym
+Canada	transcribed toponym
+Canberra	transcribed toponym
+[Cape Verde]	transcribed toponym
+Caracas	transcribed toponym
+Castries	transcribed toponym
+[Central African Republic]	transcribed toponym
+Chad	transcribed toponym
+[Charlotte Amalie]	transcribed toponym
+Chile	transcribed toponym
+China	transcribed toponym
+Colombia	transcribed toponym
+Colombo	transcribed toponym
+Comoros	transcribed toponym
+Conakry	transcribed toponym
+[Congo Rep.]	transcribed toponym
+Copenhagen	transcribed toponym
+[Costa Rica]	transcribed toponym
+Croatia	transcribed toponym
+Cuba	transcribed toponym
+Cyprus	transcribed toponym
+[Czech Republic]	transcribed toponym
+Dakar	transcribed toponym
+Damascus	transcribed toponym
+[Dar es Salaam]	transcribed toponym
+Denmark	transcribed toponym
+Dhaka	transcribed toponym
+Djibouti	transcribed toponym
+Doha	transcribed toponym
+Dominica	transcribed toponym
+Donews	other proper noun
+Dublin	transcribed toponym
+Dushanbe	transcribed toponym
+ELLE中国网	other proper noun
+Ecuador	transcribed toponym
+Egypt	transcribed toponym
+[El Salvador]	transcribed toponym
+[Equatorial Guinea]	transcribed toponym
+Eritrea	transcribed toponym
+Estonia	transcribed toponym
+Ethiopia	transcribed toponym
+FACE妆点网	other proper noun
+Fiji	transcribed toponym
+Finland	transcribed toponym
+[Fort-de-France]	transcribed toponym
+France	transcribed toponym
+Freetown	transcribed toponym
+[French Polynesia]	transcribed toponym
+Gabon	transcribed toponym
+Gaborone	transcribed toponym
+Georgetown	transcribed toponym
+Georgia	transcribed toponym
+Germany	transcribed toponym
+Ghana	transcribed toponym
+Gibraltar	transcribed toponym
+Godthab	transcribed toponym
+Google	organization/group name
+[Grand Turk]	transcribed toponym
+Greece	transcribed toponym
+Greenland	transcribed toponym
+Grenada	transcribed toponym
+Guadeloupe	transcribed toponym
+Guam	transcribed toponym
+Guatemala	transcribed toponym
+Guiana	transcribed toponym
+Guinea	transcribed toponym
+[Guinea-Bissau]	transcribed toponym
+Guyana	transcribed toponym
+HEA家电网	other proper noun
+Hagatna(Agana)	transcribed toponym
+Agana	transcribed toponym
+Haiti	transcribed toponym
+Hamilton	transcribed toponym
+Hanoi	transcribed toponym
+Harare	transcribed toponym
+Havana	transcribed toponym
+Helsinki	transcribed toponym
+Herschina	other proper noun
+Honduras	transcribed toponym
+Hroot	other proper noun
+Hungary	transcribed toponym
+IQ妈咪网	other proper noun
+IT专家网	other proper noun
+IT世界网	other proper noun
+Iceland	transcribed toponym
+India	transcribed toponym
+Indonesia	transcribed toponym
+Iran	transcribed toponym
+Iraq	transcribed toponym
+Ireland	transcribed toponym
+Islamabad	transcribed toponym
+Islands	transcribed toponym
+Israel	transcribed toponym
+Italy	transcribed toponym
+I时代报	other proper noun
+Jakarta	transcribed toponym
+Jamaica	transcribed toponym
+Japan	transcribed toponym
+Jerusalem	transcribed toponym
+Jordan	transcribed toponym
+Kabul	transcribed toponym
+Kampala	transcribed toponym
+Kathmandu	transcribed toponym
+Kazakhstan	transcribed toponym
+Kenya	transcribed toponym
+Khartoum	transcribed toponym
+Kiev	transcribed toponym
+Kigali	transcribed toponym
+Kingston	transcribed toponym
+Kingstown	transcribed toponym
+Kinshasa	transcribed toponym
+Koror	transcribed toponym
+Kowait	transcribed toponym
+[Kuala Lumpur]	transcribed toponym
+Kuwait	transcribed toponym
+Kyyiv	transcribed toponym
+[La Paz]	transcribed toponym
+Laos	transcribed toponym
+Latvia	transcribed toponym
+Lebanon	transcribed toponym
+Lesotho	transcribed toponym
+Liberia	transcribed toponym
+Libreville	transcribed toponym
+Libya	transcribed toponym
+Liechtenstein	transcribed toponym
+Lilongwe	transcribed toponym
+Lima	transcribed toponym
+Lisbon	transcribed toponym
+Ljubljana	transcribed toponym
+Lome	transcribed toponym
+London	transcribed toponym
+Luanda	transcribed toponym
+Lusaka	transcribed toponym
+Luxembourg	transcribed toponym
+MSN	other proper noun
+Macedonia	transcribed toponym
+Madagascar	transcribed toponym
+Madrid	transcribed toponym
+Malabo	transcribed toponym
+Malawi	transcribed toponym
+Malaysia	transcribed toponym
+Maldives	transcribed toponym
+Male	transcribed toponym
+Maale	transcribed toponym
+Mali	transcribed toponym
+Malta	transcribed toponym
+Managua	transcribed toponym
+Manama	transcribed toponym
+Manila	transcribed toponym
+Maputo	transcribed toponym
+Martinique	transcribed toponym
+Maseru	transcribed toponym
+Mauritania	transcribed toponym
+Mauritius	transcribed toponym
+Mbabane	transcribed toponym
+Mexico	transcribed toponym
+Micronesia	transcribed toponym
+Mogadishu	transcribed toponym
+Monaco	transcribed toponym
+Monarchy	transcribed toponym
+Mongolia	transcribed toponym
+Monrovia	transcribed toponym
+Montevideo	transcribed toponym
+Montserrat	transcribed toponym
+Morocco	transcribed toponym
+Moroni	transcribed toponym
+Moscow	transcribed toponym
+Mozambique	transcribed toponym
+Nairobi	transcribed toponym
+Namibia	transcribed toponym
+Nassau	transcribed toponym
+Nauru	transcribed toponym
+Nepal	transcribed toponym
+Netherlands	transcribed toponym
+[New Delhi]	transcribed toponym
+[New Zealand]	transcribed toponym
+Niamey	transcribed toponym
+Nicaragua	transcribed toponym
+Nicosia	transcribed toponym
+Niger	transcribed toponym
+Nigeria	transcribed toponym
+[North Korea]	transcribed toponym
+Norway	transcribed toponym
+Nouakchott	transcribed toponym
+Noumea	transcribed toponym
+Nuku'alofa	transcribed toponym
+Nuuk	transcribed toponym
+[Yaren District]	transcribed toponym
+Oman	transcribed toponym
+Oslo	transcribed toponym
+Ottawa	transcribed toponym
+P'yongyang	transcribed toponym
+Pyongyang	transcribed toponym
+PChome	other proper noun
+[Pago Pago]	transcribed toponym
+Pakistan	transcribed toponym
+Palau	transcribed toponym
+Palestine	transcribed toponym
+Palikir	transcribed toponym
+Panama	transcribed toponym
+Papeete	transcribed toponym
+[Papua New Guinea]	transcribed toponym
+Paraguay	transcribed toponym
+Paramaribo	transcribed toponym
+Paris	transcribed toponym
+Pclady	other proper noun
+Peru	transcribed toponym
+Philippines	transcribed toponym
+[Phnom Penh]	transcribed toponym
+[Pitcairn Island]	transcribed toponym
+Plymouth	transcribed toponym
+Poland	transcribed toponym
+Port-au-Prince	transcribed toponym
+[Port of Spain]	transcribed toponym
+[Port Louis]	transcribed toponym
+[Port Moresby]	transcribed toponym
+[Porto Novo]	transcribed toponym
+Portugal	transcribed toponym
+Prague	transcribed toponym
+Praia	transcribed toponym
+[Puerto Rico]	transcribed toponym
+Qatar	transcribed toponym
+Quito	transcribed toponym
+Rabat	transcribed toponym
+Rangoon	transcribed toponym
+[Republic of the Congo]	transcribed toponym
+Reunion	transcribed toponym
+Reykjavik	transcribed toponym
+Riga	transcribed toponym
+Riyadh	transcribed toponym
+[Road Town]	transcribed toponym
+Romania	transcribed toponym
+Rome	transcribed toponym
+Roseau	transcribed toponym
+Russia	transcribed toponym
+Rwanda	transcribed toponym
+[Saint Denis]	transcribed toponym
+[Saint George's]	transcribed toponym
+[Saint John's]	transcribed toponym
+Saipan	transcribed toponym
+[San Jose]	transcribed toponym
+[San Juan]	transcribed toponym
+[San Marino]	transcribed toponym
+Sanaa	transcribed toponym
+Santiago	transcribed toponym
+[Sao Tome]	transcribed toponym
+[Sao Tome And Principe]	transcribed toponym
+[Sao Tome and Principe]	transcribed toponym
+[Saudi Arabia]	transcribed toponym
+Senegal	transcribed toponym
+Seoul	transcribed toponym
+Seychelles	transcribed toponym
+Sikkim	transcribed toponym
+Singapore	transcribed toponym
+Skopje	transcribed toponym
+Slovenia	transcribed toponym
+Sofia	transcribed toponym
+Somalia	transcribed toponym
+[South Korea]	transcribed toponym
+Spain	transcribed toponym
+[Sri Lanka]	transcribed toponym
+[St. Kitts and Nevis]	transcribed toponym
+[St. Lucia]	transcribed toponym
+[St. Vincent and the Grenadines]	transcribed toponym
+[Saint Vincent and the Grenadines]	transcribed toponym
+Stockholm	transcribed toponym
+Strip	transcribed toponym
+Sudan	transcribed toponym
+Suva	transcribed toponym
+Swaziland	transcribed toponym
+Sweden	transcribed toponym
+Switzerland	transcribed toponym
+Syria	transcribed toponym
+T'bilisi	transcribed toponym
+TOM网	other proper noun
+Tajikistan	transcribed toponym
+Tallinn	transcribed toponym
+Tanzania	transcribed toponym
+Tashkent	transcribed toponym
+TechWeb	other proper noun
+Tegucigalpa	transcribed toponym
+Teheran	transcribed toponym
+Thailand	transcribed toponym
+[The Bahamas]	transcribed toponym
+[The Gambia]	transcribed toponym
+Thimphu	transcribed toponym
+Timor	transcribed toponym
+Tirana	transcribed toponym
+Togo	transcribed toponym
+Tokyo	transcribed toponym
+Tonga	transcribed toponym
+Toshkent	transcribed toponym
+Tripoli	transcribed toponym
+Tunis	transcribed toponym
+Tunisia	transcribed toponym
+Turkey	transcribed toponym
+Turkmenistan	transcribed toponym
+Ukraine	transcribed toponym
+Ulaanbaatar	transcribed toponym
+[United Arab Emirates]	transcribed toponym
+[United Kingdom]	transcribed toponym
+Uzbekistan	transcribed toponym
+V1周报	other proper noun
+Vaduz	transcribed toponym
+Valletta	transcribed toponym
+Valley	transcribed toponym
+Victoria	transcribed toponym
+Vienna	transcribed toponym
+Vientiane	transcribed toponym
+Vietnam	transcribed toponym
+WE周报	other proper noun
+Warsaw	transcribed toponym
+[Washington, DC]	transcribed toponym
+Wellington	transcribed toponym
+[Western Sahara]	transcribed toponym
+[Western Samoa]	transcribed toponym
+Windhoek	transcribed toponym
+YAHOO网	other proper noun
+YOKA时尚网	other proper noun
+Yahoo	organization/group name
+Yamoussoukro	transcribed toponym
+Yaounde	transcribed toponym
+Yemen	transcribed toponym
+Yerevan	transcribed toponym
+Yugoslavia	transcribed toponym
+Zagreb	transcribed toponym
+Zambia	transcribed toponym
+Zimbabwe	transcribed toponym
+[Dominican Republic]	transcribed toponym
+[Ivory Coast]	transcribed toponym
+[New Caledonia]	transcribed toponym
+[Republic of the Congo]	transcribed toponym
+[San Salvador]	transcribed toponym
+[Santo Domingo]	transcribed toponym
+[Sierra Leone]	transcribed toponym
+[South Africa]	transcribed toponym
+[United Arab Emirates]	transcribed toponym
+[abu dhabi]	transcribed toponym
+[port moresby]	transcribed toponym
+[road town]	transcribed toponym
+[san jose]	transcribed toponym
+[san marino]	transcribed toponym
+[san salvador]	transcribed toponym
+[sao tome]	transcribed toponym
+abuja	transcribed toponym
+accra	transcribed toponym
+adamstown	transcribed toponym
+[addis ababa]	transcribed toponym
+aircraft	noun
+airliner	noun
+airplane	noun
+akmola	transcribed toponym
+algiers	transcribed toponym
+am730	other proper noun
+amman	transcribed toponym
+amsterdam	transcribed toponym
+[andorra la vella]	transcribed toponym
+ankara	transcribed toponym
+antananarivo	transcribed toponym
+apia	transcribed toponym
+asmara	transcribed toponym
+asuncion	transcribed toponym
+athens	transcribed toponym
+aviation	noun
+bagdad	transcribed toponym
+bamako	transcribed toponym
+bangui	transcribed toponym
+banjul	transcribed toponym
+basse-terre	transcribed toponym
+basseterre	transcribed toponym
+beirut	transcribed toponym
+belgrade	transcribed toponym
+belmopan	transcribed toponym
+berlin	transcribed toponym
+bern	transcribed toponym
+bissau	transcribed toponym
+boat	noun
+bogota	transcribed toponym
+brasilia	transcribed toponym
+brazzaville	transcribed toponym
+bridgetown	transcribed toponym
+brussels	transcribed toponym
+bucharest	transcribed toponym
+budapest	transcribed toponym
+[buenos aires]	transcribed toponym
+bujumbura	transcribed toponym
+buoy	noun
+bus	noun
+cabin	noun
+cairo	transcribed toponym
+canberra	transcribed toponym
+caracas	transcribed toponym
+castries	transcribed toponym
+[charlotte amalie]	transcribed toponym
+civil	noun
+coach	noun
+colombo	transcribed toponym
+conakry	transcribed toponym
+copenhagen	transcribed toponym
+dakar	transcribed toponym
+damascus	transcribed toponym
+[dar es salaam]	transcribed toponym
+decker	noun
+dhaka	transcribed toponym
+djibouti	transcribed toponym
+doha	transcribed toponym
+double	noun
+dublin	transcribed toponym
+e-works	other proper noun
+e时代周报	other proper noun
+fort-de-france	transcribed toponym
+freetown	transcribed toponym
+gaborone	transcribed toponym
+georgetown	transcribed toponym
+gibraltar	transcribed toponym
+godthab	transcribed toponym
+[grand turk]	transcribed toponym
+guatemala	transcribed toponym
+hamilton	transcribed toponym
+hanoi	transcribed toponym
+harare	transcribed toponym
+havana	transcribed toponym
+helsinki	transcribed toponym
+hovercraft	noun
+islamabad	transcribed toponym
+it168	other proper noun
+i时代	other proper noun
+jakarta	transcribed toponym
+jerusalem	transcribed toponym
+jet	noun
+kabul	transcribed toponym
+kampala	transcribed toponym
+kathmandu	transcribed toponym
+khartoum	transcribed toponym
+kigali	transcribed toponym
+kingston	transcribed toponym
+kingstown	transcribed toponym
+kinshasa	transcribed toponym
+kowait	transcribed toponym
+[kuala lumpur]	transcribed toponym
+kyyiv	transcribed toponym
+[la paz]	transcribed toponym
+libreville	transcribed toponym
+life	noun
+lifeboat	noun
+lilongwe	transcribed toponym
+lima	transcribed toponym
+liner	noun
+lisbon	transcribed toponym
+lome	transcribed toponym
+london	transcribed toponym
+long-haul	noun
+luanda	transcribed toponym
+lusaka	transcribed toponym
+luxembourg	transcribed toponym
+madrid	transcribed toponym
+malabo	transcribed toponym
+managua	transcribed toponym
+manama	transcribed toponym
+manila	transcribed toponym
+maputo	transcribed toponym
+maseru	transcribed toponym
+mbabane	transcribed toponym
+mexico	transcribed toponym
+mogadishu	transcribed toponym
+monaco	transcribed toponym
+monarchy	transcribed toponym
+monrovia	transcribed toponym
+montevideo	transcribed toponym
+moroni	transcribed toponym
+moscow	transcribed toponym
+motor	noun
+nairobi	transcribed toponym
+nassau	transcribed toponym
+[new delhi]	transcribed toponym
+niamey	transcribed toponym
+nicosia	transcribed toponym
+nouakchott	transcribed toponym
+noumea	transcribed toponym
+nuku'alofa	transcribed toponym
+office	other proper noun
+oslo	transcribed toponym
+N'Djamena	transcribed toponym
+[Mariana Islands]	transcribed toponym
+ottawa	transcribed toponym
+p'yongyang	transcribed toponym
+packet	noun
+[pago pago]	transcribed toponym
+panama	transcribed toponym
+papeete	transcribed toponym
+paramaribo	transcribed toponym
+paris	transcribed toponym
+passenger	noun
+[phnom penh]	transcribed toponym
+[photoshop]	other proper noun
+plane	noun
+plymouth	transcribed toponym
+port-au-prince	transcribed toponym
+port-of-spain	transcribed toponym
+[port louis]	transcribed toponym
+porto-novo	transcribed toponym
+prague	transcribed toponym
+praia	transcribed toponym
+quito	transcribed toponym
+rabat	transcribed toponym
+rangoon	transcribed toponym
+reykjavik	transcribed toponym
+riyadh	transcribed toponym
+rome	transcribed toponym
+roseau	transcribed toponym
+sailing	noun
+saint-denis	transcribed toponym
+[saint george's]	transcribed toponym
+[saint john's]	transcribed toponym
+saipan	transcribed toponym
+[san juan]	transcribed toponym
+sanaa	transcribed toponym
+santiago	transcribed toponym
+[santo domingo]	transcribed toponym
+seoul	transcribed toponym
+ship	noun
+singapore	transcribed toponym
+sofia	transcribed toponym
+stockholm	transcribed toponym
+streetcar	noun
+subway	noun
+supersonic	noun
+suva	transcribed toponym
+taxi	noun
+taxicab	noun
+tegucigalpa	transcribed toponym
+teheran	transcribed toponym
+thimphu	transcribed toponym
+tirana	transcribed toponym
+toshkent	transcribed toponym
+train	noun
+tramcar	noun
+tripoli	transcribed toponym
+trolleybus	noun
+tube	noun
+tunis	transcribed toponym
+turbofan	noun
+turbojet	noun
+turboprop	noun
+ulaanbaatar	transcribed toponym
+underground	noun
+vaduz	transcribed toponym
+valletta	transcribed toponym
+valley	transcribed toponym
+victoria	transcribed toponym
+vienna	transcribed toponym
+vientiane	transcribed toponym
+warsaw	transcribed toponym
+[washington, dc]	transcribed toponym
+wellington	transcribed toponym
+windhoek	transcribed toponym
+wps	other proper noun
+yacht	noun
+yamoussoukro	transcribed toponym
+yaounde	transcribed toponym
+zagreb	transcribed toponym
+丁	numeral
+丁丁网	other proper noun
+丁青	toponym
+七丽女性网	other proper noun
+七台河日报	other proper noun
+七星	toponym
+七里河	toponym
+万州	toponym
+万州日报	other proper noun
+万柏林	toponym
+万科	organization/group name
+万维家电网	other proper noun
+万车网	other proper noun
+三九健康网	other proper noun
+三亚晨报	other proper noun
+三亚网	other proper noun
+三山区	toponym
+三峡商报	other proper noun
+三峡宜昌网	other proper noun
+三峡日报	other proper noun
+三峡晚报	other proper noun
+三峡都市报	other proper noun
+三明日报	other proper noun
+三星	organization/group name
+三晋都市报	other proper noun
+三杯鸡	noun
+三河	toponym
+三湘都市报	other proper noun
+三秦都市报	other proper noun
+三门峡日报	other proper noun
+上城	toponym
+上方网	other proper noun
+上校鸡块	noun
+上汤娃娃菜	noun
+上海中学生报	other proper noun
+上海信息港	other proper noun
+上海商报	other proper noun
+上海在线	other proper noun
+上海学生英文报	other proper noun
+上海家居网	other proper noun
+上海家庭报	other proper noun
+上海广播电台	other proper noun
+上海新闻网	other proper noun
+上海日报	other proper noun
+上海星期三	other proper noun
+上海法治报	other proper noun
+上海热线	other proper noun
+上海环境报	other proper noun
+上海电视台	other proper noun
+上海科技报	other proper noun
+上海经理人	other proper noun
+上海视窗	other proper noun
+上海证券报	other proper noun
+上海译报	other proper noun
+上海金融报	other proper noun
+世华财讯	other proper noun
+世界体育周报	other proper noun
+世界经理人	other proper noun
+丘北	toponym
+丙	numeral
+丛台	toponym
+东丰	toponym
+东亚经贸新闻	other proper noun
+东光	toponym
+东兰	toponym
+东北乱炖	noun
+东北新闻网	other proper noun
+东北网	other proper noun
+东南卫视	other proper noun
+东南商报	other proper noun
+东南快报	other proper noun
+东南新闻网	other proper noun
+东南早报	other proper noun
+东南网	other proper noun
+东台日报	other proper noun
+东坡肉	noun
+东宁	toponym
+东方亲子网	other proper noun
+东方体育报	other proper noun
+东方体育日报	other proper noun
+东方健康网	other proper noun
+东方卫视	other proper noun
+东方家庭报	other proper noun
+东方少年	other proper noun
+东方快报	other proper noun
+东方新报	other proper noun
+东方日报	other proper noun
+东方早报	other proper noun
+东方汽车网	other proper noun
+东方热线	other proper noun
+东方网	other proper noun
+东方财富网	other proper noun
+东方财经	other proper noun
+东昌	toponym
+东昌府	toponym
+东明	toponym
+东江时报	other proper noun
+东河	toponym
+东海岛	toponym
+东至	toponym
+东莞日报	other proper noun
+东莞时报	other proper noun
+东莞阳光网	other proper noun
+东营日报	other proper noun
+东辽	toponym
+东阿	toponym
+丫丫网	other proper noun
+中东社	other proper noun
+中人网	other proper noun
+中共代表团	organization/group name
+中关村商情网	other proper noun
+中关村在线	other proper noun
+中华商务网	other proper noun
+中华工商时报	other proper noun
+中华日报	other proper noun
+中华时报	other proper noun
+中华网	other proper noun
+中华读书报	other proper noun
+中原硅谷网	other proper noun
+中原网	other proper noun
+中原铁道报	other proper noun
+中国中医药报	other proper noun
+中国乡镇企业报	other proper noun
+中国云计算	other proper noun
+中国交通报	other proper noun
+中国产业经济信息网	other proper noun
+中国企业报	other proper noun
+中国企业新闻网	other proper noun
+中国企业网	other proper noun
+中国体育报	other proper noun
+中国保险报	other proper noun
+中国信息产业网	other proper noun
+中国信息报	other proper noun
+中国信息服务网	other proper noun
+中国健康网	other proper noun
+中国儿童报	other proper noun
+中国兰州网	other proper noun
+中国冶金报	other proper noun
+中国劳动保障报	other proper noun
+中国包装报	other proper noun
+中国化妆品网	other proper noun
+中国医学论坛报	other proper noun
+中国医药网	other proper noun
+中国卫浴网	other proper noun
+中国台湾网	other proper noun
+中国吉林网	other proper noun
+中国名车网	other proper noun
+中国品牌汽车网	other proper noun
+中国品牌网	other proper noun
+中国商务会展网	other proper noun
+中国商报	other proper noun
+中国商用汽车网	other proper noun
+中国国防报	other proper noun
+中国国际广播电台	other proper noun
+中国国际美容网	other proper noun
+中国地产信息网	other proper noun
+中国城市轨道交通网	other proper noun
+中国女性网	other proper noun
+中国妇女报	other proper noun
+中国婴童网	other proper noun
+中国孕育网	other proper noun
+中国宁波网	other proper noun
+中国安防网	other proper noun
+中国家电在线	other proper noun
+中国家电网	other proper noun
+中国家装家居网	other proper noun
+中国少年报	other proper noun
+中国展会网	other proper noun
+中国山东网	other proper noun
+中国工商报	other proper noun
+中国广播网	other proper noun
+中国广播网	other proper noun
+中国建材报	other proper noun
+中国建设报	other proper noun
+中国房地产报	other proper noun
+中国报目报	other proper noun
+中国政府采购网	other proper noun
+中国教师报	other proper noun
+中国教育在线	other proper noun
+中国教育报	other proper noun
+中国教育电视台	other proper noun
+中国教育考试网	other proper noun
+中国文化报	other proper noun
+中国新闻网	other proper noun
+中国旅游报	other proper noun
+中国旅行网	other proper noun
+中国日报	other proper noun
+中国日报网	other proper noun
+中国日报香港版	other proper noun
+中国早教网	other proper noun
+中国时尚品牌网	other proper noun
+中国时尚在线	other proper noun
+中国时报	other proper noun
+中国服饰新闻网	other proper noun
+中国橱卫在线	other proper noun
+中国母亲网	other proper noun
+中国民航报	other proper noun
+中国气象报	other proper noun
+中国水利报	other proper noun
+中国江苏网	other proper noun
+中国江西网	other proper noun
+中国汽车动态网	other proper noun
+中国汽车商务网	other proper noun
+中国汽车商用网	other proper noun
+中国汽车在线	other proper noun
+中国汽车工业信息网	other proper noun
+中国汽车报	other proper noun
+中国汽车新网	other proper noun
+中国汽车服务网	other proper noun
+中国汽车消费网	other proper noun
+中国汽车网	other proper noun
+中国汽车资源网	other proper noun
+中国消费网	other proper noun
+中国消费者报	other proper noun
+中国演员报	other proper noun
+中国煤炭报	other proper noun
+中国环境报	other proper noun
+中国甘肃网	other proper noun
+中国电力报	other proper noun
+中国电子商务协会	other proper noun
+中国电子报	other proper noun
+中国电脑教育报	other proper noun
+中国畜牧报	other proper noun
+中国石化报	other proper noun
+中国石油报	other proper noun
+中国社会报	other proper noun
+中国税务报	other proper noun
+中国税务网	other proper noun
+中国纺织报	other proper noun
+中国经济导报	other proper noun
+中国经济新闻网	other proper noun
+中国经济时报	other proper noun
+中国经济网	other proper noun
+中国经济通讯社	other proper noun
+中国经济通讯社CENS	other proper noun
+中国经营报	other proper noun
+中国网	other proper noun
+中国网友报	other proper noun
+中国网络电视台	other proper noun
+中国美容时尚	other proper noun
+中国老年报	other proper noun
+中国老年网	other proper noun
+中国育婴网	other proper noun
+中国花卉报	other proper noun
+中国融资网	other proper noun
+中国计算机报	other proper noun
+中国证券报	other proper noun
+中国证券网	other proper noun
+中国证卷网	other proper noun
+中国财富网	other proper noun
+中国财经信息网	other proper noun
+中国财经网	other proper noun
+中国质量报	other proper noun
+中国贸易报	other proper noun
+中国资金网	other proper noun
+中国车展信息网	other proper noun
+中国车网	other proper noun
+中国轨道交通网	other proper noun
+中国软件资讯网	other proper noun
+中国通信网	other proper noun
+中国邮政报	other proper noun
+中国金融地产网	other proper noun
+中国金融网	other proper noun
+中国钟表网	other proper noun
+中国集报信息	other proper noun
+中国集邮报	other proper noun
+中国青年报	other proper noun
+中国青年网	other proper noun
+中国食品报	other proper noun
+中央人民广播电台	other proper noun
+中央电视台	other proper noun
+中央社	other proper noun
+中央社新闻网	other proper noun
+中学时事报	other proper noun
+中学生报	other proper noun
+中学生时事政治	other proper noun
+中学生阅读报	other proper noun
+中宁	toponym
+中安在线	other proper noun
+中安网	other proper noun
+中小企业IT网	other proper noun
+中小学电脑报	other proper noun
+中山商报	other proper noun
+中山日报	other proper noun
+中山网	other proper noun
+中文业界资讯站	other proper noun
+中新社	other proper noun
+中新网	other proper noun
+中程飞机	noun
+中站	toponym
+中网资讯网	other proper noun
+中证网	other proper noun
+中评社	other proper noun
+中评社	other proper noun
+中财网	other proper noun
+中通社	other proper noun
+中金在线	other proper noun
+中青在线	other proper noun
+中青网	other proper noun
+临武	toponym
+临沂日报	other proper noun
+临泉	toponym
+临淄	toponym
+临渭	toponym
+临湘	toponym
+临西	toponym
+主妇网	other proper noun
+义乌日报	other proper noun
+乌什	toponym
+乌伊岭	toponym
+乌兰	toponym
+乌尔禾	toponym
+乌恰	toponym
+乌苏	toponym
+乌马河	toponym
+乌鸡汤	noun
+乐东	toponym
+乐山日报	other proper noun
+乐活都市网	other proper noun
+乐贝育儿网	other proper noun
+乔治亚苏维埃社会主义共和国	transcribed toponym
+乙	numeral
+九州汽车网	other proper noun
+九江日报	other proper noun
+九转大肠	noun
+九龙坡	toponym
+习水	toponym
+乡城	toponym
+书刊报	other proper noun
+乳源	toponym
+乳酪蛋糕	noun
+乾安	toponym
+二连浩特	toponym
+二道	toponym
+二道江	toponym
+云南信息港	other proper noun
+云南卫视	other proper noun
+云南广播电台	other proper noun
+云南新闻网	other proper noun
+云南日报	other proper noun
+云南日报网	other proper noun
+云南电视台	other proper noun
+云南经济日报	other proper noun
+云南网	other proper noun
+云南车网	other proper noun
+云和	toponym
+云城	toponym
+云安	toponym
+云岩	toponym
+云梦	toponym
+云浮	toponym
+云浮信息	other proper noun
+云浮日报	other proper noun
+云溪	toponym
+云阳	toponym
+云龙	toponym
+互联天地	other proper noun
+五仁月饼	noun
+五通桥	toponym
+五香毛豆	noun
+井陉矿	toponym
+亚当斯敦	transcribed toponym
+亚松森	toponym
+亚松森	transcribed toponym
+亚洲华尔街日报	other proper noun
+亚洲娱乐网	other proper noun
+亚洲新闻通讯社	other proper noun
+亚洲电视台	other proper noun
+亚洲经济通讯社	other proper noun
+亚马逊	organization/group name
+产后女性网	other proper noun
+产后妈妈网	other proper noun
+享活志	other proper noun
+京华时报	other proper noun
+京华网	other proper noun
+京江晚报	other proper noun
+京郊日报	other proper noun
+京酱肉丝	noun
+亲亲宝宝网	other proper noun
+亲亲宝贝网	other proper noun
+亲贝贝网	other proper noun
+人口导报	other proper noun
+人才市场报	other proper noun
+人民公安报	other proper noun
+人民报	other proper noun
+人民政协报	other proper noun
+人民日报	other proper noun
+人民日报海外版	other proper noun
+人民法院报	other proper noun
+人民网	other proper noun
+人民网广东	other proper noun
+人民邮电	other proper noun
+人间福报	other proper noun
+什维尔	toponym
+今日周刊	other proper noun
+今日商报	other proper noun
+今日女报	other proper noun
+今日家庭报	other proper noun
+今日新闻网	other proper noun
+今日早报	other proper noun
+今日消费	other proper noun
+今早报	other proper noun
+今晚报	other proper noun
+今晚网	other proper noun
+今晨6点	other proper noun
+仓山	toponym
+仙游	toponym
+仲巴	toponym
+任丘	toponym
+任城	toponym
+伊吾	toponym
+伊春广播电视报	other proper noun
+伊通	toponym
+伊通社	other proper noun
+伍家岗	toponym
+休宁	toponym
+会昌	toponym
+会理	toponym
+体坛周报	other proper noun
+体育周报	other proper noun
+体育快报	other proper noun
+余干	toponym
+余江	toponym
+余额宝	other proper noun
+佛山日报	other proper noun
+佛蒙特	transcribed toponym
+佛跳墙	noun
+作家文摘报	other proper noun
+作文评点报	other proper noun
+俄克拉何马城	toponym
+俄新社	other proper noun
+俄通社	other proper noun
+保定在线	other proper noun
+信丰	toponym
+信州	toponym
+信息参考报	other proper noun
+信息日报	other proper noun
+信息早报	other proper noun
+信息时报	other proper noun
+信报财经新闻	other proper noun
+信阳广播电视报	other proper noun
+修文	toponym
+修水	toponym
+俾斯麦	toponym
+假日100天	other proper noun
+健康宝贝网	other proper noun
+健康报	other proper noun
+健康报网	other proper noun
+健康文摘报	other proper noun
+健康时报	other proper noun
+元坝	toponym
+元宝山	toponym
+元氏	toponym
+元江	toponym
+元谋	toponym
+元阳	toponym
+光明日报	other proper noun
+光明网	other proper noun
+克东	toponym
+克孜勒苏	toponym
+全景网	other proper noun
+全球教育网	other proper noun
+全麦面包	noun
+八公山	toponym
+八宝粥	noun
+八桂都市报	other proper noun
+八步	toponym
+八道江	toponym
+公共汽车	noun
+公教报	other proper noun
+公益时报	other proper noun
+公营报社	other proper noun
+六一宝宝网	other proper noun
+六盘水日报	other proper noun
+六盘水晚报	other proper noun
+兰山	toponym
+兰州新闻网	other proper noun
+兰州晚报	other proper noun
+兰州晨报	other proper noun
+共同社	other proper noun
+关东煮	noun
+兴庆	toponym
+兴隆台	toponym
+兵团卫视	other proper noun
+兵团电视台	other proper noun
+内丘	toponym
+内乡	toponym
+内比都	transcribed toponym
+内蒙古卫视	other proper noun
+内蒙古广播电台	other proper noun
+内蒙古电视台	other proper noun
+冕宁	toponym
+农业科技报	other proper noun
+农家小炒肉	noun
+农村大众	other proper noun
+农村新报	other proper noun
+农林卫视	other proper noun
+冬瓜排骨汤	noun
+冬瓜汤	noun
+冰激凌	noun
+冰皮月饼	noun
+冰糖湘莲	noun
+冰糖炖雪梨	noun
+凉山日报	other proper noun
+凉州	toponym
+凉拌木耳	noun
+凉拌海带丝	noun
+凉拌黑木耳	noun
+凉面	noun
+几内亚比绍共和国	transcribed toponym
+凤凰卫视	other proper noun
+凤凰网	other proper noun
+凤泉	toponym
+出租汽车	noun
+利州区	toponym
+剁椒鱼头	noun
+剁椒鸡丁	noun
+前锋招标日报	other proper noun
+加尔福尼亚	transcribed toponym
+加格达奇	toponym
+加格达奇区	toponym
+努美阿	transcribed toponym
+劲报	other proper noun
+劳动报	other proper noun
+包子	noun
+包河	toponym
+北京卫视	other proper noun
+北京在线	other proper noun
+北京娱乐信报	other proper noun
+北京家居网	other proper noun
+北京少年报	other proper noun
+北京广播电台	other proper noun
+北京新娘网	other proper noun
+北京日报	other proper noun
+北京晚报	other proper noun
+北京晨报	other proper noun
+北京法制报	other proper noun
+北京热线	other proper noun
+北京现代商报	other proper noun
+北京理工大学	organization/group name
+北京外国语大学	organization/group name
+北京电视台	other proper noun
+北京科技报	other proper noun
+北京青年周报	other proper noun
+北京青年报	other proper noun
+北仑	toponym
+北关	toponym
+北国网	other proper noun
+北塔	toponym
+北塘	toponym
+北大商业评论	other proper noun
+北屯镇	toponym
+北川	toponym
+北市	toponym
+北斗手机网	other proper noun
+北方新闻网	other proper noun
+北方时报	other proper noun
+北方晨报	other proper noun
+北方热线	other proper noun
+北方网	other proper noun
+北海日报	other proper noun
+北湖	toponym
+北碚	toponym
+北镇	toponym
+北镇市	toponym
+北青网	other proper noun
+医网中国	other proper noun
+医药网	other proper noun
+十堰广播电视报	other proper noun
+千层肉饼	noun
+千山晚报	other proper noun
+千龙网	other proper noun
+半岛晨报	other proper noun
+半岛网	other proper noun
+半岛都市报	other proper noun
+华东新闻	other proper noun
+华东旅游报	other proper noun
+华中网	other proper noun
+华亭	toponym
+华侨晚报	other proper noun
+华侨管理区	toponym
+华军软件园	other proper noun
+华南新闻	other proper noun
+华商报	other proper noun
+华商晨报	other proper noun
+华声在线	other proper noun
+华夏时报	other proper noun
+华夏时报网站	other proper noun
+华夏汽车网	other proper noun
+华娱卫视	other proper noun
+华容	toponym
+华尔街日报网	other proper noun
+华文在线	other proper noun
+华文在线网	other proper noun
+华西都市报	other proper noun
+华讯网	other proper noun
+华龙网	other proper noun
+卓众汽车网	other proper noun
+卓尼	toponym
+卓资	toponym
+南中报	other proper noun
+南京在线	other proper noun
+南京广播电台	other proper noun
+南京日报	other proper noun
+南京晨报	other proper noun
+南京热线	other proper noun
+南京电视台	other proper noun
+南京都市网	other proper noun
+南充日报	other proper noun
+南区新闻	other proper noun
+南华早报	other proper noun
+南卡罗来纳	transcribed toponym
+南国今报	other proper noun
+南国早报	other proper noun
+南国都市报	other proper noun
+南宁新闻网	other proper noun
+南宁晚报	other proper noun
+南岳	toponym
+南川区	toponym
+南方体育	other proper noun
+南方健康网	other proper noun
+南方农村报	other proper noun
+南方卫视	other proper noun
+南方周末	other proper noun
+南方日报	other proper noun
+南方电视台	other proper noun
+南方网	other proper noun
+南方都市报	other proper noun
+南昌商报	other proper noun
+南昌日报	other proper noun
+南昌晚报	other proper noun
+南沙区	toponym
+南浔	toponym
+南海网	other proper noun
+南湖区	toponym
+南湖晚报	other proper noun
+南瓜粥	noun
+南瓜饼	noun
+南芬	toponym
+南苏丹	transcribed toponym
+南谯	toponym
+南达科他	toponym
+南达科他	transcribed toponym
+南通日报	other proper noun
+南通网	other proper noun
+南郊区	toponym
+南鄂晚报	other proper noun
+南阳	toponym
+南阳日报	other proper noun
+南阳晚报	other proper noun
+博伊西	toponym
+博山	toponym
+卡森城	transcribed toponym
+卢森堡市	transcribed toponym
+卤牛肉	noun
+卤肉饭	noun
+印度联合新闻社	other proper noun
+印江	toponym
+原州	toponym
+原阳	toponym
+厦门卫视	other proper noun
+厦门广播电台	other proper noun
+厦门日报	other proper noun
+厦门晚报	other proper noun
+厦门汽车网	other proper noun
+厦门电视台	other proper noun
+参考消息	other proper noun
+叉烧肉	noun
+双台子	toponym
+双层公共汽车	noun
+双江拉祜族佤族布朗族傣族自治县	toponym
+双滦	toponym
+双皮奶	noun
+发糕	noun
+叙永	toponym
+口水鸡	noun
+古城热线	other proper noun
+叫花鸡	noun
+召陵区	toponym
+可乐饼	noun
+可乐鸡翅	noun
+台中日报	other proper noun
+台中时报	other proper noun
+台中晚报	other proper noun
+台安	toponym
+台州日报	other proper noun
+台州晚报	other proper noun
+台湾教会公报	other proper noun
+台湾新生报	other proper noun
+台湾新闻报	other proper noun
+台湾时报	other proper noun
+台湾立报	other proper noun
+右江日报	other proper noun
+司康	noun
+合众国际社	other proper noun
+合川区	toponym
+合肥万家热线	other proper noun
+合肥在线	other proper noun
+合肥晚报	other proper noun
+吉布提市	transcribed toponym
+吉林卫视	other proper noun
+吉林在线	other proper noun
+吉林广播电台	other proper noun
+吉林日报	other proper noun
+吉林电视台	other proper noun
+吉林科技报	other proper noun
+名品网	other proper noun
+名城早报	other proper noun
+名城苏州	other proper noun
+吐司	noun
+启东	toponym
+吴中	toponym
+吴起县	toponym
+呈贡	toponym
+周口日报	other proper noun
+周宁	toponym
+周村	toponym
+周至	toponym
+周鸿祎	personal name
+味增汤	noun
+呼中区	toponym
+呼兰区	toponym
+呼和浩特新闻网	other proper noun
+和讯网	other proper noun
+咖喱牛肉	noun
+咖喱牛腩	noun
+咖喱饭	noun
+咖喱鸡	noun
+咸宁日报	other proper noun
+咸安	toponym
+咸蛋黄焗南瓜	noun
+品周报	other proper noun
+品牌中国网	other proper noun
+哈伯罗内	transcribed toponym
+哈尔滨广播电台	other proper noun
+哈尔滨日报	other proper noun
+哈尔滨电视台	other proper noun
+哈尔滨资讯网	other proper noun
+哈里斯堡	transcribed toponym
+唐河	toponym
+唐海	toponym
+商学院	other proper noun
+商都网	other proper noun
+啤酒鸭	noun
+喷气机	noun
+喷气飞机	noun
+嘉人网	other proper noun
+嘉兴日报	other proper noun
+噶尔	toponym
+四喜丸子	noun
+四川农村日报	other proper noun
+四川卫视	other proper noun
+四川商情网	other proper noun
+四川在线	other proper noun
+四川广播电台	other proper noun
+四川政协报	other proper noun
+四川新闻网	other proper noun
+四川日报	other proper noun
+四川法制报	other proper noun
+四川泡菜	noun
+四川电视台	other proper noun
+四川科技报	other proper noun
+四川税务报	other proper noun
+四川经济报	other proper noun
+四方台	toponym
+四方报	other proper noun
+四物汤	noun
+回锅肉	noun
+团城山开发区	toponym
+固元膏	noun
+固始	toponym
+固安	toponym
+固镇	toponym
+固镇县	toponym
+固阳	toponym
+国语周刊	other proper noun
+国语日报	other proper noun
+国防时报	other proper noun
+国防知识报	other proper noun
+国际商报	other proper noun
+国际在线	other proper noun
+国际在线	other proper noun
+国际文传电讯社	other proper noun
+国际日报中国版	other proper noun
+国际经贸消息	other proper noun
+国际金融报	other proper noun
+图木舒克	toponym
+图瓦卢	transcribed toponym
+土豆泥	noun
+土豆炖牛肉	noun
+圣但尼	toponym
+圣但尼	transcribed toponym
+圣卢西亚岛	transcribed toponym
+圣多美及普林西比民主共和国	transcribed toponym
+圣文森特岛	transcribed toponym
+圣约瑟	transcribed toponym
+圣菲	toponym
+圣马利诺	transcribed toponym
+地三鲜	noun
+地方报社	other proper noun
+地铁	noun
+垣曲	toponym
+垦利	toponym
+埃菲社	other proper noun
+城子河	toponym
+城市商报	other proper noun
+城市快报	other proper noun
+城市晚报	other proper noun
+城市画报	other proper noun
+基督教论坛报	other proper noun
+堪萨斯	transcribed toponym
+塔拉哈西	toponym
+塘沽区	toponym
+塞勒姆	transcribed toponym
+塞尔维亚	transcribed toponym
+塞拉里昂	transcribed toponym
+塞班	transcribed toponym
+墉桥	toponym
+墨玉	toponym
+墨脱	toponym
+壶关	toponym
+夏延	toponym
+夏河	toponym
+夏洛特阿马利亚	toponym
+夏洛特阿马利亚	transcribed toponym
+夏邑	toponym
+外滩画报	other proper noun
+多多育儿网	other proper noun
+多米尼加岛	transcribed toponym
+大众健康网	other proper noun
+大众卫生报	other proper noun
+大众日报	other proper noun
+大众电脑报	other proper noun
+大众网	other proper noun
+大众网络报	other proper noun
+大众财经网	other proper noun
+大公报	other proper noun
+大列巴	noun
+大同日报	other proper noun
+大同晚报	other proper noun
+大唐	organization/group name
+大姚	toponym
+大客车	noun
+大屿报	other proper noun
+大庆日报	other proper noun
+大庆晚报	other proper noun
+大庆车网	other proper noun
+大悟	toponym
+大成报	other proper noun
+大新	toponym
+大旗网	other proper noun
+大柴旦	toponym
+大楚网	other proper noun
+大武口	toponym
+大江晚报	other proper noun
+大江网	other proper noun
+大河报	other proper noun
+大河文摘报	other proper noun
+大河网	other proper noun
+大洋网	other proper noun
+大渝网	other proper noun
+大渡口	toponym
+大特克	toponym
+大特克	transcribed toponym
+大盘鸡	noun
+大祥	toponym
+大秦网	other proper noun
+大竹	toponym
+大纪元时报	other proper noun
+大英	toponym
+大连广播电台	other proper noun
+大连开发区报	other proper noun
+大连日报	other proper noun
+大连晚报	other proper noun
+大连电视台	other proper noun
+大鹏新闻网	other proper noun
+天下财经网	other proper noun
+天主教周报	other proper noun
+天天商报	other proper noun
+天峨	toponym
+天府早报	other proper noun
+天府热线网	other proper noun
+天极网	other proper noun
+天津卫视	other proper noun
+天津在线	other proper noun
+天津广播电台	other proper noun
+天津日报	other proper noun
+天津汽车品牌网	other proper noun
+天津热线	other proper noun
+天津电视台	other proper noun
+天津网	other proper noun
+天津老年时报	other proper noun
+天涯网	other proper noun
+天键网	other proper noun
+天镇	toponym
+天镇县	toponym
+太原新闻网	other proper noun
+太原日报	other proper noun
+太原晚报	other proper noun
+太子河	toponym
+太平洋亲子	other proper noun
+太平洋亲子网	other proper noun
+太平洋女性网	other proper noun
+太平洋家居网	other proper noun
+太平洋汽车报价	other proper noun
+太平洋汽车网	other proper noun
+太平洋电脑网	other proper noun
+太阳报	other proper noun
+央视网	other proper noun
+头屯河	toponym
+头条日报	other proper noun
+夷陵	toponym
+奇艺	organization/group name
+奇虎	organization/group name
+奎屯	toponym
+奎文	toponym
+奢侈网	other proper noun
+奢华志网	other proper noun
+奥一网	other proper noun
+奥古斯塔	transcribed toponym
+奥尔良烤翅	noun
+奥杰汽车网	other proper noun
+女人志	other proper noun
+奶昔	noun
+奶茶	noun
+奶香馒头	noun
+奶黄包	noun
+好太太网	other proper noun
+好孩子育儿网	other proper noun
+好宝贝育儿网	other proper noun
+好报	other proper noun
+好育园网	other proper noun
+妈妈说	other proper noun
+始县	toponym
+姑苏晚报	other proper noun
+姚安	toponym
+姿尚女性网	other proper noun
+威斯康星	transcribed toponym
+威海新闻网	other proper noun
+娄底新闻网	other proper noun
+婺城	toponym
+子洲	toponym
+子长	toponym
+孜然羊肉	noun
+学习报	other proper noun
+学习时报	other proper noun
+学生导报	other proper noun
+宁夏卫视	other proper noun
+宁夏广播电台	other proper noun
+宁夏日报	other proper noun
+宁夏电视台	other proper noun
+宁江	toponym
+宁波侨讯	other proper noun
+宁波广播电台	other proper noun
+宁波日报	other proper noun
+宁波晚报	other proper noun
+宁波电视台	other proper noun
+宁洱	toponym
+宁洱哈尼族彝族自治县	toponym
+安卓	other proper noun
+安塔拉	other proper noun
+安居客	other proper noun
+安康家园	other proper noun
+安徽交通报	other proper noun
+安徽卫视	other proper noun
+安徽商报	other proper noun
+安徽广播电台	other proper noun
+安徽广播电视报	other proper noun
+安徽新闻网	other proper noun
+安徽日报	other proper noun
+安徽汽车网	other proper noun
+安徽热线	other proper noun
+安徽电视台	other proper noun
+安徽经济报	other proper noun
+安徽老年报	other proper noun
+安提瓜岛	toponym
+安提瓜岛	transcribed toponym
+安次	toponym
+安莎社	other proper noun
+安道尔共和国	toponym
+安道尔共和国	transcribed toponym
+安道尔城	toponym
+安道尔城	transcribed toponym
+宗教报社	other proper noun
+定兴	toponym
+定南	toponym
+定海	toponym
+定结	toponym
+定边	toponym
+定陶	toponym
+宜宾晚报	other proper noun
+宜秀区	toponym
+宜章	toponym
+宝宝妈妈网	other proper noun
+宝宝客育儿网	other proper noun
+宝山	toponym
+宝贝岛育儿网	other proper noun
+宝贝网	other proper noun
+宝鸡日报	other proper noun
+客机	noun
+客轮飞机	noun
+宣威	toponym
+宣恩	toponym
+宣武报	other proper noun
+宣汉	toponym
+宫保虾球	noun
+宫保豆腐	noun
+宫保鸡丁	noun
+家天下网	other proper noun
+家家网	other proper noun
+家常豆腐	noun
+家庭与生活报	other proper noun
+家庭医生报	other proper noun
+家庭导报	other proper noun
+家庭教育导报	other proper noun
+家庭教育时报	other proper noun
+宽甸	toponym
+宾夕法尼亚	toponym
+宾夕法尼亚	transcribed toponym
+宾阳	toponym
+宿城	toponym
+宿豫区	toponym
+宿迁日报	other proper noun
+宿迁晚报	other proper noun
+密克罗尼西亚联邦	transcribed toponym
+富帅	noun
+富拉尔基	toponym
+富蕴	toponym
+寒亭	toponym
+察布查尔锡伯	toponym
+寻乌	toponym
+寻医问药网	other proper noun
+寿司	noun
+射洪	toponym
+将军报	other proper noun
+尉犁	toponym
+小学生周报	other proper noun
+小学生报	other proper noun
+小学生报	other proper noun
+小学生拼音报	other proper noun
+小熊在线	other proper noun
+小石城	toponym
+小鸡炖蘑菇	noun
+少年儿童故事报	other proper noun
+少年日报	other proper noun
+尖椒土豆片	noun
+尖草坪	toponym
+尧都	toponym
+尼克西亚	toponym
+尼克西亚	transcribed toponym
+尼勒克	toponym
+尼木	toponym
+尼玛	toponym
+居巢	toponym
+屌丝	noun
+山东卫视	other proper noun
+山东广播电台	other proper noun
+山东教育卫视	other proper noun
+山东新闻网	other proper noun
+山东电视台	other proper noun
+山东邮电报	other proper noun
+山药排骨汤	noun
+山西之窗	other proper noun
+山西农民报	other proper noun
+山西卫视	other proper noun
+山西商报	other proper noun
+山西广播电台	other proper noun
+山西新闻网	other proper noun
+山西日报	other proper noun
+山西晚报	other proper noun
+山西电视台	other proper noun
+岑溪	toponym
+岗巴	toponym
+岚山区	toponym
+岭东	toponym
+岱岳	toponym
+岳塘	toponym
+岳西	toponym
+岳阳新闻网	other proper noun
+岳麓	toponym
+峄城	toponym
+峰峰矿区	toponym
+崆峒	toponym
+崇信	toponym
+嵩明	toponym
+川汇	toponym
+巢湖日报	other proper noun
+工人日报	other proper noun
+工人时报	other proper noun
+工农区	toponym
+工商时报	other proper noun
+工商晚报	other proper noun
+左云	toponym
+左江日报	other proper noun
+左贡	toponym
+巧克力蛋糕	noun
+巧家	toponym
+巨报	other proper noun
+巨野	toponym
+巨鹿	toponym
+巳	numeral
+巴中日报	other proper noun
+巴南	toponym
+巴吞鲁日	toponym
+巴州	toponym
+巴巴多斯岛	toponym
+巴巴多斯岛	transcribed toponym
+巴斯特尔	toponym
+巴斯特尔	transcribed toponym
+巴音郭楞	toponym
+巴音郭楞日报	other proper noun
+市南区	toponym
+市场信息报	other proper noun
+市场报	other proper noun
+布朗尼	noun
+帆船	noun
+帕劳	transcribed toponym
+帕皮提	transcribed toponym
+帕里基尔	transcribed toponym
+带岭	toponym
+常州车网	other proper noun
+常德广播电视报	other proper noun
+常德网	other proper noun
+干煸豆角	noun
+平安健康网	other proper noun
+平房区	toponym
+平顶山日报	other proper noun
+平顶山晚报	other proper noun
+广东卫视	other proper noun
+广东工商报	other proper noun
+广东广播电台	other proper noun
+广东建设报	other proper noun
+广东新闻网	other proper noun
+广东电视台	other proper noun
+广元日报	other proper noun
+广安日报	other proper noun
+广州在线	other proper noun
+广州广播电台	other proper noun
+广州文摘报	other proper noun
+广州日报	other proper noun
+广州电视台	other proper noun
+广州视窗	other proper noun
+广西卫视	other proper noun
+广西工人报	other proper noun
+广西市场报	other proper noun
+广西广播电台	other proper noun
+广西政法报	other proper noun
+广西新闻网	other proper noun
+广西日报	other proper noun
+广西电力报	other proper noun
+广西电视台	other proper noun
+广阳	toponym
+广陵	toponym
+庐阳	toponym
+康巴卫视	other proper noun
+康科德	transcribed toponym
+廊坊新闻网	other proper noun
+延吉晚报	other proper noun
+延川	toponym
+延平	toponym
+延津	toponym
+延边卫视	other proper noun
+延边新闻网	other proper noun
+开发区导报	other proper noun
+开封日报	other proper noun
+开福	toponym
+弋江区	toponym
+弓长岭	toponym
+当代健康报	other proper noun
+当代女报	other proper noun
+当代生活报	other proper noun
+当代财富报	other proper noun
+彝良	toponym
+彭城晚报	other proper noun
+徐水	toponym
+徐闻	toponym
+微信	other proper noun
+微山	toponym
+德新社	other proper noun
+徽县	toponym
+徽州	toponym
+忧患精神	noun phrase
+快乐妈妈网	other proper noun
+快报	other proper noun
+忻城	toponym
+忻府	toponym
+怀俄明	transcribed toponym
+思茅区	toponym
+悦己网	other proper noun
+惠州日报	other proper noun
+惠济区	toponym
+意大利面	noun
+慈利	toponym
+慕斯蛋糕	noun
+慧聪汽车网	other proper noun
+慧聪网	other proper noun
+戊	numeral
+成华	toponym
+成安	toponym
+成报	other proper noun
+成武	toponym
+成都商报	other proper noun
+成都广播电台	other proper noun
+成都日报	other proper noun
+成都晚报	other proper noun
+成都电视台	other proper noun
+成龙汽车网	other proper noun
+戚墅堰	toponym
+戚风蛋糕	noun
+戴尔	organization/group name
+房地产时报	other proper noun
+房龙网	other proper noun
+手抓饼	noun
+手指饼干	noun
+手撕包菜	noun
+手撕杏鲍菇	noun
+手机世界	other proper noun
+手机中国	other proper noun
+打卤面	noun
+托皮卡	toponym
+扬子晚报	other proper noun
+扬州广播电视报	other proper noun
+扬州新闻网	other proper noun
+扬州日报	other proper noun
+扬州晚报	other proper noun
+扬州汽车网	other proper noun
+扬州炒饭	noun
+扶沟	toponym
+承德日报	other proper noun
+承德晚报	other proper noun
+把子肉	noun
+投资中国	other proper noun
+投资界	other proper noun
+抚松	toponym
+抚远	toponym
+报刊文摘	other proper noun
+披萨	noun
+拉美社	other proper noun
+拉萨晚报	other proper noun
+拍黄瓜	noun
+拔丝地瓜	noun
+拔丝山药	noun
+拔丝苹果	noun
+招生考试报	other proper noun
+拱墅	toponym
+挖贝网	other proper noun
+捷克斯洛伐克共和国	toponym
+捷克斯洛伐克共和国	transcribed toponym
+掇刀	toponym
+排骨汤	noun
+措勤	toponym
+措美	toponym
+提拉米苏	noun
+揭阳信息港	other proper noun
+揭阳日报	other proper noun
+搜房网	other proper noun
+搜狐	other proper noun
+摇篮网	other proper noun
+支付宝	other proper noun
+支点网	other proper noun
+收藏拍卖导报	other proper noun
+政和	toponym
+救生圈	noun
+救生艇	noun
+教师报	other proper noun
+文三街在线	other proper noun
+文圣	toponym
+文学报	other proper noun
+文山	toponym
+文成	toponym
+文摘周刊	other proper noun
+文摘周报	other proper noun
+文摘报	other proper noun
+文汇报	other proper noun
+文汇读书周报	other proper noun
+文萃	other proper noun
+斯普林菲尔德	toponym
+新乡日报	other proper noun
+新京报	other proper noun
+新京报网	other proper noun
+新余日报	other proper noun
+新华日报	other proper noun
+新华社	other proper noun
+新华社	other proper noun
+新华网	other proper noun
+新商报	other proper noun
+新喀里多尼亚	transcribed toponym
+新城快报	other proper noun
+新头壳	other proper noun
+新安晚报	other proper noun
+新快报	other proper noun
+新抚	toponym
+新报	other proper noun
+新文化报	other proper noun
+新易在线网	other proper noun
+新晚报	other proper noun
+新林区	toponym
+新民晚报	other proper noun
+新民生报	other proper noun
+新民网	other proper noun
+新法制报	other proper noun
+新洲	toponym
+新浪	other proper noun
+新源	toponym
+新生晚报	other proper noun
+新疆广播电台	other proper noun
+新疆广播电视报	other proper noun
+新疆新闻在线	other proper noun
+新疆日报网	other proper noun
+新疆电视台	other proper noun
+新诺中国轿车网	other proper noun
+新车评网	other proper noun
+新都市报	other proper noun
+新闻周刊	other proper noun
+新闻晚报	other proper noun
+新闻晨报	other proper noun
+方便面	noun
+施甸	toponym
+旅游卫视	other proper noun
+旅行报	other proper noun
+旌阳	toponym
+无忧车网	other proper noun
+无棣	toponym
+无线电视台	other proper noun
+无轨电车	noun
+无锡日报	other proper noun
+无锡汽车网	other proper noun
+旬邑	toponym
+旬阳	toponym
+旱溪地区报	other proper noun
+时事社	other proper noun
+时代周报	other proper noun
+时尚伊人网	other proper noun
+时尚元素	other proper noun
+时尚先生	other proper noun
+时尚女性网	other proper noun
+时尚汽车网	other proper noun
+时尚秀	other proper noun
+时尚网	other proper noun
+时空网	other proper noun
+旺报	other proper noun
+昂昂溪	toponym
+昆明信息港	other proper noun
+昆都仑	toponym
+昌黎	toponym
+明光	toponym
+明报	other proper noun
+易富网	other proper noun
+易特网	other proper noun
+易车网	other proper noun
+昔阳	toponym
+星岛地区报	other proper noun
+星岛日报	other proper noun
+星空传媒	other proper noun
+映象网	other proper noun
+春卷	noun
+春城晚报	other proper noun
+昭通日报	other proper noun
+晋宁	toponym
+晋安	toponym
+晋源	toponym
+晚晴报	other proper noun
+晚霞报	other proper noun
+普利茅斯	transcribed toponym
+普洱市	toponym
+普罗维登斯	toponym
+普腊亚	transcribed toponym
+晴报	other proper noun
+晶报	other proper noun
+曲奇饼干	noun
+曲江区	toponym
+曲阳县	toponym
+更生日报	other proper noun
+曾都	toponym
+月湖	toponym
+有轨电车	noun
+朔城	toponym
+望奎	toponym
+望谟	toponym
+朝中社	other proper noun
+朝天	toponym
+朝鲜冷面	noun
+木垒	toponym
+木瓜椰奶冻	noun
+木耳炒肉	noun
+木须肉	noun
+朱巴	toponym
+朱巴	transcribed toponym
+朱诺	toponym
+机锋网	other proper noun
+杂多	toponym
+杂文报	other proper noun
+杏仁豆腐	noun
+杏花岭	toponym
+杭州广播电台	other proper noun
+杭州日报	other proper noun
+杭州电视台	other proper noun
+杭州网	other proper noun
+松仁玉米	noun
+松北区	toponym
+松岭区	toponym
+松鼠鱼	noun
+板栗烧鸡	noun
+林周	toponym
+林甸	toponym
+枣庄日报	other proper noun
+枫溪区	toponym
+柏乡	toponym
+柯城	toponym
+柳南	toponym
+柳州新闻网	other proper noun
+柳州日报	other proper noun
+桂林生活网	other proper noun
+桂阳	toponym
+桑植	toponym
+梅州日报	other proper noun
+梅州视窗	other proper noun
+梅江	toponym
+梅莱凯奥克	transcribed toponym
+梅菜扣肉	noun
+梧州日报	other proper noun
+梵蒂冈城	transcribed toponym
+检察日报	other proper noun
+棒棒鸡	noun
+植物大战僵尸	other proper noun
+椒盐虾	noun
+椰蓉球	noun
+楚天都市报	other proper noun
+楚天金报	other proper noun
+楚州	toponym
+楚雄彝族自治州	toponym
+楚雄日报	other proper noun
+榆中	toponym
+榆阳	toponym
+橄榄树电脑资讯	other proper noun
+正宁	toponym
+正安	toponym
+武乡	toponym
+武侯	toponym
+武冈	toponym
+武宣	toponym
+武平	toponym
+武强	toponym
+武汉在线	other proper noun
+武汉广播电台	other proper noun
+武汉晚报	other proper noun
+武汉晨报	other proper noun
+武汉热线	other proper noun
+武汉电视台	other proper noun
+武江	toponym
+武清	toponym
+武胜	toponym
+武进	toponym
+武邑	toponym
+武都区	toponym
+武陟	toponym
+武陵都市报	other proper noun
+武鸣	toponym
+殷都	toponym
+每周文摘	other proper noun
+每日商报	other proper noun
+每日新报	other proper noun
+每日甘肃	other proper noun
+每日经济新闻	other proper noun
+比特网	other proper noun
+毛毛虫面包	noun
+毛血旺	noun
+民主与法制时报	other proper noun
+民众健康网	other proper noun
+民众日报	other proper noun
+民用航空	noun
+民营经济报	other proper noun
+气垫船	noun
+水晶虾饺	noun
+水曜新闻	other proper noun
+水母网	other proper noun
+水煮肉片	noun
+水煮鱼	noun
+水磨沟	toponym
+永川区	toponym
+汇优妈妈网	other proper noun
+汉南	toponym
+汉台	toponym
+汉堡	noun
+汉沽	toponym
+汉滨	toponym
+汉网	other proper noun
+汉阳	toponym
+汕头日报	other proper noun
+汕头特区晚报	other proper noun
+汕头第一网	other proper noun
+汕头都市报	other proper noun
+汕尾招商网	other proper noun
+汕尾日报	other proper noun
+汝州	toponym
+江南保健报	other proper noun
+江南时报	other proper noun
+江南晚报	other proper noun
+江南都市报	other proper noun
+江宁	toponym
+江津区	toponym
+江海晚报	other proper noun
+江淮晨报	other proper noun
+江源区	toponym
+江苏卫视	other proper noun
+江苏商报	other proper noun
+江苏工人报	other proper noun
+江苏广播电台	other proper noun
+江苏广播电视报	other proper noun
+江苏新闻网	other proper noun
+江苏法制报	other proper noun
+江苏电力报	other proper noun
+江苏电视台	other proper noun
+江苏经济报	other proper noun
+江苏邮电报电信	other proper noun
+江西卫视	other proper noun
+江西广播电台	other proper noun
+江西新闻网	other proper noun
+江西日报	other proper noun
+江西电视台	other proper noun
+江门日报	other proper noun
+池州日报	other proper noun
+汤加王国	transcribed toponym
+汤旺河	toponym
+汴梁晚报	other proper noun
+汽车与运动	other proper noun
+汽车世界中文网	other proper noun
+汽车中国	other proper noun
+汽车之友	other proper noun
+汽车之家	other proper noun
+汽车市场网	other proper noun
+汽车探索	other proper noun
+汽车点评网	other proper noun
+汽车画报网	other proper noun
+沁阳	toponym
+沂源	toponym
+沂蒙晚报	other proper noun
+沈北新区	toponym
+沈河	toponym
+沈阳今报	other proper noun
+沈阳广播电台	other proper noun
+沈阳日报	other proper noun
+沈阳晚报	other proper noun
+沈阳电视台	other proper noun
+沈阳网	other proper noun
+沈阳车市网	other proper noun
+沐川	toponym
+沙依巴克	toponym
+沙坡头	toponym
+沙坪坝	toponym
+沙拉	noun
+沙河口	toponym
+沙湾	toponym
+沙琪玛	noun
+沧浪	toponym
+沪江网	other proper noun
+河北之窗	other proper noun
+河北卫视	other proper noun
+河北商报	other proper noun
+河北工人报	other proper noun
+河北广播电台	other proper noun
+河北广电网	other proper noun
+河北新闻网	other proper noun
+河北日报	other proper noun
+河北法制报	other proper noun
+河北电视台	other proper noun
+河北经济日报	other proper noun
+河南农村报	other proper noun
+河南卫视	other proper noun
+河南商报	other proper noun
+河南工人日报	other proper noun
+河南广播电台	other proper noun
+河南广播电视报	other proper noun
+河南新闻网	other proper noun
+河南日报	other proper noun
+河南法制报	other proper noun
+河南电视台	other proper noun
+河南网	other proper noun
+河南蒙古族自治县	toponym
+河南青年网	other proper noun
+河池日报	other proper noun
+河源	toponym
+河源日报	other proper noun
+河源晚报	other proper noun
+河源网	other proper noun
+油条	noun
+油泼鱼	noun
+油焖大虾	noun
+沾益	toponym
+沿滩	toponym
+泉州晚报	other proper noun
+泉州晚报海外版	other proper noun
+泉港	toponym
+法兰西堡	transcribed toponym
+法制日报	other proper noun
+法属波利尼西亚	toponym
+法属波利尼西亚	transcribed toponym
+法新社	other proper noun
+法新社	other proper noun
+泡椒凤爪	noun
+泡泡网	other proper noun
+泡芙	noun
+波哥达	transcribed toponym
+波多诺夫	transcribed toponym
+波多黎各岛	transcribed toponym
+波德戈里察	transcribed toponym
+波斯尼亚和黑塞哥维那	toponym
+波斯尼亚和黑塞哥维那	transcribed toponym
+泰安日报	other proper noun
+泰州日报	other proper noun
+泰州晚报	other proper noun
+泽普	toponym
+洛阳日报	other proper noun
+洛阳晚报	other proper noun
+洞头	toponym
+津南	toponym
+津市	toponym
+洮北	toponym
+派	noun-verb
+浈江	toponym
+浉河区	toponym
+济南广播电台	other proper noun
+济南日报	other proper noun
+济南时报	other proper noun
+济南电视台	other proper noun
+济宁日报	other proper noun
+济源日报	other proper noun
+浏阳日报	other proper noun
+浔阳	toponym
+浔阳晚报	other proper noun
+浙中科技报	other proper noun
+浙江之窗	other proper noun
+浙江卫视	other proper noun
+浙江在线	other proper noun
+浙江工人日报	other proper noun
+浙江广播电台	other proper noun
+浙江广播电视报	other proper noun
+浙江新闻网	other proper noun
+浙江日报	other proper noun
+浙江热线	other proper noun
+浙江电视台	other proper noun
+浙江老年报	other proper noun
+浙江都市网	other proper noun
+浦江	toponym
+海勃湾	toponym
+海南声屏报	other proper noun
+海南广播电台	other proper noun
+海南日报	other proper noun
+海南热线	other proper noun
+海南特区法制报	other proper noun
+海南电视台	other proper noun
+海南都市网	other proper noun
+海原	toponym
+海口	toponym
+海口晚报	other proper noun
+海峡卫视	other proper noun
+海峡导报	other proper noun
+海峡摄影时报	other proper noun
+海峡消费报	other proper noun
+海峡生活报	other proper noun
+海峡都市报	other proper noun
+海州	toponym
+海报网	other proper noun
+海晏	toponym
+海曙	toponym
+海林	toponym
+海珠	toponym
+海绵蛋糕	noun
+海陵	toponym
+消费日报	other proper noun
+涟源	toponym
+涡轮喷气飞机	noun
+涡轮螺旋桨飞机	noun
+涡轮风扇飞机	noun
+涡阳	toponym
+涪城	toponym
+涵江	toponym
+淄博日报	other proper noun
+淄博晚报	other proper noun
+淇滨	toponym
+淇滨晚报	other proper noun
+淘宝	organization/group name
+淘宝网	other proper noun
+淮上区	toponym
+淮安日报	other proper noun
+淮安晚报	other proper noun
+深圳之窗	other proper noun
+深圳信息港	other proper noun
+深圳卫视	other proper noun
+深圳商报	other proper noun
+深圳在线	other proper noun
+深圳广播电台	other proper noun
+深圳房产信息网	other proper noun
+深圳新闻网	other proper noun
+深圳晚报	other proper noun
+深圳汽车大世界	other proper noun
+深圳法制报	other proper noun
+深圳热线	other proper noun
+深圳特区报	other proper noun
+深圳生活网	other proper noun
+深圳电视台	other proper noun
+深圳都市报	other proper noun
+深泽	toponym
+深港在线	other proper noun
+清蒸大闸蟹	noun
+清蒸武昌鱼	noun
+清蒸鲈鱼	noun
+清远市信息网	other proper noun
+清远日报	other proper noun
+渝中	toponym
+渝北	toponym
+渤海早报	other proper noun
+渤海网	other proper noun
+温州新闻网	other proper noun
+温州日报	other proper noun
+温州晚报	other proper noun
+温州汽车网	other proper noun
+温州网	other proper noun
+温州都市报	other proper noun
+渭城	toponym
+游船	noun
+湄州日报	other proper noun
+湖北卫视	other proper noun
+湖北广播电台	other proper noun
+湖北日报	other proper noun
+湖北电力报	other proper noun
+湖北电视台	other proper noun
+湖南卫视	other proper noun
+湖南在线	other proper noun
+湖南广播电台	other proper noun
+湖南新闻网	other proper noun
+湖南日报	other proper noun
+湖南汽车网	other proper noun
+湖南电视台	other proper noun
+湖南科技报	other proper noun
+湖南红网	other proper noun
+湖南经济报	other proper noun
+湖南经济新闻网	other proper noun
+湖州广播电视报	other proper noun
+湖州日报	other proper noun
+湖州晚报	other proper noun
+湖里	toponym
+湘东	toponym
+湘声报	other proper noun
+湘桥	toponym
+湛江日报	other proper noun
+湛江晚报	other proper noun
+湛河	toponym
+源城	toponym
+源汇	toponym
+溪湖	toponym
+滕州	toponym
+滕州日报	other proper noun
+滨城	toponym
+滨江	toponym
+滴道	toponym
+漯河内陆特区报	other proper noun
+漾濞	toponym
+潇湘晨报	other proper noun
+潍坊日报	other proper noun
+潍城	toponym
+潘集	toponym
+潮南	toponym
+潮州日报	other proper noun
+潮汕少年周刊	other proper noun
+澎湖日报	other proper noun
+澎湖时报	other proper noun
+澜沧	toponym
+澳联社	other proper noun
+濠江	toponym
+瀍河回族区	toponym
+灞桥	toponym
+火奴鲁鲁	toponym
+火车	noun
+灵宝晚报	other proper noun
+炒年糕	noun
+炒莴笋	noun
+炒西瓜皮	noun
+炒面	noun
+炒饼	noun
+炖排骨	noun
+炖鸡	noun
+炸耦合	noun
+炸茄盒	noun
+炸菠菜脯	noun
+炸酱面	noun
+炸香椿鱼	noun
+点心卫视	other proper noun
+烈山	toponym
+烟台日报	other proper noun
+烟台晚报	other proper noun
+烤羊肉串	noun
+烤鱼	noun
+烤鸭	noun
+烧卖	noun
+烧茄子	noun
+热气球	noun
+热狗面包	noun
+热血时报	other proper noun
+焉耆	toponym
+焦作日报	other proper noun
+焦点家居网	other proper noun
+焦糖布丁	noun
+煎蛋	noun
+煎饼	noun
+照烧鸡	noun
+熘肝尖	noun
+燕赵晚报	other proper noun
+燕赵车网	other proper noun
+燕赵车网	other proper noun
+燕赵都市报	other proper noun
+燕赵都市报	other proper noun
+燕麦饼干	noun
+爆炒腰花	noun
+爆米花	noun
+爱卡汽车网	other proper noun
+爱奇艺	organization/group name
+爱宝宝网	other proper noun
+爱意汽车网	other proper noun
+爱护她母婴网	other proper noun
+爱美网	other proper noun
+爱贝贝网	other proper noun
+爱达荷	transcribed toponym
+父母网	other proper noun
+爽报	other proper noun
+牛奶炖蛋	noun
+牛肉干	noun
+牛肉汤	noun
+牛肉炖土豆	noun
+牛肉酱	noun
+牛肉面	noun
+牡丹晚报	other proper noun
+牡丹江日报	other proper noun
+牡丹江晨报	other proper noun
+特伦顿	toponym
+特克斯群岛和凯科斯群岛	transcribed toponym
+特区青年报	other proper noun
+特古巴加尔巴	transcribed toponym
+特立尼达和多巴哥	transcribed toponym
+犍为	toponym
+独山	toponym
+狮子山区	toponym
+猇亭区	toponym
+猪肉脯	noun
+猪肝汤	noun
+猫扑网	other proper noun
+玄武	toponym
+玉屏	toponym
+玉州	toponym
+玉林日报	other proper noun
+玉溪日报	other proper noun
+玉田	toponym
+玉米饼	noun
+王石	personal name
+环境与发展报	other proper noun
+环球时报	other proper noun
+环球母婴网	other proper noun
+环球网	other proper noun
+环球财经网	other proper noun
+环球财讯	other proper noun
+现代农村报	other proper noun
+现代女报	other proper noun
+现代快报	other proper noun
+现代消费报	other proper noun
+现代育儿报	other proper noun
+珊瑚金钩	noun
+珍珠丸子	noun
+珍珠圆子	noun
+珠山	toponym
+珠晖	toponym
+珠江商报	other proper noun
+珠江时报	other proper noun
+珠江晚报	other proper noun
+珠海广播电视	other proper noun
+珠海特区报	other proper noun
+班机	noun
+班轮	noun
+球报	other proper noun
+琅琊	toponym
+琥珀核桃	noun
+瑙鲁	transcribed toponym
+瑞丽女性网	other proper noun
+瑞丽家居网	other proper noun
+瑞丽网	other proper noun
+瑞安	toponym
+瑶海	toponym
+瓜州	toponym
+瓜州县	toponym
+瓜德罗普岛	toponym
+瓜德罗普岛	transcribed toponym
+甘井子	toponym
+甘州	toponym
+甘肃农民报	other proper noun
+甘肃卫视	other proper noun
+甘肃广播电台	other proper noun
+甘肃新闻网	other proper noun
+甘肃日报	other proper noun
+甘肃电视台	other proper noun
+甘肃经济网	other proper noun
+甜甜圈	noun
+生日蛋糕	noun
+生活周刊	other proper noun
+生活周报	other proper noun
+生活报	other proper noun
+生活日报	other proper noun
+生活早报	other proper noun
+生物报	other proper noun
+田东	toponym
+田家庵	toponym
+田纳西	toponym
+田纳西	transcribed toponym
+田阳	toponym
+甲	numeral
+申报	other proper noun
+申江服务导报	other proper noun
+电子报	other proper noun
+电子时报	other proper noun
+电子电脑报	other proper noun
+电白	toponym
+电脑之家	other proper noun
+电脑商情报	other proper noun
+电脑商网	other proper noun
+电脑报	other proper noun
+电脑爱好者网	other proper noun
+电视日报	other proper noun
+电车	noun
+电饭锅蛋糕	noun
+留尼旺岛	toponym
+留尼旺岛	transcribed toponym
+番禹日报	other proper noun
+疏勒	toponym
+疏附	toponym
+疙瘩汤	noun
+瘾科技	other proper noun
+癸	numeral
+白云鄂博矿区	toponym
+白灼芥蓝	noun
+白灼菜心	noun
+白灼虾	noun
+白碱滩	toponym
+白菜炖豆腐	noun
+百付宝	other proper noun
+百色新闻网	other proper noun
+百色早报	other proper noun
+皮尔	toponym
+皮特克恩岛	toponym
+皮特克恩岛	transcribed toponym
+皮蛋瘦肉粥	noun
+皮蛋豆腐	noun
+盐亭	toponym
+盐山	toponym
+盐水花生	noun
+盐水虾	noun
+盐水鸭	noun
+盐津	toponym
+盐源	toponym
+盐焗鸡	noun
+盐边	toponym
+盐阜大众报	other proper noun
+盖世汽车网	other proper noun
+相城	toponym
+睢阳	toponym
+石家庄新闻网	other proper noun
+石家庄日报	other proper noun
+石家庄热线	other proper noun
+石油管道报	other proper noun
+石狮日报	other proper noun
+石锅拌饭	noun
+硅谷动力	other proper noun
+硚口区	toponym
+碧海银沙	other proper noun
+碾子山	toponym
+神农架林区	toponym
+神木	toponym
+禅城	toponym
+福山	toponym
+福州日报	other proper noun
+福州晚报	other proper noun
+福布斯中文网	other proper noun
+福建之窗	other proper noun
+福建侨报	other proper noun
+福建广播电台	other proper noun
+福建日报	other proper noun
+福建电视台	other proper noun
+禹会区	toponym
+禹王台区	toponym
+秀屿	toponym
+秀峰	toponym
+秀洲	toponym
+秋梨膏	noun
+科威特城	toponym
+科威特城	transcribed toponym
+科学时报	other proper noun
+科学生活报	other proper noun
+科技导报	other proper noun
+科技日报	other proper noun
+科技资讯网	other proper noun
+科林	organization/group name
+秦州	toponym
+秦州区	toponym
+秦淮	toponym
+秦都	toponym
+称多	toponym
+窝窝头	noun
+站前	toponym
+端州	toponym
+第一亲子网	other proper noun
+第一财经网	other proper noun
+第一车网	other proper noun
+第三媒体	other proper noun
+米东区	toponym
+米内网	other proper noun
+粉蒸排骨	noun
+粉蒸肉	noun
+粮油市场报	other proper noun
+精品健康导刊	other proper noun
+精品购物指南	other proper noun
+精神文明报	other proper noun
+糖三角	noun
+糖不甩	noun
+糖渍金桔	noun
+糖炒栗子	noun
+糖醋排骨	noun
+糖醋里脊	noun
+糖醋鱼	noun
+糖醋鲤鱼	noun
+糟溜鱼片	noun
+糯米藕	noun
+索尔兹伯里	transcribed toponym
+紫云	toponym
+紫菜包饭	noun
+紫菜蛋花汤	noun
+红河日报	other proper noun
+红海湾	toponym
+红海湾经济开发试验区	toponym
+红烧冬瓜	noun
+红烧带鱼	noun
+红烧排骨	noun
+红烧牛肉	noun
+红烧狮子头	noun
+红烧猪蹄	noun
+红烧肉	noun
+红烧茄子	noun
+红烧豆腐	noun
+红烧鱼	noun
+红烧鸡爪	noun
+红烧鸡翅	noun
+红焖羊肉	noun
+红网	other proper noun
+红花岗	toponym
+纳雍	toponym
+纺织导报	other proper noun
+组织人事报	other proper noun
+绍兴日报	other proper noun
+绍兴晚报	other proper noun
+经济信息时报	other proper noun
+经济参考报	other proper noun
+经济导报	other proper noun
+经济日报	other proper noun
+经济观察在线	other proper noun
+经济观察报	other proper noun
+经济视点报	other proper noun
+绩溪	toponym
+维度女性网	other proper noun
+维扬区	toponym
+绵阳晚报	other proper noun
+网上车市	other proper noun
+网易	other proper noun
+网民	noun
+网络世界	other proper noun
+网络新闻	other proper noun
+网络编辑网	other proper noun
+罗宋汤	noun
+罗德城	transcribed toponym
+羊城体育	other proper noun
+羊城地铁报	other proper noun
+羊城晚报	other proper noun
+羊肉汤	noun
+美丽婚嫁网	other proper noun
+美属维尔京群岛	toponym
+美属维尔京群岛	transcribed toponym
+美属萨摩亚群岛	toponym
+美属萨摩亚群岛	transcribed toponym
+美报	other proper noun
+美新报	other proper noun
+美术报	other proper noun
+美联社	other proper noun
+美联社	other proper noun
+翔安	toponym
+翠屏	toponym
+翠峦	toponym
+耀州	toponym
+老友报	other proper noun
+老年日报	other proper noun
+老年生活报	other proper noun
+老边	toponym
+老醋花生	noun
+耿马	toponym
+联合报	other proper noun
+联合报系	other proper noun
+联合早报网	other proper noun
+联合晚报	other proper noun
+联邦企业集团	other proper noun
+肃州	toponym
+肇庆都市报道	other proper noun
+肉丸	noun
+肉夹馍	noun
+肉末酸豆角	noun
+肉松面包	noun
+肉片炒青椒	noun
+肉皮冻	noun
+肉饼蒸蛋	noun
+肉龙	noun
+肯塔基	transcribed toponym
+育儿网	other proper noun
+胶州信息港	other proper noun
+胶州湾信息港	other proper noun
+脆皮炸鲜奶	noun
+腊八粥	noun
+腊味合蒸	noun
+腊肉	noun
+腐乳烧鸡翅	noun
+腾冲	toponym
+腾讯大渝网	other proper noun
+腾讯网	other proper noun
+自制凉皮	noun
+自制剁椒	noun
+自制豆腐	noun
+自制酸奶	noun
+自来红	noun
+自由新闻报	other proper noun
+自由时报	other proper noun
+自立晚报	other proper noun
+自贡日报	other proper noun
+臭豆腐	noun
+至顶网	other proper noun
+舜网	other proper noun
+舞台与银幕	other proper noun
+舟山日报	other proper noun
+舟山晚报	other proper noun
+舟曲	toponym
+船	noun
+船山	toponym
+船营	toponym
+良庆区	toponym
+艾奥瓦	transcribed toponym
+艾媒网	other proper noun
+艾瑞	organization/group name
+艾瑞网	other proper noun
+艾窝窝	noun
+芒果布丁	noun
+芙蓉虾	noun
+芜湖新闻网	other proper noun
+芜湖日报	other proper noun
+芝士蛋糕	noun
+芝士面包	noun
+芝心虾球	noun
+芝罘	toponym
+花卷	noun
+花垣	toponym
+花溪	toponym
+花花女性网	other proper noun
+芹菜炒香干	noun
+苏州广播电视报	other proper noun
+苏州日报	other proper noun
+苏州汽车网	other proper noun
+苏式月饼	noun
+苏打饼干	noun
+苦瓜炒肉片	noun
+苦瓜炒鸡蛋	noun
+苦瓜酿肉	noun
+英属维尔京群岛	toponym
+英属维尔京群岛	transcribed toponym
+英德	toponym
+英文公教报	other proper noun
+英文虎报	other proper noun
+英语周报	other proper noun
+英语辅导报	other proper noun
+苹果公司	organization/group name
+苹果日报	other proper noun
+苹果醋	noun
+茂南	toponym
+茂名侨报	other proper noun
+茂名日报	other proper noun
+茂名晚报	other proper noun
+茂港	toponym
+茄子河	toponym
+茄汁带鱼	noun
+茌平	toponym
+茶叶蛋	noun
+荆州日报	other proper noun
+荆楚网	other proper noun
+荆门日报	other proper noun
+荆门晚报	other proper noun
+荣成日报	other proper noun
+荥经	toponym
+荥阳	toponym
+荷叶粉蒸肉	noun
+荷叶饼	noun
+荷塘小炒	noun
+莆田侨乡时报	other proper noun
+莆田晚报	other proper noun
+莎啦婚嫁网	other proper noun
+莎车	toponym
+莫尔兹比港	toponym
+莫尔兹比港	transcribed toponym
+莱城	toponym
+莱芜日报	other proper noun
+莱西日报	other proper noun
+莲藕排骨汤	noun
+菊花酥	noun
+菏泽日报	other proper noun
+菏泽生活网	other proper noun
+菠菜塔	noun
+菠菜炒鸡蛋	noun
+菠菜鸡蛋汤	noun
+菲尼克斯	toponym
+菲律宾共和国	transcribed toponym
+萝卜汤	noun
+萝岗区	toponym
+营口日报	other proper noun
+萧山日报	other proper noun
+萨克拉门托	transcribed toponym
+萨尔图	toponym
+萨诸塞	transcribed toponym
+葡萄酒	noun
+葱油饼	noun
+葱烧海参	noun
+葱爆羊肉	noun
+葱花饼	noun
+蒙特塞拉特岛	transcribed toponym
+蒜泥白肉	noun
+蒜泥茄子	noun
+蒜蓉油麦菜	noun
+蒜蓉西兰花	noun
+蒜薹炒肉	noun
+蒸湘	toponym
+蓑衣黄瓜	noun
+蓝筹财经网	other proper noun
+蓝网	other proper noun
+蓬江	toponym
+蓬莱日报	other proper noun
+蔡甸	toponym
+薄荷女人网	other proper noun
+薛城	toponym
+薯片	noun
+虎丘	toponym
+虎皮凤爪	noun
+虎皮青椒	noun
+蚂蚁上树	noun
+蚌埠新闻网	other proper noun
+蚌埠日报	other proper noun
+蚌山	toponym
+蚌山区	toponym
+蛇口消息报	other proper noun
+蛋包饭	noun
+蛋挞	noun
+蛋炒饭	noun
+蛤蜊蒸蛋	noun
+融资网	other proper noun
+行报	other proper noun
+街市报	other proper noun
+衢州日报	other proper noun
+衢江	toponym
+裕安	toponym
+裕民	toponym
+襄汾	toponym
+西乡塘	toponym
+西乡塘区	toponym
+西充	toponym
+西北信息报	other proper noun
+西南商报	other proper noun
+西南铁道报	other proper noun
+西双版纳报	other proper noun
+西塞山	toponym
+西安商报	other proper noun
+西安广播电台	other proper noun
+西安广播电视报	other proper noun
+西安新闻网	other proper noun
+西安晚报	other proper noun
+西安热线	other proper noun
+西安电视台	other proper noun
+西弗吉尼亚	toponym
+西弗吉尼亚	transcribed toponym
+西江日报	other proper noun
+西沙群岛	toponym
+西湖牛肉羹	noun
+西畴	toponym
+西祠胡同	other proper noun
+西红柿炒鸡蛋	noun
+西红柿炖牛腩	noun
+西芹百合	noun
+西藏卫视	other proper noun
+西藏广播影视报	other proper noun
+西藏广播电台	other proper noun
+西藏日报	other proper noun
+西藏电视台	other proper noun
+西部商报	other proper noun
+西部开发报	other proper noun
+西部网	other proper noun
+西部金融报	other proper noun
+西陵	toponym
+覃塘	toponym
+视周刊	other proper noun
+解放军报	other proper noun
+解放日报	other proper noun
+解放牛网	other proper noun
+解构	noun-verb
+计世网	other proper noun
+计程汽车	noun
+计算机世界	other proper noun
+让胡路	toponym
+许昌日报	other proper noun
+讽刺与幽默	other proper noun
+设计前沿	other proper noun
+证券时报	other proper noun
+证券时报	other proper noun
+证券时报网	other proper noun
+诗礼银杏	noun
+语文报	other proper noun
+读者报	other proper noun
+谢家集	toponym
+谷歌	organization/group name
+豆沙包	noun
+豆沙面包	noun
+豆腐脑	noun
+豆角焖面	noun
+贝贝客育儿网	other proper noun
+贡井	toponym
+贴吧	noun
+贵州卫视	other proper noun
+贵州商报	other proper noun
+贵州广播电台	other proper noun
+贵州日报	other proper noun
+贵州电视台	other proper noun
+贵州都市报	other proper noun
+贵池	toponym
+贵阳晚报	other proper noun
+贺州日报	other proper noun
+贾汪	toponym
+赛罕	toponym
+赛肘花	noun
+赛螃蟹	noun
+赛迪网	other proper noun
+赛门提克	organization/group name
+赢周刊	other proper noun
+赣南日报	other proper noun
+赣榆	toponym
+赤坎	toponym
+赫山	toponym
+赫章	toponym
+走进中关村	other proper noun
+越西	toponym
+足球周报	other proper noun
+路易斯安那	transcribed toponym
+路透社	other proper noun
+路透社	other proper noun
+身份卑微	adjective phrase
+身体无优健康网	other proper noun
+车168	other proper noun
+车世界	other proper noun
+车前线	other proper noun
+车品网	other proper noun
+车天下	other proper noun
+车盟	other proper noun
+车神榜网	other proper noun
+车讯网	other proper noun
+车评网	other proper noun
+车马驿站	other proper noun
+轮船	noun
+辣子鸡	noun
+辣子鸡丁	noun
+辣椒油	noun
+辣椒酱	noun
+辣白菜	noun
+辰	numeral
+边坝	toponym
+辽一网	other proper noun
+辽宁农民报	other proper noun
+辽宁卫视	other proper noun
+辽宁广播电台	other proper noun
+辽宁广播电视报	other proper noun
+辽宁日报	other proper noun
+辽宁日报海外版	other proper noun
+辽宁法制报	other proper noun
+辽宁热线	other proper noun
+辽宁电视台	other proper noun
+辽宁老年报	other proper noun
+辽沈晚报	other proper noun
+辽源	toponym
+辽西商报	other proper noun
+辽阳新闻网	other proper noun
+迁安	toponym
+迁西	toponym
+远安	toponym
+远洋班轮	noun
+远程飞机	noun
+连江县政府	other proper noun
+迭部	toponym
+选车网	other proper noun
+逍遥津	other proper noun
+通信产业报	other proper noun
+通信产业网	other proper noun
+遂宁	toponym
+遂宁日报	other proper noun
+邕宁区	toponym
+邢台新闻网	other proper noun
+邮轮	noun
+邯山	toponym
+邯郸晚报	other proper noun
+邹平	toponym
+郑州日报	other proper noun
+郑州晚报	other proper noun
+郴州在线	other proper noun
+郴州新闻网	other proper noun
+都会时报	other proper noun
+都市女报	other proper noun
+都市客网	other proper noun
+都市家庭报	other proper noun
+都市快报	other proper noun
+都市日报	other proper noun
+都市汽车网	other proper noun
+郾城区	toponym
+鄂城	toponym
+鄞州	toponym
+酥皮月饼	noun
+酥饼	noun
+酱油炒饭	noun
+酱爆鸡丁	noun
+酱牛肉	noun
+酷爱女性网	other proper noun
+酸奶蛋糕	noun
+酸梅汤	noun
+酸菜鱼	noun
+酸辣土豆丝	noun
+酸辣汤	noun
+酸辣白菜	noun
+酸辣粉	noun
+醋溜土豆丝	noun
+醋溜白菜	noun
+采风报	other proper noun
+里士满	toponym
+重庆卫视	other proper noun
+重庆商报	other proper noun
+重庆在线	other proper noun
+重庆广播电台	other proper noun
+重庆广播电视报	other proper noun
+重庆新闻网	other proper noun
+重庆日报	other proper noun
+重庆时报	other proper noun
+重庆晚报	other proper noun
+重庆晨报	other proper noun
+重庆晨网	other proper noun
+重庆热线	other proper noun
+重庆电视台	other proper noun
+重庆经济报	other proper noun
+重庆青年报	other proper noun
+金华新闻网	other proper noun
+金华日报	other proper noun
+金华晚报	other proper noun
+金口河	toponym
+金城江	toponym
+金家庄	toponym
+金寨	toponym
+金山屯	toponym
+金明区	toponym
+金羊网	other proper noun
+金融投资报	other proper noun
+金融时报	other proper noun
+金融界	other proper noun
+金边	transcribed toponym
+金门日报	other proper noun
+金陵晚报	other proper noun
+金陵热线	other proper noun
+金鹰报	other proper noun
+钟南山	personal name
+钦北	toponym
+钦南	toponym
+钦州日报	other proper noun
+钱江晚报	other proper noun
+铁山	toponym
+铁山港	toponym
+铁板鱿鱼	noun
+铜官山	toponym
+铜山区	toponym
+铜锣烧	noun
+银川晚报	other proper noun
+银州	toponym
+银河网	other proper noun
+银海	toponym
+银耳汤	noun
+银耳红枣汤	noun
+银耳莲子汤	noun
+银耳莲子羹	noun
+锅包肉	noun
+锅塌豆腐	noun
+锅贴	noun
+错那	toponym
+锦州新闻网	other proper noun
+锦州日报	other proper noun
+锦州晚报	other proper noun
+镇原	toponym
+镇坪	toponym
+镇安	toponym
+镇巴	toponym
+镇巴县	toponym
+镇平	toponym
+镇康	toponym
+镇江日报	other proper noun
+镇沅	toponym
+镇海区	toponym
+镇赉	toponym
+镇远	toponym
+镇雄	toponym
+镜湖	toponym
+长城在线	other proper noun
+长城网	other proper noun
+长岛	transcribed toponym
+长春	other proper noun
+长春广播电台	other proper noun
+长春电视台	other proper noun
+长春车市网	other proper noun
+长江商报	other proper noun
+长江日报	other proper noun
+长江网	other proper noun
+长沙晚报	other proper noun
+长治日报	other proper noun
+门头沟	toponym
+闵行	toponym
+闺蜜网	other proper noun
+闻康网	other proper noun
+闽东日报	other proper noun
+闽侯	toponym
+闽北日报	other proper noun
+闽南日报	other proper noun
+闽清	toponym
+闽西日报	other proper noun
+阆中	toponym
+阜南	toponym
+阜康	toponym
+阳光卫视	other proper noun
+阳原	toponym
+阳山	toponym
+阳春面	noun
+阳江日报	other proper noun
+阳江视窗	other proper noun
+阳西	toponym
+阿加尼亚	toponym
+阿加尼亚	transcribed toponym
+阿坝日报	other proper noun
+阿城区	toponym
+阿尔卡特	organization/group name
+阿布扎比	transcribed toponym
+阿布贾	toponym
+阿布贾	transcribed toponym
+阿皮亚	transcribed toponym
+阿里	organization/group name
+阿里宝宝网	other proper noun
+阿里巴巴	organization/group name
+陇南市	toponym
+陈仓	toponym
+陕西卫视	other proper noun
+陕西广播电台	other proper noun
+陕西日报	other proper noun
+陕西电视台	other proper noun
+随县	toponym
+雁塔	toponym
+雁山	toponym
+雁江	toponym
+雅安日报	other proper noun
+雅江	toponym
+雅虎网	other proper noun
+集邮报	other proper noun
+零陵区	toponym
+雷克亚未克	transcribed toponym
+霍林郭勒	toponym
+霞山	toponym
+青冈	toponym
+青山湖	toponym
+青岛广播电台	other proper noun
+青岛新闻网	other proper noun
+青岛日报	other proper noun
+青岛早报	other proper noun
+青岛晚报	other proper noun
+青岛汽车网	other proper noun
+青岛电视台	other proper noun
+青岛画报	other proper noun
+青岛财经日报	other proper noun
+青年参考	other proper noun
+青年报	other proper noun
+青年日报	other proper noun
+青椒土豆丝	noun
+青椒炒肉丝	noun
+青椒炒鸡蛋	noun
+青海卫视	other proper noun
+青海广播电台	other proper noun
+青海新闻	other proper noun
+青海电视台	other proper noun
+青白江	toponym
+青秀区	toponym
+靖州	toponym
+非常在线网	other proper noun
+面茶	noun
+鞍山日报	other proper noun
+韩联社	other proper noun
+韭菜炒香干	noun
+韭菜炒鱿鱼	noun
+韭菜盒子	noun
+音乐周报	other proper noun
+韶关家园网	other proper noun
+韶关日报	other proper noun
+顶尖财经网	other proper noun
+领航汽车网	other proper noun
+颍东	toponym
+颍州	toponym
+颍泉	toponym
+额敏	toponym
+风尚中国	other proper noun
+飞机	noun
+飞象网	other proper noun
+饭团	noun
+饺子	noun
+馄饨	noun
+馒头	noun
+馒头片	noun
+首尔	toponym
+首尔	transcribed toponym
+首都之窗	other proper noun
+首都建设报	other proper noun
+香卤鹌鹑蛋	noun
+香巴拉家居网	other proper noun
+香椿鱼儿	noun
+香洲	toponym
+香港卫视	other proper noun
+香港商报	other proper noun
+香港夜报	other proper noun
+香港有线电视	other proper noun
+香港经济日报	other proper noun
+香港联合报	other proper noun
+香港辕门报	other proper noun
+香菇油菜	noun
+香辣烤鱼	noun
+香辣虾	noun
+香辣蟹	noun
+香辣酥	noun
+马朱罗	transcribed toponym
+马祖日报	other proper noun
+马绍尔群岛	transcribed toponym
+马芬	noun
+马萨诸塞	transcribed toponym
+驱动之家	other proper noun
+驻马店日报	other proper noun
+驿城	toponym
+骨头汤	noun
+高唐	toponym
+高德	organization/group name
+高新技术产业报	other proper noun
+高港	toponym
+高盛	organization/group name
+高端财经	other proper noun
+高邮日报	other proper noun
+高青	toponym
+魏都	toponym
+鱼头豆腐汤	noun
+鱼香肉丝	noun
+鱼香茄子	noun
+鲁中晨报	other proper noun
+鲅鱼圈	toponym
+鲫鱼汤	noun
+鲫鱼豆腐汤	noun
+鸠江	toponym
+鸡东	toponym
+鸡汤	noun
+鸡泽	toponym
+鸡蛋灌饼	noun
+鸡蛋糕	noun
+鸡蛋羹	noun
+鸡蛋饼	noun
+鸭血粉丝汤	noun
+鸽子汤	noun
+鹤城	toponym
+鹤壁	toponym
+鹤壁日报	other proper noun
+鹤庆	toponym
+鹰手营子矿区	toponym
+鹰潭	toponym
+鹿城	toponym
+麦积区	toponym
+麦肯锡	organization/group name
+麻团	noun
+麻婆豆腐	noun
+麻山	toponym
+麻章	toponym
+麻辣千张	noun
+麻辣小龙虾	noun
+麻辣烫	noun
+麻辣肉片	noun
+麻辣豆腐	noun
+麻辣香锅	noun
+麻辣鸭脖	noun
+麻酱豆角	noun
+麻阳	toponym
+黄州	toponym
+黄桥烧饼	noun
+黄河口晚刊	other proper noun
+黄河新闻网	other proper noun
+黄河电视台	other proper noun
+黄瓜炒鸡蛋	noun
+黄石港	toponym
+黑森林蛋糕	noun
+黑龙江农村报	other proper noun
+黑龙江卫视	other proper noun
+黑龙江工人报	other proper noun
+黑龙江广播电台	other proper noun
+黑龙江日报	other proper noun
+黑龙江电视台	other proper noun
+黑龙江经济报	other proper noun
+黔西南	toponym
+黔西南日报	other proper noun
+齐家网	other proper noun
+齐河	toponym
+齐鲁晚报	other proper noun
+齐鲁热线	other proper noun
+齐鲁网	other proper noun
+齐鲁都市网	other proper noun
+龙井虾仁	noun
+龙亭	toponym
+龙子湖区	toponym
+龙岗	toponym
+龙虎网	other proper noun
+龙马潭	toponym
+龟苓膏	noun
