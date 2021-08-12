@@ -9,12 +9,13 @@ Check the names of your input files, segment and pos tag the texts, and get the 
     from muldichinese.MulDiChinese import MulDiChinese
     mdc=MulDiChinese('/write/path/to/your/file(s)/')
     mdc.files()
+    #print a list of your input files
     mdc.tag()
-    Segmentation and pos tagging completed.
+    #Segmentation and pos tagging completed.
     mdc.features()
-    Standardised frequencies of all 60 features written.
+    #Standardised frequencies of all 60 features written.
     mdc.dimensions()
-    Dimension scores written.
+    #Dimension scores written.
 
 <h2 id="referencing-the-tagger">Reference the tagger</h2>
 Liu, N. 2019. Multidimensional Analysis Tagger of Mandarin Chinese. Available at: <a href="https://github.com/Nannan-Liu/Multidimensional-Analysis-Tagger-of-Mandarin-Chinese">https://github.com/Nannan-Liu/Multidimensional-Analysis-Tagger-of-Mandarin-Chinese</a>.</p>
