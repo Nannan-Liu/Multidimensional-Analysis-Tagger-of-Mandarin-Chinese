@@ -6,10 +6,10 @@
 <h2 id="About">About</h2>
 Check the names of your input files, segment and pos tag the texts, and get the distribution of linguistic features and dimension scores of register variation
 
-    from muldichinese import MulDiChinese
+    from muldichinese.MulDiChinese import MulDiChinese
     mdc=MulDiChinese('/write/path/to/your/file(s)/')
     mdc.files()
-    mdc.pos()
+    mdc.tag()
     Segmentation and pos tagging completed.
     mdc.features()
     Standardised frequencies of all 60 features written.
