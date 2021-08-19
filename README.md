@@ -18,7 +18,7 @@ Check the names of your input files, segment and pos tag the texts, and get the 
     #Dimension scores written.
 
 <h2 id="referencing-the-tagger">Reference the tagger</h2>
-Liu, N. 2019. Multidimensional Analysis Tagger of Mandarin Chinese. Available at: <a href="https://github.com/Nannan-Liu/Multidimensional-Analysis-Tagger-of-Mandarin-Chinese">https://github.com/Nannan-Liu/Multidimensional-Analysis-Tagger-of-Mandarin-Chinese</a>.</p>
+Liu, N. (2021). Multidimensional Analysis Tagger of Mandarin Chinese (Version 0.3.2). <a href="https://doi.org/10.5281/zenodo.5220449">doi: 10.5281/zenodo.5220449</a>.</p>
 <p>This programme is based on the ICTCLAS, and it is advised to reference ICTCLAS when MulDi Chinese is used. Please refer to <a href="https://dl.acm.org/citation.cfm?id=1119280">https://dl.acm.org/citation.cfm?id=1119280</a>.</p>
 <h2 id="requirements">Requirements</h2>
 <p>Python packages needed are:
